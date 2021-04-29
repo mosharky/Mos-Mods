@@ -1,2 +1,0 @@
-[16:28:36] [INFO] Loaded script client_scripts:tooltips.js in 0.018 s
-[16:28:36] [INFO] Loaded 1/1 KubeJS client scripts in 0.042 s
