@@ -1,2 +1,1 @@
-# MosMods
- Local
+# Mo's Mods
