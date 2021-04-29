@@ -1,0 +1,6 @@
+{
+    "hidden": false,
+    "type": "origins:simple",
+    "description": "You cannot use Ender Pearls or Chorus Fruit.",
+    "name": "Subspace Interference"
+}

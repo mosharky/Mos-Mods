@@ -1,0 +1,43 @@
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "enigmaticlegacy:etherium_ore"
+  },
+  "output": "betterendforge:aeternium_ingot",
+  "time": 250,
+  "catalysts": [
+    {
+      "item": "betterendforge:eternal_crystal",
+      "index": 7
+    },
+    {
+      "item": "undergarden:forgotten_nugget",
+      "index": 0
+    },
+    {
+      "item": "betterendforge:eternal_crystal",
+      "index": 1
+    },
+    {
+      "item": "create:shadow_steel",
+      "index": 2
+    },
+    {
+      "item": "betterendforge:amber_gem",
+      "index": 3
+    },
+    {
+      "item": "minecraft:prismarine_crystals",
+      "index": 4
+    },
+    {
+      "item": "biomesoplenty:nether_crystal",
+      "index": 5
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "index": 6
+    }
+  ]
+}

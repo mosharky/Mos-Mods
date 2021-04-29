@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_player_spawn",
+    "dimension": "minecraft:overworld",
+    "structure": "minecraft:mineshaft",
+    "spawn_stragtegy": "default",
+    "dimension_distance_multiplier": 1,
+    "name": "Underground Home",
+    "description": "Your natural spawn will be in a mineshaft."
+}

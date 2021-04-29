@@ -1,0 +1,65 @@
+
+#List of diet effects
+[[effects]]
+
+	[[effects.attributes]]
+		amount = 2.0
+		name = "minecraft:generic.max_health"
+		operation = "add"
+
+	[[effects.attributes]]
+		amount = 2.0
+		name = "minecraft:generic.attack_damage"
+		operation = "add"
+
+	[[effects.attributes]]
+		amount = 0.1
+		name = "minecraft:generic.attack_speed"
+		operation = "multiply_total"
+
+	[[effects.conditions]]
+		below = 1.0
+		match = "all"
+		above = 0.8
+		groups = ["proteins", "fruits", "vegetables", "grains"]
+
+[[effects]]
+
+	[[effects.attributes]]
+		amount = 2.0
+		name = "minecraft:generic.max_health"
+		operation = "add"
+
+	[[effects.attributes]]
+		amount = 0.1
+		name = "minecraft:generic.knockback_resistance"
+		operation = "add"
+
+	[[effects.attributes]]
+		amount = 1.0
+		name = "minecraft:generic.armor_toughness"
+		operation = "add"
+
+	[[effects.conditions]]
+		below = 1.0
+		match = "every"
+		above = 0.8
+		groups = ["proteins", "fruits", "vegetables", "grains"]
+
+[[effects]]
+
+	[[effects.attributes]]
+		amount = 0.25
+		name = "minecraft:generic.movement_speed"
+		operation = "multiply_base"
+
+	[[effects.status_effects]]
+		name = "minecraft:hunger"
+		power = 3
+
+	[[effects.conditions]]
+		below = 1.0
+		match = "all"
+		above = 0.8
+		groups = ["sugars"]
+

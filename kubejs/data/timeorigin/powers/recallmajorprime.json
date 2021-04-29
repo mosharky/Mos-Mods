@@ -1,0 +1,663 @@
+{
+    "hidden": true,
+    "type": "origins:active_self",
+    "cooldown": 5,
+    "key": {
+        "key": "primary",
+        "continuous": true
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 0
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "<",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 20
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Calibrating Target Sensors...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Charging Hyperdense G-Field Localizer...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Accounting for Timestream Interference\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Running Background Calculations...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Localizing Temporal Field...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Scanning Quantum Field...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Adjusting Time Dilation...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Stabilizing Temporal Parameters...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Scanning for EM Transmission...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Scanning Path Length...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Conducting Thermal Detection...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Receiving Infrared Imaging...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Scanning and Identifying Current Location...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Scanning Destination Coordinates...\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"Preparing Temporal Dampeners...\""
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 25
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "<",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 30
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Interfacing with the Timestream presents severe health risks. Proceed at own risk."
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Temporal Anomaly detected. Proceed at own risk.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Timestream Fluctuation detected. Hazard level: High.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Critical Error in Temporal Defragmenter. Continuing is not recommended.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Critical Error in Temporal Dampeners. Continuing is not recommended.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Critical Error in Tachyon Radiation Shields. Continuing is not recommended.\""
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 25
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "<",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 30
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:choice",
+                        "actions": [
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Interfacing with the Timestream presents severe health risks. Proceed at own risk."
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Temporal Anomaly detected. Proceed at own risk.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Timestream Fluctuation detected. Hazard level: High.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Critical Error in Temporal Defragmenter. Continuing is not recommended.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Critical Error in Temporal Dampeners. Continuing is not recommended.\""
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "element": {
+                                    "type": "origins:execute_command",
+                                    "permission_level": 4,
+                                    "command": "tellraw @s \"WARNING: Critical Error in Tachyon Radiation Shields. Continuing is not recommended.\""
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 38
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "tellraw @s \"Temporal Warp in 5...\""
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "playsound entity.experience_orb.pickup master @s ~ ~ ~ 2"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 42
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "tellraw @s \"Temporal Warp in 4...\""
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "playsound entity.experience_orb.pickup master @s ~ ~ ~ 2"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 46
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "tellraw @s \"Temporal Warp in 3...\""
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "playsound entity.experience_orb.pickup master @s ~ ~ ~ 2"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 50
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "tellraw @s \"Temporal Warp in 2...\""
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "playsound entity.experience_orb.pickup master @s ~ ~ ~ 2"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 54
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:chance",
+                    "chance": 1,
+                    "action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "tellraw @s \"Temporal Warp in 1...\""
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "permission_level": 4,
+                                "command": "playsound entity.experience_orb.pickup master @s ~ ~ ~ 2"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "<",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 60
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">",
+                            "resource": "timeorigin:recallmajorprimeresource",
+                            "compare_to": 50
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:choice",
+                            "actions": [
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~0.25 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~0.5 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~0.7.5 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~1 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~1.25 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~1.5 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~1.75 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~2.00 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "/summon area_effect_cloud ~ ~2.25 ~ {Particle:\"enchant\",Radius:5f,RadiusPerTick:-0.5f,Duration:10}"
+                                    }
+                                },
+                                {
+                                    "weight": 10,
+                                    "element": {
+                                        "type": "origins:execute_command",
+                                        "permission_level": 4,
+                                        "command": "playsound block.end_portal_frame.fill master @s ~ ~ ~ 2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound block.end_portal_frame.fill master @s ~ ~ ~ 2"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "timeorigin:recallmajorprimeresource",
+                "change": 2
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "summon area_effect_cloud ~ ~ ~ {Particle:\"enchant\",Radius:5f,Duration:5}"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "inverted": false,
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "inverted": false,
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "inverted": false,
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    }
+}

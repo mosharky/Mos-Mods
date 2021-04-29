@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "minecraft:gilded_blackstone"
+  },
+  "result": {
+    "item": "minecraft:gold_nugget",
+    "count": 7
+  },
+  "crushing_time": 200
+}

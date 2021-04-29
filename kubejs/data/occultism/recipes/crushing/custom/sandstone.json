@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:sandstone/colorless"
+  },
+  "result": {
+    "item": "minecraft:sand",
+    "count": 2
+  },
+  "crushing_time": 200
+}

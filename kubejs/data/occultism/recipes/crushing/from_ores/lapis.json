@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ores/lapis"
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli",
+    "count": 12
+  },
+  "crushing_time": 200
+}

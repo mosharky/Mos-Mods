@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "betterendforge:ender_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "emendatusenigmatica:ender_dust"
+    }
+  ],
+  "processingTime": 300
+}

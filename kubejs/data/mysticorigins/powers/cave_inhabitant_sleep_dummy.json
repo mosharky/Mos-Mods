@@ -1,0 +1,10 @@
+{
+    "type": "origins:prevent_sleep",
+    "block_conditions": {
+        "type": "origins:height",
+        "comparison": "<",
+        "copmare_to": 50
+    },
+    "message": "You cannot rest above Y-level 50.",
+    "hidden": true
+}

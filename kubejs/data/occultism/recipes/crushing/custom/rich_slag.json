@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "thermal:rich_slag"
+  },
+  "result": {
+    "item": "minecraft:sand"
+  },
+  "crushing_time": 200
+}

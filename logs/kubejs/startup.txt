@@ -1,0 +1,2 @@
+[16:28:35] [INFO] Loaded 1/1 KubeJS startup scripts in 1.623 s
+[16:28:35] [INFO] Loaded script startup_scripts:worldgen_add.js in 0.653 s

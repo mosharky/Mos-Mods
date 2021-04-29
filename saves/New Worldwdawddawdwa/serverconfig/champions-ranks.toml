@@ -1,0 +1,47 @@
+
+#List of ranks
+[[ranks]]
+	effects = []
+	defaultColor = 16777215
+	chance = 1.0
+	tier = 0
+	growthFactor = 0
+	presetAffixes = []
+	numAffixes = 0
+
+[[ranks]]
+	effects = []
+	defaultColor = 16776960
+	chance = 0.05
+	tier = 1
+	growthFactor = 1
+	presetAffixes = []
+	numAffixes = 1
+
+[[ranks]]
+	effects = []
+	defaultColor = 16750848
+	chance = 0.2
+	tier = 2
+	growthFactor = 4
+	presetAffixes = []
+	numAffixes = 2
+
+[[ranks]]
+	effects = []
+	defaultColor = 6750207
+	chance = 0.2
+	tier = 3
+	growthFactor = 9
+	presetAffixes = []
+	numAffixes = 3
+
+[[ranks]]
+	effects = []
+	defaultColor = 13382655
+	chance = 0.2
+	tier = 4
+	growthFactor = 16
+	presetAffixes = []
+	numAffixes = 4
+

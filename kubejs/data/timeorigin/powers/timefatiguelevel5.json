@@ -1,0 +1,161 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "name": "Time Fatigue (Level 5)",
+    "condition": {
+        "type": "origins:and",
+        "inverted": false,
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": ">=",
+                "resource": "timeorigin:timefatigueresource",
+                "compare_to": 500
+            },
+            {
+                "type": "origins:resource",
+                "inverted": false,
+                "comparison": "<=",
+                "resource": "timeorigin:timefatigueresource",
+                "compare_to": 599
+            }
+        ]
+    },
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.4,
+        "action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 100,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:slowness",
+                            "amplifier": 2
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 200,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:slowness",
+                            "amplifier": 1
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 400,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:slowness",
+                            "amplifier": 0
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 100,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:weakness",
+                            "amplifier": 2
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 200,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:weakness",
+                            "amplifier": 1
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 400,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:weakness",
+                            "amplifier": 0
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 200,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:mining_fatigue",
+                            "amplifier": 0
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 40,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:wither",
+                            "amplifier": 1
+                        }
+                    }
+                },
+                {
+                    "weight": 10,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "duration": 500,
+                            "is_ambient": false,
+                            "show_particles": true,
+                            "show_icon": true,
+                            "effect": "minecraft:hunger",
+                            "amplifier": 7
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

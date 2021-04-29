@@ -1,0 +1,30 @@
+
+#These options are general options that don't fit any other category.
+[general]
+	#Can players create their own instruments with a name tag and 9 other instruments?
+	#0 = No
+	#1 = Only instruments the server doesn't have
+	#2 = Only instruments the server has
+	#3 = Any instrument
+	#Range: 0 ~ 3
+	creatableInstruments = 3
+	#Weight for the spawn chance of instruments in loot chests. Set to 0 to disable.
+	#Range: 0 ~ 20
+	lootSpawnRate = 1
+	#Chance for mobs to drop an instrument, divided by 10000. 0 to disable. Affected by looting level.
+	#Range: 0 ~ 10000
+	mobDropRate = 100
+	#Disabled instruments by their item name.
+	disabledInstruments = []
+	#Chance of the zombies to spawn with an instrument, divided by 10000. 0 to disable
+	#Range: 0 ~ 10000
+	zombieSpawnRate = 100
+	#Only allow hostile mobs to drop instruments when they die.
+	onlyHostileMobSpawn = true
+	#Can zombies use instruments?
+	zombiesCanUseInstruments = true
+	#Some abc file have titles but aren't set properly. This will make the list show file names instead.
+	showFileTitle = true
+	#Loot tables for chests that will be disabled. EG: minecraft:chests/stronghold_corridor
+	disabledLootChests = []
+

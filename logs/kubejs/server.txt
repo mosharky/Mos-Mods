@@ -1,0 +1,73 @@
+[16:32:30] [INFO] Loaded script server_scripts:additions.js in 0.005 s
+[16:32:30] [INFO] Loaded script server_scripts:remove.js in 0.023 s
+[16:32:30] [INFO] Loaded script server_scripts:starting.js in 0.005 s
+[16:32:30] [INFO] Loaded 3/3 KubeJS server scripts in 0.04 s
+[16:32:30] [INFO] Scripts loaded
+[16:32:30] [INFO] Scanning recipes...
+[16:32:34] [INFO] [blocks] Found 907 tags, added 0 objects, removed 0 objects
+[16:32:34] [INFO] [items] Found 1464 tags, added 49 objects, removed 935 objects
+[16:32:34] [INFO] [fluids] Found 7 tags, added 0 objects, removed 0 objects
+[16:32:34] [INFO] [entity_types] Found 46 tags, added 0 objects, removed 0 objects
+[16:32:34] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[16:32:34] [INFO] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[16:32:34] [INFO] [tile_entity_types] Found 1 tags, added 0 objects, removed 0 objects
+[16:32:34] [WARN] Failed to parse recipe 'tea_kettle:cooking/oolong_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:oolong_tea_leaf'
+[16:32:34] [WARN] Failed to parse recipe tea_kettle:cooking/oolong_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:oolong_tea_leaf'
+[16:32:35] [WARN] Failed to parse recipe 'tea_kettle:cooking/white_latte[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:white_tea_leaf'
+[16:32:35] [WARN] Failed to parse recipe tea_kettle:cooking/white_latte[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:white_tea_leaf'
+[16:32:35] [WARN] Failed to parse recipe 'tea_kettle:cooking/rose_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:rose_petal'
+[16:32:35] [WARN] Failed to parse recipe tea_kettle:cooking/rose_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:rose_petal'
+[16:32:35] [WARN] Failed to parse recipe environmental:building/wood/wisteria/wisteria_post[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'quark:wisteria_post'
+[16:32:35] [WARN] Failed to parse recipe 'environmental:building/wood/wisteria/wisteria_post[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:wisteria_post'
+[16:32:35] [WARN] Failed to parse recipe createaddition:rolling/brass_ingot[createaddition:rolling]: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:brass_rod'
+[16:32:35] [WARN] Failed to parse recipe 'createaddition:rolling/brass_ingot[createaddition:rolling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:brass_rod'
+[16:32:35] [WARN] Failed to parse recipe environmental:building/wood/wisteria/stripped_wisteria_post[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'quark:stripped_wisteria_post'
+[16:32:35] [WARN] Failed to parse recipe 'environmental:building/wood/wisteria/stripped_wisteria_post[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:stripped_wisteria_post'
+[16:32:35] [WARN] Failed to parse recipe 'createaddition:rolling/copper_ingot[createaddition:rolling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:copper_rod'
+[16:32:35] [WARN] Failed to parse recipe createaddition:rolling/copper_ingot[createaddition:rolling]: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:copper_rod'
+[16:32:35] [WARN] Failed to parse recipe 'environmental:building/wood/willow/stripped_willow_post[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:stripped_willow_post'
+[16:32:35] [WARN] Failed to parse recipe environmental:building/wood/willow/stripped_willow_post[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'quark:stripped_willow_post'
+[16:32:35] [WARN] Failed to parse recipe 'simplytea:cooking/green_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:tea_leaf'
+[16:32:35] [WARN] Failed to parse recipe simplytea:cooking/green_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:tea_leaf'
+[16:32:35] [WARN] Failed to parse recipe 'outer_end:ancient_ice_cap[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Pattern references symbol '$' but it's not defined in the key
+[16:32:35] [WARN] Failed to parse recipe outer_end:ancient_ice_cap[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Pattern references symbol '$' but it's not defined in the key
+[16:32:35] [WARN] Failed to parse recipe tea_kettle:cooking/white_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:white_tea_leaf'
+[16:32:35] [WARN] Failed to parse recipe 'tea_kettle:cooking/white_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:white_tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe tea_kettle:cooking/oolong_latte[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:oolong_tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe 'tea_kettle:cooking/oolong_latte[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:oolong_tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe 'tea_kettle:cooking/green_latte[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe tea_kettle:cooking/green_latte[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe 'tea_kettle:cooking/black_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:black_tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe tea_kettle:cooking/black_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:black_tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe 'occultism:crushing/custom/sandstone[occultism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:sandstone/colorless'
+[16:32:36] [WARN] Failed to parse recipe occultism:crushing/custom/sandstone[occultism:crushing]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:sandstone/colorless'
+[16:32:36] [WARN] Failed to parse recipe 'tea_kettle:cooking/black_latte[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:black_tea_leaf'
+[16:32:36] [WARN] Failed to parse recipe tea_kettle:cooking/black_latte[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:black_tea_leaf'
+[16:32:37] [WARN] Failed to parse recipe 'simplytea:cooking/chai_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:black_tea'
+[16:32:37] [WARN] Failed to parse recipe simplytea:cooking/chai_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:black_tea'
+[16:32:37] [WARN] Failed to parse recipe 'simplytea:cooking/chorus_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:chorus_petal'
+[16:32:37] [WARN] Failed to parse recipe simplytea:cooking/chorus_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:chorus_petal'
+[16:32:37] [WARN] Failed to parse recipe 'tea_kettle:cooking/bamboo_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:bamboo_leaf'
+[16:32:37] [WARN] Failed to parse recipe tea_kettle:cooking/bamboo_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:bamboo_leaf'
+[16:32:37] [WARN] Failed to parse recipe createaddition:rolling/iron_ingot[createaddition:rolling]: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:iron_rod'
+[16:32:37] [WARN] Failed to parse recipe 'createaddition:rolling/iron_ingot[createaddition:rolling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:iron_rod'
+[16:32:37] [WARN] Failed to parse recipe environmental:building/wood/cherry/cherry_post[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'quark:cherry_post'
+[16:32:37] [WARN] Failed to parse recipe 'environmental:building/wood/cherry/cherry_post[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:cherry_post'
+[16:32:37] [WARN] Failed to parse recipe occultism:crushing/custom/rich_slag[occultism:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:rich_slag'
+[16:32:37] [WARN] Failed to parse recipe 'occultism:crushing/custom/rich_slag[occultism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:rich_slag'
+[16:32:37] [WARN] Failed to parse recipe 'createaddition:rolling/gold_ingot[createaddition:rolling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:gold_rod'
+[16:32:37] [WARN] Failed to parse recipe createaddition:rolling/gold_ingot[createaddition:rolling]: com.google.gson.JsonSyntaxException: Unknown item 'emendatusenigmtaica:gold_rod'
+[16:32:37] [WARN] Failed to parse recipe 'environmental:building/wood/cherry/stripped_cherry_post[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:stripped_cherry_post'
+[16:32:37] [WARN] Failed to parse recipe environmental:building/wood/cherry/stripped_cherry_post[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'quark:stripped_cherry_post'
+[16:32:37] [WARN] Failed to parse recipe occultism:crushing/custom/red_sandstone[occultism:crushing]: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:sandstone/red'
+[16:32:37] [WARN] Failed to parse recipe 'occultism:crushing/custom/red_sandstone[occultism:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'forge:sandstone/red'
+[16:32:37] [WARN] Failed to parse recipe simplytea:cooking/black_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:black_tea'
+[16:32:37] [WARN] Failed to parse recipe 'simplytea:cooking/black_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'simplytea:black_tea'
+[16:32:37] [WARN] Failed to parse recipe 'environmental:building/wood/willow/willow_post[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:willow_post'
+[16:32:37] [WARN] Failed to parse recipe environmental:building/wood/willow/willow_post[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'quark:willow_post'
+[16:32:37] [WARN] Failed to parse recipe 'outer_end:violite/bricks/chiseled_stonecutting[minecraft:stonecutting]': "outer_end:chiseled_violite_brick" is not a valid result!
+[16:32:38] [WARN] Failed to parse recipe 'outer_end:glowing_ancient_ice_cap[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Pattern references symbol '$' but it's not defined in the key
+[16:32:38] [WARN] Failed to parse recipe outer_end:glowing_ancient_ice_cap[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Pattern references symbol '$' but it's not defined in the key
+[16:32:38] [WARN] Failed to parse recipe tea_kettle:cooking/green_tea[farmersdelight:cooking]: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:tea_leaf'
+[16:32:38] [WARN] Failed to parse recipe 'tea_kettle:cooking/green_tea[farmersdelight:cooking]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'tea_kettle:tea_leaf'
+[16:32:46] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects

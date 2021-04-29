@@ -1,0 +1,36 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound minecraft:entity.ghast.scream player @a ~ ~ ~ 100 0.7",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run effect give @e[distance=1..10,nbt={Inventory:[{id:minecraft:leather_helmet,Slot:103b}]}] minecraft:nausea 30 1 false",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run effect give @e[distance=1..10,nbt={Inventory:[{id:minecraft:leather_helmet,Slot:103b}]}] minecraft:weakness 30 1 false",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "execute at @s run effect give @e[distance=1..10,nbt={Inventory:[{id:minecraft:leather_helmet,Slot:103b}]}] minecraft:blindness 30 1 false",
+                "permission_level": 4
+            }
+        ]
+    },
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 8
+    },
+    "key": "primary",
+    "name": "Songs of the Siren",
+    "description": "You can use an ability which gives all entity's in a 10 block radius nausea, blindness and weakness for 30 seconds. This only works with entitys which aren't protecting their ears with leather helmets."
+}

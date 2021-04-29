@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "quark:block/spruce_bookshelf0" },
+			{ "model": "quark:block/spruce_bookshelf1" },
+			{ "model": "quark:block/spruce_bookshelf2" },
+			{ "model": "quark:block/spruce_bookshelf3" }
+        ]
+    }
+}

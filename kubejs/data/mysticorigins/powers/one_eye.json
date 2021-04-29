@@ -1,0 +1,11 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "origins:ranged_weapons"
+        }
+    },
+    "name": "One-Eyed",
+    "description": "Since you have no depth perception due to only having 1 eye, you can't use Bows, Crossbows or Tridents."
+}

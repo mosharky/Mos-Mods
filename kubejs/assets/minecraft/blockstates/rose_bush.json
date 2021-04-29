@@ -1,0 +1,18 @@
+{
+    "variants": {
+        	"half=lower": [ 
+        		{ "model": "block/rose_bush_bottom" },
+        		{ "model": "block/rose_bush_bottom0" },
+				{ "model": "block/rose_bush_bottom1" },
+				{ "model": "block/rose_bush_bottom2" },
+				{ "model": "block/rose_bush_bottom3" }
+			],
+        	"half=upper": [ 
+        		{ "model": "block/rose_bush_top" },
+        		{ "model": "block/rose_bush_top0" },
+				{ "model": "block/rose_bush_top1" },
+				{ "model": "block/rose_bush_top2" },
+				{ "model": "block/rose_bush_top3" }
+			]
+    }
+}

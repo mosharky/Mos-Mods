@@ -1,0 +1,14 @@
+
+#These options affect only the client that loads the mod.
+[clientOnly]
+	#Volume of the instruments, divided by 100.
+	#Range: 0 ~ 100
+	instrumentVolume = 100
+	#Do you have a favourite band? Setting this will always set your band when you start playing a song.
+	favoriteBand = ""
+	#Should we show a message of "Now Playing" for songs, similarly to records.
+	showRecordPlayingMessageForTracks = false
+	#The distance in blocks that instruments can be heard from.
+	#Range: 16 ~ 48
+	instrumentHearableDistance = 32
+

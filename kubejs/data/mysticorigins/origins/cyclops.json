@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "mysticorigins:one_eye",
+        "mysticorigins:biggersize",
+        "mysticorigins:more_hearts",
+        "mysticorigins:strong_hands",
+        "mysticorigins:meatlover",
+        "origins:more_exhaustion"
+    ],
+    "icon": "ender_eye",
+    "impact": 3,
+    "order": 2,
+    "name": "Cyclops",
+    "description": "Being as big as they are, they decided to settle down in one place and to kill anyone that tried to drive them away."
+}

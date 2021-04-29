@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "inverted": false,
+        "name": "fall"
+    },
+    "condition": {
+        "type": "origins:resource",
+        "inverted": false,
+        "comparison": ">",
+        "compare_to": 0,
+        "resource": "timeorigin:recallminorfallpreventresource"
+    }
+}

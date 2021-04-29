@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "quark:block/dark_oak_bookshelf0" },
+			{ "model": "quark:block/dark_oak_bookshelf1" },
+			{ "model": "quark:block/dark_oak_bookshelf2" },
+			{ "model": "quark:block/dark_oak_bookshelf3" }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:jungle_leaves",
+    "atmospheric:morado_leaves",
+    "atmospheric:flowering_morado_leaves",
+    "atmospheric:rosewood_leaves"
+  ]
+}

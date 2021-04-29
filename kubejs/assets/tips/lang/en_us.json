@@ -1,0 +1,22 @@
+{
+    "tips.title.tip": "Tip",
+    
+    "tips.tip.no_tips": "No tips have been loaded. Please review the configurations.",
+    "tips.tip.nether_tools": "Trouble making tools in the nether? Striders drop sticks, and flint can be used in place of cobblestone.",
+    "tips.tip.dragon": "The Enderdragon has 1000 HP. Be prepared!",
+    "tips.tip.natures_compass": "A Natures Compass can lead you to whatever biome you're looking for.",
+    "tips.tip.ocarina": "Craft an Ocarina to summon your tame, where ever they may be.",
+    "tips.tip.create": "Anything can be automated with Create!",
+    "tips.tip.hats": "Kill mobs with hats to obtain their hat. Press H to equip and check out your collection!",
+    "tips.tip.soulbound": "The soulbound enchantment is very rare, and can only be obtained through enchanting books.",
+    "tips.tip.advancements": "Advancements can be used to track your progression in certain mods, and they can help you find a goal to reach for. Press L to view advancements. ",
+    "tips.tip.echolocator": "The Echolocator can be used to find nearby caves.",
+    "tips.tip.forge_energy": "You can generate energy through the use of an Alternator or Electric Motor.",
+    "tips.tip.sound_control": "Press CTRL + V to adjust certain ambient sounds. Warning: It may crash your game.",
+    "tips.tip.sorting": "Sort your inventories! You can sort by pressing the button on the right-hand side, or by middle-clicking on an inventory.",
+    "tips.tip.double_ores": "Double, or even triple your ores' output through the Create or Occultism mods!",
+    "tips.tip.banana": "Bananas can drop from Jungle, Rosewood, and Morado leaves.",
+    "tips.tip.nether_portal": "Nether Portals can no longer be constructed. Instead, search deep underground for Dimensional pools. Once in the Nether, to return back, you must locate a beacon and add 4 gold blocks to its sides.",
+    "tips.tip.animals": "Craft an Animal Dictionary to learn all there is to know about the majority of creatures.",
+    "tips.tip.guide_books": "You can learn more about a few mods through their guide books or advancements. Here are all the guidebooks in the modpack: Ars Ecclesia (Eidolon), Lexica Botania (Botania), Outvoted, Dictionary of Spirits (Occultism), Cookbook (Farmer's Delight), and finally The Acknowledgement (Enigmatic Legacy)."
+  }

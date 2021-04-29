@@ -1,0 +1,15 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "addition",
+        "value": -8
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "mysticorigins:lifecycle",
+        "comparison": "<=",
+        "compare_to": 39
+    },
+    "hidden": true
+}

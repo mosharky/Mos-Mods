@@ -1,0 +1,16 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "small_fireball",
+    "cooldown": 300,
+    "count": 3,
+    "speed": 2.5,
+    "tag": "{life:200}",
+    "divergence": 1.2,
+    "sound": "entity.blaze.shoot",
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 7
+    },
+    "name": "Fire Breath",
+    "description": "You can breathe fire using the primary power key."
+}

@@ -1,0 +1,10 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "permission_level": 4,
+        "command": "attribute @s minecraft:generic.max_health base set 16"
+    }
+}

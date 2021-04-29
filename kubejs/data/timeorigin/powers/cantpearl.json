@@ -1,0 +1,26 @@
+{
+    "hidden": true,
+    "type": "origins:prevent_item_use",
+    "name": "Subspace Interference",
+    "description": "You cannot use ender pearls as a result of your timespace meddling.",
+    "item_condition": {
+        "type": "origins:or",
+        "inverted": false,
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "inverted": false,
+                "ingredient": {
+                    "item": "minecraft:ender_pearl"
+                }
+            },
+            {
+                "type": "origins:ingredient",
+                "inverted": false,
+                "ingredient": {
+                    "item": "minecraft:chorus_fruit"
+                }
+            }
+        ]
+    }
+}

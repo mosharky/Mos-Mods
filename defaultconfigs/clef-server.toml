@@ -1,0 +1,6 @@
+
+#These options affect the gameplay while using the mod.
+[gameplay]
+	#Allow players to use instruments that normally require two hands, with one hand?
+	allowOneHandedTwoHandedInstrumentUse = true
+

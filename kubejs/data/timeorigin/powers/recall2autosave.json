@@ -1,0 +1,149 @@
+{
+    "hidden": true,
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute store result score @s timeshftpos0.2 run data get entity @s Pos[0]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute store result score @s timeshftpos1.2 run data get entity @s Pos[1]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute store result score @s timeshftpos2.2 run data get entity @s Pos[2]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,PersistenceRequired:1b,Tags:[\"waypointstand\"]}"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/scoreboard players operation @e[type=minecraft:armor_stand,limit=1,tag=waypointstand,sort=nearest] timeshftid = @p[sort=nearest,limit=1] timeshftid"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/scoreboard players operation $timeshfttempid timeshftid = @s timeshftid"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/execute as @e[tag=safestand,tag=waypointstand,type=minecraft:armor_stand] if score @s timeshftid = $timeshfttempid timeshftid run tag @s remove safestand"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/execute as @e[type=armor_stand,tag=!safestand,tag=waypointstand] run forceload remove ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "tag @e[type=minecraft:armor_stand,tag=waypointstand,sort=nearest,limit=1] add safestand"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/execute as @e[type=armor_stand,tag=safestand,tag=waypointstand] run forceload add ~ ~"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/execute as @e[type=armor_stand,tag=!safestand,tag=waypointstand] run kill @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/scoreboard players set $timeshfttempid timeshftid 0"
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:dimension",
+                    "inverted": false,
+                    "dimension": "minecraft:overworld"
+                },
+                "if_action": {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "/scoreboard players set @s timeshftdimens6 0"
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:dimension",
+                    "inverted": false,
+                    "dimension": "minecraft:the_nether"
+                },
+                "if_action": {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "/scoreboard players set @s timeshftdimens6 1"
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:dimension",
+                    "inverted": false,
+                    "dimension": "minecraft:the_end"
+                },
+                "if_action": {
+                    "type": "origins:execute_command",
+                    "permission_level": 4,
+                    "command": "/scoreboard players set @s timeshftdimens6 2"
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/tellraw @s \"Waypoint Set\""
+            }
+        ]
+    },
+    "cooldown": 10,
+    "key": "primary",
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    },
+    "condition": {
+        "type": "origins:and",
+        "inverted": false,
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "inverted": false,
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "inverted": true,
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            }
+        ]
+    }
+}

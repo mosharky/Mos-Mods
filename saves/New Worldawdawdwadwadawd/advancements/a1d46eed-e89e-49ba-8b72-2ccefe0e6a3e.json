@@ -1,0 +1,69 @@
+{
+  "undergarden:undergarden/root": {
+    "criteria": {
+      "tick": "2021-04-28 15:27:54 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2021-04-28 15:27:53 -0400"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/the_acknowledgment": {
+    "criteria": {
+      "has_iron_ingot": "2021-04-28 15:27:53 -0400"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2021-04-28 15:27:53 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2021-04-28 15:27:54 -0400"
+    },
+    "done": true
+  },
+  "occultism:root": {
+    "criteria": {
+      "occultism_present": "2021-04-28 15:27:54 -0400"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/cursed_ring": {
+    "criteria": {
+      "has_items": "2021-04-28 15:27:53 -0400"
+    },
+    "done": true
+  },
+  "rats:rats/root": {
+    "criteria": {
+      "tick": "2021-04-28 15:27:54 -0400"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/relics/enigmatic_amulet": {
+    "criteria": {
+      "has_items": "2021-04-28 15:27:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2021-04-28 15:27:53 -0400"
+    },
+    "done": false
+  },
+  "enigmaticlegacy:main/root": {
+    "criteria": {
+      "flower": "2021-04-28 15:27:53 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

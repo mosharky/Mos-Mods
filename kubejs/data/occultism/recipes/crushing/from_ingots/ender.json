@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "betterendforge:ender_shard"
+  },
+  "result": {
+    "item": "emendatusenigmatica:ender_dust"
+  },
+  "crushing_time": 200
+}

@@ -1,0 +1,21 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:blindness",
+                "duration": 80,
+                "amplifier": 1,
+                "show_particles": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": ">=",
+        "compare_to": "0.5"
+    },
+    "hidden": true
+}

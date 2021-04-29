@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 4
+  },
+  "crushing_time": 200
+}

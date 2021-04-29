@@ -1,0 +1,225 @@
+{
+  "standard_weights": {
+    "biomesoplenty:alps": {
+      "weight": 0
+    },
+    "biomesoplenty:bayou": {
+      "weight": 0
+    },
+    "biomesoplenty:cherry_blossom_grove": {
+      "weight": 0
+    },
+    "biomesoplenty:coniferous_forest": {
+      "weight": 0
+    },
+    "biomesoplenty:crystalline_chasm": {
+      "weight": 5
+    },
+    "biomesoplenty:dead_forest": {
+      "weight": 0
+    },
+    "biomesoplenty:dryland": {
+      "weight": 0
+    },
+    "biomesoplenty:fungal_jungle": {
+      "weight": 0
+    },
+    "biomesoplenty:grove": {
+      "weight": 0
+    },
+    "biomesoplenty:highland": {
+      "weight": 0
+    },
+    "biomesoplenty:jade_cliffs": {
+      "weight": 5
+    },
+    "biomesoplenty:lavender_field": {
+      "weight": 0
+    },
+    "biomesoplenty:lush_desert": {
+      "weight": 3
+    },
+    "biomesoplenty:meadow": {
+      "weight": 0
+    },
+    "biomesoplenty:mystic_grove": {
+      "weight": 0
+    },
+    "biomesoplenty:ominous_woods": {
+      "weight": 0
+    },
+    "biomesoplenty:prairie": {
+      "weight": 10
+    },
+    "biomesoplenty:rainforest": {
+      "weight": 0
+    },
+    "biomesoplenty:redwood_forest": {
+      "weight": 0
+    },
+    "biomesoplenty:scrubland": {
+      "weight": 3
+    },
+    "biomesoplenty:seasonal_forest": {
+      "weight": 0
+    },
+    "biomesoplenty:shrubland": {
+      "weight": 4
+    },
+    "biomesoplenty:silkglade": {
+      "weight": 0
+    },
+    "biomesoplenty:snowy_coniferous_forest": {
+      "weight": 0
+    },
+    "biomesoplenty:tundra": {
+      "weight": 0
+    },
+    "biomesoplenty:undergrowth": {
+      "weight": 20
+    },
+    "biomesoplenty:visceral_heap": {
+      "weight": 7
+    },
+    "biomesoplenty:wasteland": {
+      "weight": 0
+    },
+    "biomesoplenty:wetland": {
+      "weight": 0
+    },
+    "biomesoplenty:withered_abyss": {
+      "weight": 7
+    },
+    "biomesoplenty:wooded_wasteland": {
+      "weight": 0
+    }
+  },
+  "technical_biome_toggles": {
+    "biomesoplenty:alps_foothills": {
+      "enabled": true
+    },
+    "biomesoplenty:gravel_beach": {
+      "enabled": true
+    },
+    "biomesoplenty:orchard": {
+      "enabled": true
+    },
+    "biomesoplenty:redwood_forest_edge": {
+      "enabled": true
+    },
+    "biomesoplenty:tropic_beach": {
+      "enabled": true
+    },
+    "biomesoplenty:volcanic_plains": {
+      "enabled": true
+    }
+  },
+  "sub_biome_weights": {
+    "biomesoplenty:golden_prairie": {
+      "weight": 100,
+      "rarity": 1.0
+    },
+    "biomesoplenty:jade_grassland": {
+      "weight": 100,
+      "rarity": 0.85
+    },
+    "biomesoplenty:lush_savanna": {
+      "weight": 100,
+      "rarity": 0.65
+    },
+    "biomesoplenty:shrubland_hills": {
+      "weight": 100,
+      "rarity": 0.75
+    },
+    "biomesoplenty:tropic_plains": {
+      "weight": 100,
+      "rarity": 0.75
+    },
+    "biomesoplenty:wooded_scrubland": {
+      "weight": 100,
+      "rarity": 1.0
+    }
+  },
+  "island_biome_toggles": {
+    "biomesoplenty:origin_valley": {
+      "enabled": true
+    },
+    "biomesoplenty:rainbow_hills": {
+      "enabled": true
+    },
+    "biomesoplenty:tropics": {
+      "enabled": true
+    },
+    "biomesoplenty:volcano": {
+      "enabled": true
+    }
+  },
+  "vanilla_biome_weights": {
+    "minecraft:badlands_plateau": {
+      "weight": 10
+    },
+    "minecraft:basalt_deltas": {
+      "weight": 10
+    },
+    "minecraft:birch_forest": {
+      "weight": 1
+    },
+    "minecraft:crimson_forest": {
+      "weight": 10
+    },
+    "minecraft:dark_forest": {
+      "weight": 1
+    },
+    "minecraft:desert": {
+      "weight": 5
+    },
+    "minecraft:forest": {
+      "weight": 1
+    },
+    "minecraft:frozen_ocean": {
+      "weight": 3
+    },
+    "minecraft:giant_tree_taiga": {
+      "weight": 1
+    },
+    "minecraft:jungle": {
+      "weight": 1
+    },
+    "minecraft:lukewarm_ocean": {
+      "weight": 3
+    },
+    "minecraft:mountains": {
+      "weight": 1
+    },
+    "minecraft:nether_wastes": {
+      "weight": 10
+    },
+    "minecraft:plains": {
+      "weight": 0
+    },
+    "minecraft:savanna": {
+      "weight": 10
+    },
+    "minecraft:snowy_taiga": {
+      "weight": 1
+    },
+    "minecraft:snowy_tundra": {
+      "weight": 10
+    },
+    "minecraft:soul_sand_valley": {
+      "weight": 10
+    },
+    "minecraft:swamp": {
+      "weight": 7
+    },
+    "minecraft:taiga": {
+      "weight": 1
+    },
+    "minecraft:warped_forest": {
+      "weight": 10
+    },
+    "minecraft:wooded_badlands_plateau": {
+      "weight": 3
+    }
+  }
+}

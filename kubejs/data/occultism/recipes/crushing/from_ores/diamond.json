@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "forge:ores/diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 2
+  },
+  "crushing_time": 200
+}

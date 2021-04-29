@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.armor",
+        "operation": "addition",
+        "value": 2.5
+    },
+    "name": "Sturdy Skin",
+    "description": "You have natural armor."
+}

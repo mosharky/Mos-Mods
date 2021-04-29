@@ -1,0 +1,16 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.movement_speed",
+        "operation": "multiply_total",
+        "value": 0.8
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "mysticorigins:lifecycle",
+        "comparison": "<=",
+        "compare_to": 45
+    },
+    "name": "Dangerous Life start",
+    "description": "For the first 3 Minecraft Days (60 minutes) of your Lifecycle you are quicker than normal players."
+}

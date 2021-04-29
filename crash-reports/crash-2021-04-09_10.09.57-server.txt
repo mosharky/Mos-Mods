@@ -1,0 +1,334 @@
+---- Midnight Crash Report ----
+// Missing bedrock edition
+
+Time: 4/9/21 10:09 AM
+Description: Feature placement
+
+java.lang.IllegalArgumentException: Cannot set property EnumProperty{name=axis, clazz=class net.minecraft.util.Direction$Axis, values=[x, y, z]} as it does not exist in Block{minecraft:mushroom_stem}
+	at net.minecraft.state.StateHolder.func_206870_a(SourceFile:114) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ferritecore.fastmap.mixin.json:FastMapStateHolderMixin,pl:mixin:A}
+	at projectvibrantjourneys.common.world.features.FallenTreeFeature.generate(FallenTreeFeature.java:71) ~[?:1.16.5-3.0.0] {re:classloading}
+	at projectvibrantjourneys.common.world.features.FallenTreeFeature.func_241855_a(FallenTreeFeature.java:26) ~[?:1.16.5-3.0.0] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_242765_a(SourceFile:55) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_242772_a(SourceFile:23) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature$$Lambda$22483/356044652.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:419) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[?:1.8.0_51] {}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:22) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:14) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_242765_a(SourceFile:55) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_242772_a(SourceFile:23) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature$$Lambda$22483/356044652.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_51] {}
+	at java.util.stream.IntPipeline$4$1.accept(IntPipeline.java:250) ~[?:1.8.0_51] {}
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:110) ~[?:1.8.0_51] {}
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_51] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_51] {}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:22) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:14) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_242765_a(SourceFile:55) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.world.biome.Biome.func_242427_a(Biome.java:254) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.environs.json:MixinBiome,pl:mixin:APP:enhancedcelestials.mixins.json:client.MixinBiomeClient,pl:mixin:APP:midnight.mixins.json:BiomeMixin,pl:mixin:A}
+	at net.minecraft.world.gen.ChunkGenerator.func_230351_a_(SourceFile:220) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.world.chunk.ChunkStatus.func_222605_b(ChunkStatus.java:77) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercaves.mixins.json:ChunkStatusMixin,pl:mixin:A}
+	at net.minecraft.world.chunk.ChunkStatus$$Lambda$2350/320740973.doWork(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.chunk.ChunkStatus.func_223198_a(ChunkStatus.java:198) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercaves.mixins.json:ChunkStatusMixin,pl:mixin:A}
+	at net.minecraft.world.server.ChunkManager.lambda$null$18(ChunkManager.java:524) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ChunkManager$$Lambda$21351/1609059211.apply(Unknown Source) ~[?:?] {}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?] {re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading}
+	at net.minecraft.world.server.ChunkManager.lambda$scheduleChunkGeneration$20(ChunkManager.java:522) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ChunkManager$$Lambda$21348/385377003.apply(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_51] {}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter.func_219083_b(SourceFile:58) ~[?:?] {re:classloading}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter$$Lambda$21250/960872672.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213148_e(SourceFile:94) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213145_a(SourceFile:137) ~[?:?] {re:classloading}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.run(SourceFile:105) ~[?:?] {re:classloading}
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.state.StateHolder.func_206870_a(SourceFile:114) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:ferritecore.fastmap.mixin.json:FastMapStateHolderMixin,pl:mixin:A}
+	at projectvibrantjourneys.common.world.features.FallenTreeFeature.generate(FallenTreeFeature.java:71) ~[?:1.16.5-3.0.0] {re:classloading}
+	at projectvibrantjourneys.common.world.features.FallenTreeFeature.func_241855_a(FallenTreeFeature.java:26) ~[?:1.16.5-3.0.0] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_242765_a(SourceFile:55) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_242772_a(SourceFile:23) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature$$Lambda$22483/356044652.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:419) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[?:1.8.0_51] {}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:22) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:14) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_242765_a(SourceFile:55) ~[?:?] {re:classloading,re:mixin}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_242772_a(SourceFile:23) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature$$Lambda$22483/356044652.accept(Unknown Source) ~[?:?] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:1.8.0_51] {}
+	at java.util.stream.IntPipeline$4$1.accept(IntPipeline.java:250) ~[?:1.8.0_51] {}
+	at java.util.stream.Streams$RangeIntSpliterator.forEachRemaining(Streams.java:110) ~[?:1.8.0_51] {}
+	at java.util.Spliterator$OfInt.forEachRemaining(Spliterator.java:693) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502) ~[?:1.8.0_51] {}
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:1.8.0_51] {}
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:1.8.0_51] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_51] {}
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418) ~[?:1.8.0_51] {}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:22) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.DecoratedFeature.func_241855_a(SourceFile:14) ~[?:?] {re:classloading}
+	at net.minecraft.world.gen.feature.ConfiguredFeature.func_242765_a(SourceFile:55) ~[?:?] {re:classloading,re:mixin}
+-- Feature --
+Details:
+	Id: minecraft:decorated
+	Config: < DecoratedFeatureConfig [minecraft:decorated | [minecraft:count_extra net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig@502e2f35]] >
+	Description: < DecoratedFeature [minecraft:decorated] >
+Stacktrace:
+	at net.minecraft.world.biome.Biome.func_242427_a(Biome.java:254) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.environs.json:MixinBiome,pl:mixin:APP:enhancedcelestials.mixins.json:client.MixinBiomeClient,pl:mixin:APP:midnight.mixins.json:BiomeMixin,pl:mixin:A}
+
+
+-- Generation --
+Details:
+	CenterX: -49
+	CenterZ: 450
+	Seed: 1122316040841488663
+	Biome: net.minecraft.world.biome.Biome@1235b02e
+Stacktrace:
+	at net.minecraft.world.gen.ChunkGenerator.func_230351_a_(SourceFile:220) ~[?:?] {re:mixin,re:classloading}
+	at net.minecraft.world.chunk.ChunkStatus.func_222605_b(ChunkStatus.java:77) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercaves.mixins.json:ChunkStatusMixin,pl:mixin:A}
+	at net.minecraft.world.chunk.ChunkStatus$$Lambda$2350/320740973.doWork(Unknown Source) ~[?:?] {}
+	at net.minecraft.world.chunk.ChunkStatus.func_223198_a(ChunkStatus.java:198) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bettercaves.mixins.json:ChunkStatusMixin,pl:mixin:A}
+
+
+-- Chunk to be generated --
+Details:
+	Location: -49,450
+	Position hash: 1937030250447
+	Generator: twilightforest.world.ChunkGeneratorTwilightForest@10c95073
+Stacktrace:
+	at net.minecraft.world.server.ChunkManager.lambda$null$18(ChunkManager.java:524) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ChunkManager$$Lambda$21351/1609059211.apply(Unknown Source) ~[?:?] {}
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-4.0.26.jar:?] {re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading,re:classloading}
+	at net.minecraft.world.server.ChunkManager.lambda$scheduleChunkGeneration$20(ChunkManager.java:522) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.server.ChunkManager$$Lambda$21348/385377003.apply(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture.uniCompose(CompletableFuture.java:952) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:926) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442) ~[?:1.8.0_51] {}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter.func_219083_b(SourceFile:58) ~[?:?] {re:classloading}
+	at net.minecraft.world.chunk.ChunkTaskPriorityQueueSorter$$Lambda$21250/960872672.run(Unknown Source) ~[?:?] {}
+	at net.minecraft.util.concurrent.DelegatedTaskExecutor.func_213148_e(SourceFile:94) ~[?:?] {re:classloading}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayerEntity['boobalover5'/118, l='ServerLevel[chugns]', x=-922.70, y=42.99, z=7064.21]]
+	Chunk stats: ServerChunkCache: 1754
+	Level dimension: twilightforest:twilightforest
+	Derived: true
+	Level spawn location: World: (-240,67,-176), Chunk: (at 0,4,0 in -15,-11; contains blocks -240,0,-176 to -225,255,-161), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 758721 game time, 215163 day time
+	Level name: chugns
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:854) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:structure_gel.mixins.json:MinecraftServerMixin,pl:mixin:APP:charm.mixins.json:accessor.MinecraftServerAccessor,pl:mixin:APP:enhancedcelestials.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:787) ~[?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:structure_gel.mixins.json:MinecraftServerMixin,pl:mixin:APP:charm.mixins.json:accessor.MinecraftServerAccessor,pl:mixin:APP:enhancedcelestials.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:78) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:642) [?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:structure_gel.mixins.json:MinecraftServerMixin,pl:mixin:APP:charm.mixins.json:accessor.MinecraftServerAccessor,pl:mixin:APP:enhancedcelestials.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232) [?:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:betterendforge.mixins.json:MinecraftServerMixin,pl:mixin:APP:structure_gel.mixins.json:MinecraftServerMixin,pl:mixin:APP:charm.mixins.json:accessor.MinecraftServerAccessor,pl:mixin:APP:enhancedcelestials.mixins.json:MixinMinecraftServer,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer$$Lambda$20881/1797565304.run(Unknown Source) [?:?] {}
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 580009984 bytes (553 MB) / 4235722752 bytes (4039 MB) up to 5726797824 bytes (5461 MB)
+	CPUs: 16
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx6144m -Xms256m -XX:PermSize=256m
+	ModLauncher: 8.0.9+86+master.3cf110c
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.2.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.1.4.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.4.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.1.4.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.1.4.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.2.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.1.4.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.1
+	Forge: net.minecraftforge:36.1.4
+	FML Language Providers: 
+		javafml@36.1
+		minecraft@1
+	Mod List: 
+		enchantedbookredesign-3.3-1.16.4.jar              |Enchanted Book Redesign       |enchantedbookredesign         |3.3-1.16.4          |DONE      |NOSIGNATURE
+		TreeChop-1.16.4-0.13.0.jar                        |HT's TreeChop                 |treechop                      |0.13.0              |DONE      |NOSIGNATURE
+		infernal-expansion-forge-1.3.jar                  |Infernal Expansion            |infernalexp                   |Release 1.3         |DONE      |NOSIGNATURE
+		HealthOverlay-1.16.4-2.1.7.jar                    |Health Overlay                |healthoverlay                 |NONE                |DONE      |NOSIGNATURE
+		modnametooltip_1.16.2-1.15.0.jar                  |Mod Name Tooltip              |modnametooltip                |1.15.0              |DONE      |NOSIGNATURE
+		BetterCaves-Forge-1.16.4-1.1.1.jar                |YUNG's Better Caves           |bettercaves                   |1.16.4-1.1.1        |DONE      |NOSIGNATURE
+		glassential-forge-1.16.5-1.1.6.jar                |Glassential                   |glassential                   |1.1.6               |DONE      |NOSIGNATURE
+		BetterTitleScreen-1.16.4-1.10.2.jar               |Better Title Screen           |bettertitlescreen             |1.16.4-1.10.2       |DONE      |NOSIGNATURE
+		CTM-MC1.16.1-1.1.2.6.jar                          |ConnectedTexturesMod          |ctm                           |MC1.16.1-1.1.2.6    |DONE      |NOSIGNATURE
+		Controlling-7.0.0.14.jar                          |Controlling                   |controlling                   |7.0.0.14            |DONE      |NOSIGNATURE
+		ReAuth-1.16-Forge-3.9.3.jar                       |ReAuth                        |reauth                        |3.9.3               |DONE      |3d:06:1e:e5:da:e2:ff:ae:04:00:be:45:5b:ff:fd:70:65:00:67:0b:33:87:a6:5f:af:20:3c:b6:a1:35:ca:7e
+		Placebo-1.16.4-4.4.1.jar                          |Placebo                       |placebo                       |4.4.1               |DONE      |NOSIGNATURE
+		citadel-1.6.2.jar                                 |Citadel                       |citadel                       |1.6.2               |DONE      |NOSIGNATURE
+		alexsmobs-1.9.0.jar                               |Alex's Mobs                   |alexsmobs                     |1.9.0               |DONE      |NOSIGNATURE
+		YungsApi-1.16.4-Forge-6.jar                       |YUNG's API                    |yungsapi                      |1.16.4-Forge-6      |DONE      |NOSIGNATURE
+		MutantBeasts-1.16.4-1.1.3.jar                     |Mutant Beasts                 |mutantbeasts                  |1.16.4-1.1.3        |DONE      |d9:be:bd:b6:9a:e4:14:aa:05:67:fb:84:06:77:a0:c5:10:ec:27:15:1b:d6:c0:88:49:9a:ef:26:77:61:0b:5e
+		Bookshelf-1.16.5-10.0.7.jar                       |Bookshelf                     |bookshelf                     |10.0.7              |DONE      |eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		Tips-1.16.5-4.0.8.jar                             |Tips                          |tips                          |4.0.8               |DONE      |eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		guardvillagers-1.16.5.1.2.2.jar                   |Guard Villagers               |guardvillagers                |1.2.2               |DONE      |NOSIGNATURE
+		Morpheus-1.16.5-4.2.70.jar                        |Morpheus                      |morpheus                      |4.2.70              |DONE      |NOSIGNATURE
+		PickUpNotifier-v1.2-1.16.3.jar                    |Pick Up Notifier              |pickupnotifier                |1.2                 |DONE      |d3:cc:6f:1b:30:87:fa:d9:8f:91:15:20:27:63:95:aa:d5:cb:1b:5b:e6:36:cc:57:20:a9:b3:d4:d5:1a:5d:b8
+		carryon-1.16.5-1.15.3.13.jar                      |Carry On                      |carryon                       |1.15.3.13           |DONE      |8c:03:ac:7d:21:62:65:e2:83:91:f3:22:57:99:ed:75:78:1e:db:de:03:99:ef:53:3b:59:95:18:01:bc:84:a9
+		JustEnoughResources-1.16.4-0.12.0.109.jar         |Just Enough Resources         |jeresources                   |0.12.0.109          |DONE      |NOSIGNATURE
+		cameraoverhaul-1.0-1.16.4.jar                     |Camera Overhaul               |cameraoverhaul                |1.0.0               |DONE      |NOSIGNATURE
+		Paraglider-1.16.2-1.3.1.0.jar                     |Paraglider                    |paraglider                    |1.3.1.0             |DONE      |NOSIGNATURE
+		MmmMmmMmmMmm-1.16.5-1.1.0.jar                     |MmmMmmMmmMmm                  |dummmmmmy                     |1.1.0               |DONE      |NOSIGNATURE
+		twilightforest-1.16.5-4.0.426-universal.jar       |The Twilight Forest           |twilightforest                |NONE                |DONE      |NOSIGNATURE
+		supplementaries-1.16.5-0.11.0b.jar                |Supplementaries               |supplementaries               |1.16.5-0.11.0       |DONE      |NOSIGNATURE
+		refinedstorage-1.9.12.jar                         |Refined Storage               |refinedstorage                |1.9.12              |DONE      |NOSIGNATURE
+		betterendforge-1.16.4-1.5.1.jar                   |BetterEnd Forge               |betterendforge                |1.16.4-1.5.1        |DONE      |NOSIGNATURE
+		structure_gel-1.16.5-1.7.7.jar                    |Structure Gel API             |structure_gel                 |1.7.7               |DONE      |NOSIGNATURE
+		FarmersDelight-1.16.3-0.4.0.jar                   |Farmer's Delight              |farmersdelight                |1.16.3-0.4.0        |DONE      |NOSIGNATURE
+		fd_cookbook-1.3.jar                               |Farmers Delight Cookbook      |fd_cookbook                   |1.3                 |DONE      |NOSIGNATURE
+		BiomesOPlenty-1.16.4-13.0.0.431-universal.jar     |Biomes O' Plenty              |biomesoplenty                 |1.16.4-13.0.0.431   |DONE      |NOSIGNATURE
+		projectvibrantjourneys-1.16.5-3.0.0.jar           |Project: Vibrant Journeys     |projectvibrantjourneys        |1.16.5-3.0.0        |DONE      |NOSIGNATURE
+		EndRemastered-R36.jar                             |End Remastered 3.6            |endrem                        |1.16.3              |DONE      |NOSIGNATURE
+		ChunkAnimator-1.16.5-1.2.3.jar                    |Chunk Animator                |chunkanimator                 |1.16.5-1.2.3        |DONE      |NOSIGNATURE
+		toughnessbar-6.1.jar                              |Toughness Bar                 |toughnessbar                  |6.1                 |DONE      |NOSIGNATURE
+		thatched-1.16.4-0.4.jar                           |Thatched                      |thatched                      |version             |DONE      |NOSIGNATURE
+		dungeons_plus-1.16.5-1.1.4.jar                    |Dungeons Plus                 |dungeons_plus                 |1.1.4               |DONE      |NOSIGNATURE
+		portality-1.16.4-3.2.1.jar                        |Portality                     |portality                     |3.2.1               |DONE      |NOSIGNATURE
+		curios-forge-1.16.5-4.0.5.0.jar                   |Curios API                    |curios                        |1.16.5-4.0.5.0      |DONE      |NOSIGNATURE
+		tetra-1.16.5-3.8.0.jar                            |Tetra                         |tetra                         |3.8.0               |DONE      |NOSIGNATURE
+		eidolon-0.2.7.jar                                 |Eidolon                       |eidolon                       |0.2.7               |DONE      |NOSIGNATURE
+		tetranomicon-1.2.jar                              |Tetranomicon                  |tetranomicon                  |1.2                 |DONE      |NOSIGNATURE
+		Patchouli-1.16.4-50.jar                           |Patchouli                     |patchouli                     |1.16.4-50           |DONE      |NOSIGNATURE
+		betterbiomeblend-1.16.4-1.1.4-forge.jar           |Better Biome Blend            |betterbiomeblend              |1.16.4-1.1.4-forge  |DONE      |NOSIGNATURE
+		OreExcavation-1.8.157.jar                         |Ore Excavation                |oreexcavation                 |1.8.157             |DONE      |e7:68:1c:0d:b9:7e:cf:f8:f3:40:9c:84:c5:39:d7:a4:59:78:b0:6b:c3:fd:b7:4f:69:18:a3:88:e3:76:8c:3f
+		blockcarpentry-1.16-0.3.5b.jar                    |BlockCarpentry                |blockcarpentry                |1.16-0.3.5b         |DONE      |NOSIGNATURE
+		EnigmaticLegacy-2.11.2.jar                        |Enigmatic Legacy              |enigmaticlegacy               |2.11.2              |DONE      |NOSIGNATURE
+		architectury-1.10.139-forge.jar                   |Architectury                  |architectury                  |1.10.139            |DONE      |NOSIGNATURE
+		curiouselytra-forge-1.16.5-4.0.2.3.jar            |Curious Elytra                |curiouselytra                 |1.16.5-4.0.2.3      |DONE      |NOSIGNATURE
+		light-overlay-5.8.0.jar                           |Light Overlay                 |lightoverlay                  |5.8.0               |DONE      |NOSIGNATURE
+		ItemPhysic_v1.4.17_mc1.16.5.jar                   |ItemPhysic                    |itemphysic                    |1.6.0               |DONE      |NOSIGNATURE
+		cloth-config-4.11.19-forge.jar                    |Cloth Config v4 API           |cloth-config                  |4.11.19             |DONE      |NOSIGNATURE
+		The_Undergarden-1.16.5-0.4.5.jar                  |The Undergarden               |undergarden                   |0.4.5               |DONE      |NOSIGNATURE
+		BetterMineshafts-Forge-1.16.4-2.0.3.jar           |YUNG's Better Mineshafts      |bettermineshafts              |1.16.4-2.0.3        |DONE      |NOSIGNATURE
+		geckolib-forge-1.16.5-3.0.19.jar                  |GeckoLib                      |geckolib3                     |3.0.19              |DONE      |NOSIGNATURE
+		BetterAdvancements-1.16.5-0.1.0.105.jar           |Better Advancements           |betteradvancements            |0.1.0.105           |DONE      |NOSIGNATURE
+		rhino-1.7.13-build.14.jar                         |Rhino                         |rhino                         |1.7.13-build.14     |DONE      |NOSIGNATURE
+		mowziesmobs-1.5.16.jar                            |Mowzie's Mobs                 |mowziesmobs                   |1.5.16              |DONE      |NOSIGNATURE
+		TrashSlot_1.16.3-12.2.1.jar                       |TrashSlot                     |trashslot                     |12.2.1              |DONE      |NOSIGNATURE
+		craftingstation-4.1.1.jar                         |Crafting Station              |craftingstation               |4.1.1               |DONE      |NOSIGNATURE
+		spiders-2.0-1.16.4-1.0.4.jar                      |Spiders 2.0                   |spiderstpo                    |1.0.4               |DONE      |NOSIGNATURE
+		tetrapak-0.1.1.jar                                |Tetra Pak                     |tetrapak                      |0.1.1               |DONE      |NOSIGNATURE
+		jei-1.16.5-7.6.1.75.jar                           |Just Enough Items             |jei                           |7.6.1.75            |DONE      |NOSIGNATURE
+		kubejs-1605.3.6-build.179-forge.jar               |KubeJS                        |kubejs                        |1605.3.6-build.179  |DONE      |NOSIGNATURE
+		AttributeFix-1.16.5-10.1.2.jar                    |AttributeFix                  |attributefix                  |10.1.2              |DONE      |eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		callablehorses-1.16.3-1.2.1.4.jar                 |Callable Horses               |callablehorses                |1.2.1.4             |DONE      |8c:03:ac:7d:21:62:65:e2:83:91:f3:22:57:99:ed:75:78:1e:db:de:03:99:ef:53:3b:59:95:18:01:bc:84:a9
+		abnormals_core-1.16.5-3.1.1.jar                   |Abnormals Core                |abnormals_core                |3.1.1               |DONE      |NOSIGNATURE
+		environmental-1.16.5-1.0.0.jar                    |Environmental                 |environmental                 |1.0.0               |DONE      |NOSIGNATURE
+		allurement-1.16.5-1.1.1.jar                       |Allurement                    |allurement                    |1.1.1               |DONE      |NOSIGNATURE
+		Bayou-Blues-1.16.5-1.0.4.jar                      |Bayou Blues                   |bayou_blues                   |1.16.5-1.0.4        |DONE      |NOSIGNATURE
+		Tiny-Coal-1.16.4-1.0.0.jar                        |Tiny Coal                     |tinycoal                      |1.0.0               |DONE      |NOSIGNATURE
+		goblintraders-1.3.1-1.16.3.jar                    |Goblin Traders                |goblintraders                 |1.3.1               |DONE      |NOSIGNATURE
+		caelus-forge-1.16.5-2.1.3.0.jar                   |Caelus API                    |caelus                        |1.16.5-2.1.3.0      |DONE      |NOSIGNATURE
+		invtweaks-1.16.4-1.0.1.jar                        |Inventory Tweaks Renewed      |invtweaks                     |1.16.4-1.0.1        |DONE      |NOSIGNATURE
+		toadterror-1.16.4-1.0.0.jar                       |Toad Terror                   |toadterror                    |1.0.0               |DONE      |NOSIGNATURE
+		create-mc1.16.5_v0.3.1a.jar                       |Create                        |create                        |mc1.16.5_v0.3.1a+128|DONE      |NOSIGNATURE
+		shutupexperimentalsettings-1.0.3.jar              |Shutup Experimental Settings! |shutupexperimentalsettings    |1.0.3               |DONE      |NOSIGNATURE
+		mgui-1.16.4-3.1.3.jar                             |mgui                          |mgui                          |3.1.3               |DONE      |NOSIGNATURE
+		tumbleweed-1.16-0.4.9.jar                         |Tumbleweed                    |tumbleweed                    |1.16-0.4.9          |DONE      |NOSIGNATURE
+		NaturesCompass-1.16.5-1.8.6.jar                   |Nature's Compass              |naturescompass                |1.16.5-1.8.6        |DONE      |NOSIGNATURE
+		OuterEnd-0.2.9.jar                                |The Outer End                 |outer_end                     |0.2.9               |DONE      |NOSIGNATURE
+		decorative_blocks-1.16.4-1.7.2.jar                |Decorative Blocks             |decorative_blocks             |1.7.2               |DONE      |NOSIGNATURE
+		champions-forge-1.16.5-2.0.1.5.jar                |Champions                     |champions                     |1.16.5-2.0.1.5      |DONE      |NOSIGNATURE
+		curioofundying-forge-1.16.4-5.1.0.0.jar           |Curio of Undying              |curioofundying                |1.16.4-5.1.0.0      |DONE      |NOSIGNATURE
+		FarmingForBlockheads_1.16.3-7.3.0.jar             |Farming for Blockheads        |farmingforblockheads          |7.3.0               |DONE      |NOSIGNATURE
+		demagnetize-forge-1.16.2-1.2.2.jar                |Demagnetize                   |demagnetize                   |1.16.2-1.2.2        |DONE      |NOSIGNATURE
+		outvoted-1.16.5-1.2.2.jar                         |Outvoted                      |outvoted                      |1.2.2               |DONE      |NOSIGNATURE
+		Toast-Control-1.16.4-4.3.1.jar                    |Toast Control                 |toastcontrol                  |4.3.1               |DONE      |NOSIGNATURE
+		iChunUtil-1.16.3-10.0.0.jar                       |iChunUtil                     |ichunutil                     |10.0.0              |DONE      |NOSIGNATURE
+		traverse-1.16.4-0.4.3.8.jar                       |Traverse: Reforged            |traverse                      |1.16.4-0.4.3.8      |DONE      |NOSIGNATURE
+		forge-1.16.5-36.1.4-universal.jar                 |Forge                         |forge                         |36.1.4              |DONE      |22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+		scuba-gear-1.16.5-1.0.3.jar                       |Scuba Gear                    |scuba_gear                    |1.0.3               |DONE      |NOSIGNATURE
+		meetyourfight-1.16.5-1.1.2.jar                    |Meet Your Fight               |meetyourfight                 |1.1.2               |DONE      |NOSIGNATURE
+		DynamicSurroundings-1.16.4-4.0.4.1.jar            |§3Dynamic Surroundings        |dsurround                     |1.16.4-4.0.4.1      |DONE      |b4:98:14:b9:76:55:25:4f:e5:5f:4d:71:90:87:43:5b:f9:d5:3a:02:60:42:5e:da:1f:15:9c:ff:be:a9:7c:77
+		ironchest-1.16.4-11.2.10.jar                      |Iron Chests                   |ironchest                     |1.16.4-11.2.10      |DONE      |NOSIGNATURE
+		antiqueatlas-5.4.4-forge.jar                      |Antique Atlas                 |antiqueatlas                  |5.4.4-forge         |DONE      |NOSIGNATURE
+		forge-1.16.5-36.1.4-client.jar                    |Minecraft                     |minecraft                     |1.16.5              |DONE      |NOSIGNATURE
+		upgrade_aquatic-1.16.5-3.1.0.jar                  |Upgrade Aquatic               |upgrade_aquatic               |3.1.0               |DONE      |NOSIGNATURE
+		endergetic-1.16.4-3.0.0.jar                       |The Endergetic Expansion      |endergetic                    |3.0.0               |DONE      |NOSIGNATURE
+		EnchantmentDescriptions-1.16.5-7.0.3.jar          |EnchantmentDescriptions       |enchdesc                      |7.0.3               |DONE      |eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		theoneprobe-1.16-3.0.7.jar                        |The One Probe                 |theoneprobe                   |1.16-3.0.7          |DONE      |NOSIGNATURE
+		MouseTweaks-2.14-mc1.16.2.jar                     |Mouse Tweaks                  |mousetweaks                   |2.14                |DONE      |NOSIGNATURE
+		titanium-1.16.5-3.2.8.2.jar                       |Titanium                      |titanium                      |3.2.8.2             |DONE      |NOSIGNATURE
+		Abundance-1.16.5-1.0.5.jar                        |Abundance                     |abundance                     |1.16.5-1.0.5        |DONE      |NOSIGNATURE
+		EmendatusEnigmatica-1.16.5-1.2.3.jar              |Emendatus Enigmatica          |emendatusenigmatica           |1.16.5-1.2.3        |DONE      |NOSIGNATURE
+		CreativeCore_v2.1.0_mc1.16.5.jar                  |CreativeCore                  |creativecore                  |2.0.0               |DONE      |NOSIGNATURE
+		personality-1.16.5-1.0.2.jar                      |Personality                   |personality                   |1.0.2               |DONE      |NOSIGNATURE
+		atmospheric-1.16.5-3.1.0.jar                      |Atmospheric                   |atmospheric                   |3.1.0               |DONE      |NOSIGNATURE
+		savageandravage-1.16.5-3.1.0.jar                  |Savage & Ravage               |savageandravage               |3.1.0               |DONE      |NOSIGNATURE
+		rats-7.1.1-1.16.5.jar                             |Rats                          |rats                          |7.1.1               |DONE      |NOSIGNATURE
+		diet-forge-1.16.5-0.23.jar                        |Diet                          |diet                          |1.16.5-0.23         |DONE      |NOSIGNATURE
+		serverconfigupdater-1.3.jar                       |ServerConfig Updater          |serverconfigupdater           |1.3                 |DONE      |NOSIGNATURE
+		polymorph-forge-1.16.5-0.24.jar                   |Polymorph                     |polymorph                     |1.16.5-0.24         |DONE      |NOSIGNATURE
+		AutoRegLib-1.6-47.jar                             |AutoRegLib                    |autoreglib                    |1.6-47              |DONE      |NOSIGNATURE
+		Quark-r2.4-310.jar                                |Quark                         |quark                         |r2.4-310            |DONE      |NOSIGNATURE
+		charm-forge-1.16.5-2.3.2.jar                      |Charm                         |charm                         |2.3.2               |DONE      |NOSIGNATURE
+		charmonium-forge-1.16.5-2.3.2.jar                 |Charmonium                    |charmonium                    |2.3.2               |DONE      |NOSIGNATURE
+		QuarkOPlenty-1.16.5-1.2.1.jar                     |Quark O' Plenty               |quarkoplenty                  |1.2.1               |DONE      |NOSIGNATURE
+		abnormals_delight-1.16.5-1.1.0.jar                |Abnormals Delight             |abnormals_delight             |1.1.0               |DONE      |NOSIGNATURE
+		StorageDrawers-1.16.3-8.2.2.jar                   |Storage Drawers               |storagedrawers                |8.2.2               |DONE      |NOSIGNATURE
+		backpacked-1.9.0-1.16.3.jar                       |Backpacked                    |backpacked                    |1.9.0               |DONE      |NOSIGNATURE
+		backpacker-1.2.3-1.16.3.jar                       |Backpacker                    |backpacker                    |1.2.3               |DONE      |NOSIGNATURE
+		midnight-universal-1.0-final.jar                  |The Midnight                  |midnight                      |1.0-final           |DONE      |8f:0f:64:e7:b6:95:97:27:b9:3e:35:38:59:7f:de:d5:fc:12:f4:ef:e1:06:dc:9e:bb:f0:65:cf:01:38:cc:a5
+		InventoryHud_[1.16.2-1.16.5].forge-3.2.2.jar      |Inventory HUD+(Forge edition) |inventoryhud                  |3.2.2               |DONE      |NOSIGNATURE
+		Clef-1.16.5-10.0.2.jar                            |Clef                          |clef                          |10.0.2              |DONE      |NOSIGNATURE
+		structurize-0.13.163-ALPHA-universal.jar          |Structurize                   |structurize                   |0.13.163-ALPHA      |DONE      |NOSIGNATURE
+		kubejs-create-1604.1.0.4.jar                      |KubeJS Create                 |kubejs_create                 |1604.1.0.4          |DONE      |NOSIGNATURE
+		minecolonies-0.14.93-ALPHA-universal.jar          |MineColonies                  |minecolonies                  |0.14.93-ALPHA       |DONE      |NOSIGNATURE
+		AppleSkin-mc1.16.2-forge-1.0.14.jar               |AppleSkin                     |appleskin                     |1.0.14              |DONE      |NOSIGNATURE
+		[BETA]dannys_expansion1.16.3~1.16.4-1.0.6.1.jar   |Danny's Expansion             |dannys_expansion              |1.0.6               |DONE      |NOSIGNATURE
+		lootr-1.16.4-0.0.4.16.jar                         |Lootr                         |lootr                         |1.16.4-0.0.4.16     |DONE      |NOSIGNATURE
+		ferritecore-2.0.3-forge.jar                       |Ferrite Core                  |ferritecore                   |2.0.3               |DONE      |41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		occultism-1.16.5-1.0.17.jar                       |Occultism                     |occultism                     |1.16.5-1.0.17       |DONE      |NOSIGNATURE
+		BackTools-1.16.5-10.1.0.jar                       |Back Tools                    |backtools                     |10.1.0              |DONE      |NOSIGNATURE
+		enhancedcelestials-1.0.3-1.16.4.jar               |Enhanced Celestials           |enhancedcelestials            |1.0.3-1.16.4        |DONE      |NOSIGNATURE
+		refinedstorageaddons-0.7.2.jar                    |Refined Storage Addons        |refinedstorageaddons          |0.7.2               |DONE      |NOSIGNATURE
+		overloadedarmorbar-5.1.0.jar                      |Overloaded Armor Bar          |overloadedarmorbar            |5.1.0               |DONE      |NOSIGNATURE
+		chiselsandbits-0.3.4-RELEASE.jar                  |Chisels & bits                |chiselsandbits                |NONE                |DONE      |NOSIGNATURE
+		step-1.16.4-1.1.0.jar                             |Step                          |step                          |1.1.0               |DONE      |NOSIGNATURE
+		createaddition-1.16.5-20210404a.jar               |Create Crafts & Additions     |createaddition                |1.16.5-20210404a    |DONE      |NOSIGNATURE
+		DefaultOptions_1.16.3-12.2.0.jar                  |Default Options               |defaultoptions                |12.2.0              |DONE      |NOSIGNATURE
+	Crash Report UUID: dde55748-3468-4f29-9058-747e53fe8105
+	Patchouli open book context: n/a
+	Player Count: 1 / 8; [ServerPlayerEntity['boobalover5'/118, l='ServerLevel[chugns]', x=-922.70, y=42.99, z=7064.21]]
+	Data Packs: vanilla, mod:enchantedbookredesign (incompatible), mod:treechop, mod:infernalexp (incompatible), mod:healthoverlay, mod:modnametooltip, mod:bettercaves (incompatible), mod:glassential (incompatible), mod:bettertitlescreen, mod:ctm (incompatible), mod:controlling, mod:reauth, mod:placebo (incompatible), mod:citadel (incompatible), mod:alexsmobs, mod:yungsapi, mod:mutantbeasts (incompatible), mod:bookshelf, mod:tips, mod:guardvillagers, mod:morpheus (incompatible), mod:carryon, mod:jeresources, mod:cameraoverhaul, mod:paraglider, mod:dummmmmmy (incompatible), mod:twilightforest, mod:supplementaries, mod:refinedstorage, mod:betterendforge, mod:structure_gel, mod:farmersdelight, mod:fd_cookbook, mod:biomesoplenty, mod:projectvibrantjourneys, mod:endrem, mod:chunkanimator, mod:toughnessbar (incompatible), mod:thatched, mod:dungeons_plus, mod:portality (incompatible), mod:curios, mod:tetra, mod:eidolon, mod:tetranomicon, mod:patchouli (incompatible), mod:betterbiomeblend, mod:oreexcavation, mod:blockcarpentry (incompatible), mod:enigmaticlegacy, mod:architectury, mod:curiouselytra, mod:lightoverlay (incompatible), mod:itemphysic, mod:cloth-config (incompatible), mod:undergarden, mod:bettermineshafts, mod:geckolib3 (incompatible), mod:betteradvancements, mod:rhino, mod:mowziesmobs (incompatible), mod:trashslot (incompatible), mod:craftingstation (incompatible), mod:spiderstpo, mod:tetrapak, mod:jei, mod:kubejs, mod:attributefix, mod:callablehorses, mod:abnormals_core, mod:environmental, mod:allurement, mod:bayou_blues, mod:tinycoal (incompatible), mod:goblintraders, mod:caelus, mod:invtweaks (incompatible), mod:toadterror (incompatible), mod:create, mod:shutupexperimentalsettings (incompatible), mod:mgui (incompatible), mod:tumbleweed (incompatible), mod:naturescompass (incompatible), mod:outer_end, mod:decorative_blocks, mod:champions (incompatible), mod:curioofundying, mod:farmingforblockheads (incompatible), mod:demagnetize (incompatible), mod:outvoted, mod:toastcontrol (incompatible), mod:ichunutil, mod:traverse (incompatible), mod:forge, mod:scuba_gear (incompatible), mod:meetyourfight (incompatible), mod:dsurround, mod:ironchest (incompatible), mod:antiqueatlas, mod:upgrade_aquatic, mod:enchdesc, mod:theoneprobe, mod:mousetweaks, mod:titanium (incompatible), mod:abundance, mod:emendatusenigmatica, mod:creativecore, mod:personality, mod:atmospheric, mod:savageandravage, mod:rats, mod:diet, mod:serverconfigupdater (incompatible), mod:polymorph, mod:autoreglib (incompatible), mod:quark (incompatible), mod:charm, mod:charmonium (incompatible), mod:quarkoplenty, mod:abnormals_delight, mod:storagedrawers (incompatible), mod:backpacked (incompatible), mod:backpacker, mod:midnight (incompatible), mod:inventoryhud, mod:clef, mod:structurize, mod:kubejs_create, mod:minecolonies (incompatible), mod:appleskin, mod:dannys_expansion, mod:lootr (incompatible), mod:ferritecore (incompatible), mod:occultism, mod:backtools, mod:enhancedcelestials, mod:refinedstorageaddons, mod:overloadedarmorbar (incompatible), mod:chiselsandbits (incompatible), mod:step (incompatible), mod:createaddition, mod:defaultoptions (incompatible), mod:endergetic, mod:pickupnotifier (incompatible)
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'

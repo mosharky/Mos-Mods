@@ -1,0 +1,6 @@
+{
+    "hidden": false,
+    "type": "origins:simple",
+    "name": "Time Fatigue",
+    "description": "The more you manipulate time, the more often you'll randomly take negative status effects. You can use the Primary Key to consume a Totem of Undying to push your condition back a little, or consume a Nether Star the same way to fully reset it."
+}

@@ -1,0 +1,865 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 100
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager1",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager2",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager3",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager4",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 200
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager2",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager3",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager4",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 300
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager3",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager4",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 400
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager4",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 500
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 600
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 700
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 800
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 900
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": -1
+                        },
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "comparison": "<",
+                    "resource": "timeorigin:timefatigueresource",
+                    "compare_to": 100
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": -1
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager1",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You feel a sudden shortness of breath and a tightening of your muscles. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                },
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 100
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager1",
+                            "compare_to": 0
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 200
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager2",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager2",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You clutch your chest in pain. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 300
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager3",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager3",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You feel your head spin and get a little lightheaded. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 400
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager4",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager4",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You cough up a small bit of blood. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 500
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager5",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You take a moment to catch your breath as you nearly pass out. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 600
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager6",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You have a coughing fit you struggle to recover from. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 700
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager7",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You feel a sharp pain in your chest as you struggle to remain standing. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 800
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager8",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"Your vision gets blurry and you struggle to keep fully conscious. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": ">=",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 900
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager9",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"You cough up a lot of blood and feel like you're barely holding on. Your condition has worsened.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:and",
+                    "inverted": false,
+                    "conditions": [
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatigueresource",
+                            "compare_to": 1000
+                        },
+                        {
+                            "type": "origins:resource",
+                            "inverted": false,
+                            "comparison": "==",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "compare_to": 0
+                        }
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:change_resource",
+                            "resource": "timeorigin:timefatiguemessager10",
+                            "change": 1
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "playsound entity.wither.ambient master @s ~ ~ ~ 2"
+                        },
+                        {
+                            "type": "origins:execute_command",
+                            "permission_level": 4,
+                            "command": "/tellraw @s {\"text\":\"Your breath is staggered, your muscles are weary, and your bones are unreasonably frail. Your condition has reached its maximum intensity.\",\"italic\":true}"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "interval": 5
+}

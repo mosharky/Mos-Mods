@@ -1,0 +1,29 @@
+
+#Thatched Configs
+["Mod Options"]
+	#
+	# Add the identifier for the dimension that you want
+	# no Thatched structure to spawn in.
+	# Separate multiple entries with a comma.
+	#
+	#Example: "minecraft:the_end,awesome_mod:awesome_dimension"
+	blacklistedDimensions = ""
+
+[Villages]
+	#\r\n Add the custom villages to modded biomes of the same categories/type.
+	addVillagesToModdedBiomes = true
+
+	[Villages.Spawnrate]
+		#
+		# How rare are Thatched Villages in Plains biomes.
+		#
+		# 1 for spawning in most chunks and 1001 for no spawn.
+		#Range: 1 ~ 1001
+		thatchedVillageSpawnRate = 60
+		#
+		# Add the ID/resource location of the biome you don't want
+		# villages to spawn in. Separate each ID with a comma ,
+		#
+		#Example: "minecraft:ice_spikes,awesome_mod:awesome_biome"
+		blacklistedVillageBiomes = ""
+

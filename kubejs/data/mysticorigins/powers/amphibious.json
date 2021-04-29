@@ -1,0 +1,17 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.movement_speed",
+        "operation": "addition",
+        "value": 0.5
+    },
+    "condition": {
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water"
+        }
+    },
+    "name": "Amphibious",
+    "description": "You are a bit faster in water than normal players."
+}

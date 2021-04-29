@@ -1,0 +1,6 @@
+{
+    "hidden": false,
+    "type": "origins:simple",
+    "name": "Rewind",
+    "description": "Holding a clock in your Offhand and pressing Primary rewinds your own timeline, returning you to a recent health and position."
+}

@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "origins:hotblooded",
+        "mysticorigins:sturdy_skin",
+        "mysticorigins:fire_ball",
+        "mysticorigins:dragonroar",
+        "mysticorigins:wings",
+        "mysticorigins:powerd_flight",
+        "origins:fire_immunity",
+        "origins:no_shield",
+        "mysticorigins:reptile",
+        "mysticorigins:dragonbane",
+        "origins:claustrophobia",
+        "origins:more_exhaustion",
+        "origins:carnivore",
+
+        "origins:damage_from_snowballs"
+    ],
+    "icon": "dragon_head",
+    "impact": 2,
+    "order": 3,
+    "name": "Dracanier",
+    "description": "Descendant from a forgotten dragon race which ones roamed the lands, these creatures travel the world alone trying to find out what happend to their species."
+}

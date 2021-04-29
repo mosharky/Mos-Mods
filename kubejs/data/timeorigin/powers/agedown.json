@@ -1,0 +1,76 @@
+{
+    "hidden": true,
+    "type": "origins:active_self",
+    "description": "You have the ability to control the ages of mobs such as bees and sheep. Pressing the secondary key (which you can reassign to right-click) activates one of three powers depending on which hand you hold your Clock in:\n\nMain Hand: Turns children mobs into adults.\n\nOffhand: Turns adult mobs into children.\n\nBoth Hands: Turns adults or children into children permanently.",
+    "name": "Age Control",
+    "condition": {
+        "type": "origins:and",
+        "inverted": false,
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "inverted": false,
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "inverted": true,
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            }
+        ]
+    },
+    "cooldown": 10,
+    "key": "secondary",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @e[limit=1,sort=nearest,distance=0.0..2,type=!minecraft:player,type=!minecraft:area_effect_cloud,type=!minecraft:item,nbt={Age:0}] run data merge entity @s {Age:-24000}"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "execute as @e[limit=1,sort=nearest,distance=0.0..2,type=!minecraft:player,type=!minecraft:area_effect_cloud,type=!minecraft:item,nbt=!{Age:1b}] run data merge entity @s {IsBaby:1b}"
+            },
+            {
+                "type": "origins:chance",
+                "chance": 0.5,
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "timeorigin:timefatigueresource",
+                    "change": 1
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/particle enchant ~ ~ ~ .125 .25 .125 1 25 force"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "playsound block.enchantment_table.use master @s ~ ~ ~ 2"
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": false,
+        "sprite_location": "origins:textures/gui/resource_bar.png"
+    }
+}

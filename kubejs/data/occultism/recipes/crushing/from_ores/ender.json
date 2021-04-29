@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "betterendforge:ender_ore"
+  },
+  "result": {
+    "item": "betterendforge:ender_shard",
+    "count": 2
+  },
+  "crushing_time": 200
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " TT",
+    " HT",
+    "R  "
+  ],
+  "key": {
+    "T": {
+      "tag": "forge:trident_teeth"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "R": {
+      "item": "upgrade_aquatic:prismarine_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:trident"
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "hidden": true,
+    "type": "origins:target_action_on_hit",
+    "name": "Decaying Strike",
+    "description": "When attacking while holding a clock, you cause your target to decay at a rapid rate.",
+    "cooldown": 0,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "duration": 135,
+                    "is_ambient": false,
+                    "show_particles": true,
+                    "show_icon": true,
+                    "effect": "minecraft:wither"
+                }
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "/particle enchant ~ ~ ~ .125 .25 .125 1 25 force"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:or",
+        "inverted": false,
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "inverted": false,
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "inverted": false,
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "inverted": false,
+                    "ingredient": {
+                        "item": "minecraft:clock"
+                    }
+                }
+            }
+        ]
+    }
+}

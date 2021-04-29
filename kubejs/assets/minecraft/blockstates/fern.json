@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+			{ "model": "block/fern" },
+			{ "model": "block/fern0" },
+			{ "model": "block/fern1" }
+		]
+    }
+}
