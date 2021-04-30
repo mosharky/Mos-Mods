@@ -21,5 +21,8 @@ onEvent('item.tooltip', tooltip => {
     //Forgotten Nugget
     tooltip.add('undergarden:forgotten_nugget',
       text.gray("Obtained by killing the Forgotten Guardian in the Catacombs of the Undergarden"))
+    //Cursed Ring
+    tooltip.add('undergarden:forgotten_nugget',
+      text.red("WARNING: PLEASE READ DESCRIPTION (HOLD SHIFT). VERY DANGEROUS ITEM."))
 })
   

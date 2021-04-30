@@ -358,6 +358,7 @@ events.listen('recipes', (event) => {
         'naturescompass:naturescompass',
         'environmental:rice',
         'outvoted:prismarine_rod',
+        'twilightforest:raw_venison'
     ];
 
 
