@@ -1,3 +1,7 @@
 
 *.bak
+.mixin.out/audit/mixin_implementation_report.csv
+.mixin.out/audit/mixin_implementation_report.txt
+*.log
 minecraftinstance.json
+*.jar
