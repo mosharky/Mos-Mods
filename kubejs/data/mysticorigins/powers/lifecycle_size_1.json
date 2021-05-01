@@ -1,3 +1,16 @@
 {
-    "type": "origins:action_over_time"
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scale set extraorigins:modify_size 0.5"
+    }, 
+    "condition": {
+        "type": "origins:resource",
+        "resource": "mysticorigins:lifecycle",
+        "comparison": "<=",
+        "compare_to": 40
+    },
+    "name": "Growth",
+    "description": "You start with 4 less hearts and beeing half as tall as a player. Over time you become bigger and become more hearts until you have a normal size and normal health. "
 }

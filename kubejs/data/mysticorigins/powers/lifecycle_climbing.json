@@ -1,0 +1,24 @@
+{
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "mysticorigins:lifecycle",
+                "comparison": "<=",
+                "compare_to": 80
+            },
+            {
+                "type": "origins:collided_horizontally"
+            },
+            {
+                "type": "origins:power_active",
+                "power": "mysticorigins:climbing_toggle"
+            }
+        ]
+    },
+    "allow_holding": true,
+    "name": "Climbing",
+    "description": "For the first 4 Minecraft Days (80 minutes) of your Lifecycle you can climb walls."
+}

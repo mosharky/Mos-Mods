@@ -9,8 +9,8 @@
         "type": "origins:resource",
         "resource": "mysticorigins:lifecycle",
         "comparison": "<=",
-        "compare_to": 45
+        "compare_to": 41
     },
     "name": "Dangerous Life start",
-    "description": "For the first 3 Minecraft Days (60 minutes) of your Lifecycle you are quicker than normal players."
+    "description": "For the first 4 Minecraft Days (80 minutes) of your Lifecycle you are quicker than normal players. This bonus deteriates with time."
 }

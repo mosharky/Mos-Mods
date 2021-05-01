@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "betterendforge:end_fish_raw",
+    "betterendforge:end_fish_cooked",
+    "abnormals_delight:pike_slice",
+    "abnormals_delight:cooked_pike_slice",
+    "upgrade_aquatic:perch",
+    "upgrade_aquatic:cooked_perch",
+    "farmersdelight:ham",
+    "farmersdelight:smoked_ham",
+    "upgrade_aquatic:pike",
+    "upgrade_aquatic:cooked_pike",
+    "upgrade_aquatic:lionfish",
+    "upgrade_aquatic:cooked_lionfish",
+    "undergarden:raw_gwibling",
+    "undergarden:cooked_gwibling",
+    "outer_end:stalker_meat",
+    "outer_end:cooked_stalker_meat",
+    "abnormals_delight:perch_slice",
+    "abnormals_delight:cooked_perch_slice"
+  ]
+}

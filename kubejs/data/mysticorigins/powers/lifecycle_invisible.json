@@ -1,0 +1,38 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 1400,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:invisibility",
+                "duration": 1000,
+                "amplifier": 0,
+                "show_particles": false
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:resource",
+                "resource": "mysticorigins:lifecycle",
+                "comparison": "<=",
+                "compare_to": 140
+            },
+            {
+                "type": "origins:resource",
+                "resource": "mysticorigins:lifecycle",
+                "comparison": ">=",
+                "compare_to": 120
+            }
+        ]
+    },
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 2
+    },
+    "name": "Advanced Camouflage",
+    "description": "You can use an ability which makes you periodicly invisible once you reach the last stage of your lifecycle. (6 Minecraft day-night cycles or 120 minutes)"
+}

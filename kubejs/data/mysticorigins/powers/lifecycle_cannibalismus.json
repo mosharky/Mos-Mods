@@ -8,14 +8,18 @@
         "type": "origins:and",
         "conditions": [
             {
-                "type": "origins:resource",
-                "resource": "mysticorigins:lifecycle",
-                "comparison": "<=",
-                "compare_to": 39
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:player"
             },
             {
                 "type": "origins:origin",
                 "origin": "mysticorigins:lizardon"
+            },
+            {
+                "type": "origins:resource",
+                "resource": "mysticorigins:lifecycle",
+                "comparison": "<=",
+                "compare_to": 39
             }
         ]
     },

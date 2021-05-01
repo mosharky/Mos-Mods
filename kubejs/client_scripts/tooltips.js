@@ -1,5 +1,4 @@
 onEvent('item.tooltip', tooltip => {
-    //tooltip.add(['quark:backpack', 'quark:magnet', 'quark:crate'], 'Added by Quark Oddities')
     //Acacia Blossom
     tooltip.add('alexsmobs:acacia_blossom',
       text.gray("Elephant food!"))
@@ -22,7 +21,7 @@ onEvent('item.tooltip', tooltip => {
     tooltip.add('undergarden:forgotten_nugget',
       text.gray("Obtained by killing the Forgotten Guardian in the Catacombs of the Undergarden"))
     //Cursed Ring
-    tooltip.add('undergarden:forgotten_nugget',
+    tooltip.add('enigmaticlegacy:cursed_ring',
       text.red("WARNING: PLEASE READ DESCRIPTION (HOLD SHIFT). VERY DANGEROUS ITEM."))
 })
   
