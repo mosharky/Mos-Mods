@@ -6,7 +6,7 @@
         "effects": [
             {
                 "effect": "minecraft:invisibility",
-                "duration": 1000,
+                "duration": 400,
                 "amplifier": 0,
                 "show_particles": false
             }
@@ -31,7 +31,8 @@
     },
     "hud_render": {
         "should_render": true,
-        "bar_index": 2
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 14
     },
     "name": "Advanced Camouflage",
     "description": "You can use an ability which makes you periodicly invisible once you reach the last stage of your lifecycle. (6 Minecraft day-night cycles or 120 minutes)"
