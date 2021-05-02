@@ -14139,6 +14139,145 @@
       "installedTargets": null
     },
     {
+      "addonID": 227795,
+      "gameInstanceID": "44ef4bd4-40e5-4315-84c3-26570a97351c",
+      "installedFile": {
+        "id": 3178423,
+        "displayName": "antiqueatlas-5.4.4-forge.jar",
+        "fileName": "antiqueatlas-5.4.4-forge.jar",
+        "fileDate": "2021-01-23T12:08:56.103Z",
+        "fileLength": 1273846,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3178/423/antiqueatlas-5.4.4-forge.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3900594288,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "hunternif",
+            "fingerprint": 4170501501,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "kenkron",
+            "fingerprint": 3547667882,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "antiqueatlas_logo.png",
+            "fingerprint": 3543155372,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1353157428,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2382862668,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3389985559,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "antiqueatlas.mixins.json",
+            "fingerprint": 2328709750,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "antiqueatlas.refmap.json",
+            "fingerprint": 1493072104,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "antiqueatlas_icon.png",
+            "fingerprint": 2295052817,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 477544372,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2894575220,
+        "gameVersion": [
+          "1.16.5",
+          "Forge",
+          "1.16.4"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000005",
+            "gameVersion": "1.16.5",
+            "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+            "gameVersionName": "1.16.5"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000004",
+            "gameVersion": "1.16.4",
+            "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+            "gameVersionName": "1.16.4"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2139110,
+        "projectId": 227795,
+        "packageFingerprintId": 591922104,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2666693,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "antiqueatlas-5.4.4-forge.jar"
+      },
+      "dateInstalled": "2021-05-02T17:49:44.4345416Z",
+      "dateUpdated": "2021-05-02T17:49:44.4345416Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 3,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 309674,
       "gameInstanceID": "44ef4bd4-40e5-4315-84c3-26570a97351c",
       "installedFile": {
@@ -14658,6 +14797,102 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 475117,
+      "gameInstanceID": "44ef4bd4-40e5-4315-84c3-26570a97351c",
+      "installedFile": {
+        "id": 3295233,
+        "displayName": "FastSuite-1.16.4-1.0.1.jar",
+        "fileName": "FastSuite-1.16.4-1.0.1.jar",
+        "fileDate": "2021-05-01T21:00:33.573Z",
+        "fileLength": 10607,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3295/233/FastSuite-1.16.4-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 62652128,
+            "addonId": 283644,
+            "type": 3,
+            "fileId": 3295233
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3099936995,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "shadows",
+            "fingerprint": 4271586987,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fastsuite.mixins.json",
+            "fingerprint": 1124428571,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1704566900,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "fastsuite.refmap.json",
+            "fingerprint": 3536717808,
+            "type": 3,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 468210604,
+        "gameVersion": [
+          "1.16.5"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000005",
+            "gameVersion": "1.16.5",
+            "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+            "gameVersionName": "1.16.5"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2290454,
+        "projectId": 475117,
+        "packageFingerprintId": 654369480,
+        "gameVersionDateReleased": "2021-01-15T14:14:48.91Z",
+        "gameVersionMappingId": 2903366,
+        "gameVersionId": 8203,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "FastSuite-1.16.4-1.0.1.jar"
+      },
+      "dateInstalled": "2021-05-02T17:49:44.4375445Z",
+      "dateUpdated": "2021-05-02T17:49:44.4375445Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     }
   ],
   "isMigrated": false,
