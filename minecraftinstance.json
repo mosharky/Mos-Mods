@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-05-01T17:40:30.482075Z",
-  "playedCount": 69,
+  "lastPlayed": "2021-05-01T23:59:03.8408468Z",
+  "playedCount": 70,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -47,7 +47,7 @@
   "name": "Mo's Mods 3.0",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-05-01T17:36:34.8105233Z",
+  "lastPreviousMatchUpdate": "2021-05-01T18:12:37.6948978Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.16.5",
@@ -14754,73 +14754,7 @@
     {
       "addonID": 475117,
       "gameInstanceID": "44ef4bd4-40e5-4315-84c3-26570a97351c",
-      "installedFile": {
-        "id": 3291539,
-        "displayName": "FastSuite-1.16.4-1.0.0.jar",
-        "fileName": "FastSuite-1.16.4-1.0.0.jar",
-        "fileDate": "2021-04-28T07:00:19.127Z",
-        "fileLength": 11088,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3291/539/FastSuite-1.16.4-1.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 283644,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3507590828,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 431133384,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fastsuite.mixins.json",
-            "fingerprint": 1124428571,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1704566900,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fastsuite.refmap.json",
-            "fingerprint": 3536717808,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1176574128,
-        "gameVersion": [
-          "1.16.5"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2021-01-15T14:14:48.91Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "FastSuite-1.16.4-1.0.0.jar"
-      },
+      "installedFile": null,
       "dateInstalled": "2021-04-30T03:23:44.4860728Z",
       "dateUpdated": "2021-04-30T03:23:44.5501308Z",
       "dateLastUpdateAttempted": "2021-04-30T03:23:44.5501308Z",
