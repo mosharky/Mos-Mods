@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-05-02T17:16:32.9974258Z",
-  "playedCount": 71,
+  "lastPlayed": "2021-05-02T23:57:21.3392406Z",
+  "playedCount": 72,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -10125,6 +10125,103 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 448233,
+      "gameInstanceID": "44ef4bd4-40e5-4315-84c3-26570a97351c",
+      "installedFile": {
+        "id": 3296216,
+        "displayName": "1.2.2 - Forge",
+        "fileName": "entityculling-1.2.2.jar",
+        "fileDate": "2021-05-02T18:54:53.767Z",
+        "fileLength": 42761,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3296/216/entityculling-1.2.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2367589572,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "dev",
+            "fingerprint": 1498561272,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "entityculling.forge.mixins.json",
+            "fingerprint": 4000933919,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 398729729,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 889149621,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE",
+            "fingerprint": 1929528592,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3650242534,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "entityculling.forge.refmap.json",
+            "fingerprint": 918001200,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 2714713414,
+        "gameVersion": [
+          "1.16.5",
+          "Forge",
+          "1.16.4"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "entityculling-1.2.2.jar"
+      },
+      "dateInstalled": "2021-05-02T19:46:36.8680913Z",
+      "dateUpdated": "2021-05-02T19:46:37.0384895Z",
+      "dateLastUpdateAttempted": "2021-05-02T19:46:37.0384895Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 250498,

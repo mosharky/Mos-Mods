@@ -156,7 +156,9 @@ events.listen('recipes', (event) => {
         'minecraft:ender_eye',
         'emendatusenigmatica:enigmatic_fortunizer',
         'charm:extra_recipes/trident',
-        'upgrade_aquatic:trident'
+        'upgrade_aquatic:trident',
+        'botania:petal_apothecary/orechid',
+        'botania:petal_apothecary/orechid_ignem',
     ];
 
     //Remove inputs and outputs
@@ -200,7 +202,7 @@ events.listen('recipes', (event) => {
         'naturescompass:naturescompass',
         'environmental:rice',
         'outvoted:prismarine_rod',
-        'twilightforest:raw_venison'
+        'twilightforest:raw_venison',
     ];
 
 
