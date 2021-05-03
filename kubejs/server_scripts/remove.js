@@ -42,6 +42,8 @@ events.listen('recipes', (event) => {
     //Nether Quartz
     event.replaceInput({}, 'minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_chunk')
 
+    //Removes all recipes in the betterendforge:alloying type
+    event.remove({type: 'betterendforge:alloying'})
 
     //Remove by Recipe ID
     var idRemovals = [
@@ -146,9 +148,6 @@ events.listen('recipes', (event) => {
         'emendatusenigmatica:gem_from_ore/smelting/redstone',
         'emendatusenigmatica:gem_from_ore/blasting/lapis',
         'emendatusenigmatica:gem_from_ore/smelting/lapis',
-        //BetterEnd
-        'betterendforge:additional_gold',
-        'betterendforge:additional_iron',
         //Enigmatic Legacy
         'enigmaticlegacy:etherium_ingot_from_blasting',
         'enigmaticlegacy:etherium_ingot',
@@ -159,6 +158,9 @@ events.listen('recipes', (event) => {
         'upgrade_aquatic:trident',
         'botania:petal_apothecary/orechid',
         'botania:petal_apothecary/orechid_ignem',
+        'betterendforge:ender_shard_to_dust',
+        'betterendforge:ender_pearl_to_dust',
+        'betterendforge:end_stone_smelter'
     ];
 
     //Remove inputs and outputs

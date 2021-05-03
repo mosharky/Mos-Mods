@@ -1,5 +1,5 @@
 {
-  "type": "betterendforge:alloying",
+  "type": "create:mixing",
   "ingredients": [
     {
       "item": "enigmaticlegacy:etherium_ore"
@@ -8,7 +8,10 @@
       "item": "betterendforge:aeternium_ingot"
     }
   ],
-  "result": "enigmaticlegacy:etherium_ingot",
-  "experience": 4.5,
-  "smelttime": 600
+  "results": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
 }
