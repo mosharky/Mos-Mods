@@ -5,7 +5,7 @@ firstPersonEffects = true
 #Rotate trophy heads on item model. Has no performance impact at all. For those who don't like fun.
 rotateTrophyHeadsGui = true
 #Disable the nag screen when Optifine is installed.
-disableOptifineNagScreen = false
+disableOptifineNagScreen = true
 
 #Client only: Controls for the Loading screen
 ["Loading Screen"]
