@@ -1,167 +1,169 @@
 # Mo's Mods
 
 modlist:
-Just Enough Resources (JER) (by way2muchnoise)
-Create (by simibubi)
-Polymorph (Forge) (by TheIllusiveC4)
-Demagnetize (by comp500)
-Collective (by Serilum)
-Glassential (by Lykrast)
-Structure Gel API (by ModdingLegacy)
-Health Overlay (by Terrails)
-Morpheus (by Quetzi)
-Botania (by Vazkii)
-Bayou Blues (by team_aurora_modding)
-BlockCarpentry (by PianoManu)
-Abundance (by team_aurora_modding)
-Stoneholm, Underground Villages (Forge) (by TheGrimsey)
-Tetra (by mickelus)
-Snow! Real Magic! ⛄ (by Snownee_)
-FancyMenu [Forge] (by Keksuccino)
-Enhanced Celestials - Blood Moons & Harvest Moons (by Corgi_Taco)
-Passive Shield (by Serilum)
-Occultism (by kli_kli)
-[FORGE] Outvoted (by HowBoutNo)
-Kiwi 🥝 (by Snownee_)
-Better Biome Blend (by FionaTheMortal)
-Decorative Blocks modded compat (by Evo_934)
-Farmer's Delight Cookbook Addon (by dalumma)
-Abnormals Core (by TeamAbnormals)
-Better Badlands (by Gkoliver)
-Waystones (by BlayTheNinth)
-Placebo (by Shadows_of_Fire)
-The One Probe (by McJty)
-iChunUtil (by ohaiiChun)
-Back Tools (by ohaiiChun)
-ItemPhysic Full (by CreativeMD)
-Better Advancements (by way2muchnoise)
-Hats (by ohaiiChun)
-Dungeons Plus (by ModdingLegacy)
-The Conjurer (by ModdingLegacy)
-MmmMmmMmmMmm (by bonusboni)
-Comfortable Nether (by TheRealZonko)
-Bookshelf (by DarkhaxDev)
-Paragliders (by Tictim)
-Infernal Expansion (by InfernalStudios)
-Eidolon (by elucent_)
-Game Stages (by DarkhaxDev)
-Clef (by ohaiiChun)
-Portality (by Buuz135)
-Dynamic View (by someaddon)
-Savage & Ravage (by TeamAbnormals)
-Structurize (by H3lay)
-The Endergetic Expansion (by TeamAbnormals)
-Diet (Forge) (by TheIllusiveC4)
-Tips (by DarkhaxDev)
-YUNG's API (Forge) (by YUNGNICKYOUNG)
-Allurement (by TeamAbnormals)
-Environmental (by TeamAbnormals)
-Farmer's Tea (by beautiful_developer)
-Rhino (by LatvianModder)
-Soulbound! (by lllanes)
-Carry On (by Tschipp)
-CameraOverhaul (Forge) (by Corgi_Taco)
-Refined Storage (by raoulvdberge)
-Armor Toughness Bar (by tfarecnim)
-Curious Elytra (Forge) (by TheIllusiveC4)
-JEI Integration (by SnowShock35)
-Curios API (Forge) (by TheIllusiveC4)
-Champions (by TheIllusiveC4)
-Snow Under Trees (by bl4ckscor3)
-KubeJS (Forge) (by LatvianModder)
-Backpacked (by MrCrayfish)
-YUNG's Better Caves (Forge) (by YUNGNICKYOUNG)
-Emendatus Enigmatica (by Ridanisaurus)
-Toad Terror (by Coda1552)
-Dude! Where's my Horse? (by Noobanidus)
-Farmer's Delight (by vectorwing)
-Quark (by Vazkii)
-AutoRegLib (by Vazkii)
-Quark Oddities (by Vazkii)
-Architectury API (Forge) (by shedaniel)
-Undergarden/Tetra Patch (by syrikalis)
-Biomes O' Plenty (by Forstride)
-Controlling (by Jaredlll08)
-Antique Waystones (by HorribleNerd)
-Better Title Screen (by Girafi)
-Enigmatic Legacy (by Aizistral)
-Chunk Animator (by Lumien231)
-YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)
-Enchantment Descriptions (by DarkhaxDev)
-SwingThroughGrass (by exidex)
-AttributeFix (by DarkhaxDev)
-Lootr (by Noobanidus)
-Tetranomicon (by syrikalis)
-Konkrete [Forge] (by Keksuccino)
-Atmospheric (by TeamAbnormals)
-FerriteCore (Forge) (by malte0811)
-Mod Name Tooltip (by mezz)
-Tiny Coal (by AzureDoomC)
-FastWorkbench (by Shadows_of_Fire)
-TOP Addons (by DrManganese)
-AppleSkin (by squeek502)
-Backpacker (by MrCrayfish)
-More Overlays Updated (by RiDGo8)
-Danny's Expansion (by bottomtextdanny)
-Guard Villagers (by almightytallestred)
-Just Enough Items (JEI) (by mezz)
-The Twilight Forest (by Benimatic)
-Progressive Bosses (by Insane96MCP)
-Iron Chests (by ProgWML6)
-Cloth Config API (Forge) (by shedaniel)
-The Outer End (by BlueDuckYT)
-Mutant Beasts (by Chumbanotz)
-Entity Culling Fabric/Forge (by tr9zw)
-Mowzie's Mobs (by bobmowzie)
-Caelus API (Forge) (by TheIllusiveC4)
-Overloaded Armor Bar (by tfarecnim)
-Inventory Tweaks Renewed (by David1544)
-Create Crafts & Additions (by MRHminer)
-Default Options (by BlayTheNinth)
-ReAuth (by TechnicianLP)
-Patchouli (by Vazkii)
-MineColonies (by H3lay)
-Charm Reforged (by svenhjol)
-FastFurnace (by Shadows_of_Fire)
-Origins (Forge) (by EdwinMindcraft)
-ServerConfig Updater (by Darkere)
-mGui (by mickelus)
-Performant (by someaddon)
-Farmer's Delight Compats (by beautiful_developer)
-Alex's Mobs (by alex1the1666)
-Supplementaries (by MehVahdJukaar)
-Abnormals Delight (by TeamAbnormals)
-Charmonium Reforged (by svenhjol)
-Decorative Blocks (by stohun)
-YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)
-CreativeCore (by CreativeMD)
-KubeJS Create (by LatvianModder)
-Toast Control (by Shadows_of_Fire)
-Refined Storage Addons (by raoulvdberge)
-Titanium (by Buuz135)
-Mouse Tweaks (by YaLTeR)
-Thatched (by lilypuree)
-Upgrade Aquatic (by TeamAbnormals)
-Dynamic Surroundings (by OreCruncher)
-Storage Drawers (by Texelsaur)
-Chisels & Bits (by AlgorithmX2)
-Curio of Undying (Forge) (by TheIllusiveC4)
-GeckoLib (by ThanosGecko)
-Inventory HUD+ (by dmitrylovin)
-Tumbleweed (by konwboj)
-Enchanted Book Redesign (by tfarecnim)
-Enhanced Mushrooms (Forge) (by team_aurora_modding)
-Citadel (by alex1the1666)
-TrashSlot (by BlayTheNinth)
-Nature's Compass (by Chaosyr)
-Pick Up Notifier (by Fuzs_)
-The Undergarden (by Quek04)
-Meet Your Fight (by Lykrast)
-Rats (by alex1the1666)
-Antique Atlas (by Hunternif)
-Goblin Traders (by MrCrayfish)
-PreGenForge (by dags_)
-BetterEnd (Forge) (by Beethoven92)
-Farmer's Delight Integration (by iku_tv)
-Spiders 2.0 (by TheCyberBrick)
-FastSuite (by Shadows_of_Fire)
+<ul>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create (by simibubi)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/polymorph">Polymorph (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/demagnetize">Demagnetize (by comp500)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/collective">Collective (by Serilum)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/glassential">Glassential (by Lykrast)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/structure-gel-api">Structure Gel API (by ModdingLegacy)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/health-overlay">Health Overlay (by Terrails)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/morpheus">Morpheus (by Quetzi)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/botania">Botania (by Vazkii)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/bayou-blues">Bayou Blues (by team_aurora_modding)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/blockcarpentry">BlockCarpentry (by PianoManu)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/abundance">Abundance (by team_aurora_modding)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/stoneholm-forge">Stoneholm, Underground Villages (Forge) (by TheGrimsey)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/tetra">Tetra (by mickelus)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄ (by Snownee_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fancymenu">FancyMenu [Forge] (by Keksuccino)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials">Enhanced Celestials - Blood Moons & Harvest Moons (by Corgi_Taco)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/passive-shield">Passive Shield (by Serilum)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/occultism">Occultism (by kli_kli)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/outvoted">[FORGE] Outvoted (by HowBoutNo)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kiwi">Kiwi 🥝 (by Snownee_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-biome-blend">Better Biome Blend (by FionaTheMortal)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/decorative-blocks-modded-compat">Decorative Blocks modded compat (by Evo_934)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-cookbook-addon">Farmer's Delight Cookbook Addon (by dalumma)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/abnormals-core">Abnormals Core (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-badlands">Better Badlands (by Gkoliver)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/waystones">Waystones (by BlayTheNinth)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/placebo">Placebo (by Shadows_of_Fire)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-one-probe">The One Probe (by McJty)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ichunutil">iChunUtil (by ohaiiChun)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/back-tools">Back Tools (by ohaiiChun)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/itemphysic">ItemPhysic Full (by CreativeMD)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-advancements">Better Advancements (by way2muchnoise)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/hats">Hats (by ohaiiChun)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/dungeons-plus">Dungeons Plus (by ModdingLegacy)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-conjurer">The Conjurer (by ModdingLegacy)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm">MmmMmmMmmMmm (by bonusboni)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/comfortable-nether">Comfortable Nether (by TheRealZonko)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/bookshelf">Bookshelf (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/paragliders">Paragliders (by Tictim)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/infernal-expansion">Infernal Expansion (by InfernalStudios)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/eidolon">Eidolon (by elucent_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/game-stages">Game Stages (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/clef">Clef (by ohaiiChun)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/portality">Portality (by Buuz135)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-view">Dynamic View (by someaddon)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/savage-and-ravage">Savage & Ravage (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/structurize">Structurize (by H3lay)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/endergetic">The Endergetic Expansion (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/diet">Diet (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/tips">Tips (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api">YUNG's API (Forge) (by YUNGNICKYOUNG)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/allurement">Allurement (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/environmental">Environmental (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-tea">Farmer's Tea (by beautiful_developer)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/rhino">Rhino (by LatvianModder)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/lllanes-soulbound">Soulbound! (by lllanes)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/carry-on">Carry On (by Tschipp)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/camera-overhaul-forge">CameraOverhaul (Forge) (by Corgi_Taco)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage">Refined Storage (by raoulvdberge)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/armor-toughness-bar">Armor Toughness Bar (by tfarecnim)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/curious-elytra">Curious Elytra (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/jei-integration">JEI Integration (by SnowShock35)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/curios">Curios API (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/champions">Champions (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-under-trees">Snow Under Trees (by bl4ckscor3)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-forge">KubeJS (Forge) (by LatvianModder)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/backpacked">Backpacked (by MrCrayfish)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-caves">YUNG's Better Caves (Forge) (by YUNGNICKYOUNG)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/emendatus-enigmatica">Emendatus Enigmatica (by Ridanisaurus)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/toad-terror">Toad Terror (by Coda1552)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/dude-wheres-my-horse">Dude! Where's my Horse? (by Noobanidus)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight (by vectorwing)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/quark">Quark (by Vazkii)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/autoreglib">AutoRegLib (by Vazkii)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/quark-oddities">Quark Oddities (by Vazkii)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-forge">Architectury API (Forge) (by shedaniel)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/undergarden-tetra-patch">Undergarden/Tetra Patch (by syrikalis)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty">Biomes O' Plenty (by Forstride)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/controlling">Controlling (by Jaredlll08)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/antique-waystones">Antique Waystones (by HorribleNerd)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-title-screen">Better Title Screen (by Girafi)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enigmatic-legacy">Enigmatic Legacy (by Aizistral)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-animator">Chunk Animator (by Lumien231)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge">YUNG's Better Mineshafts (Forge) (by YUNGNICKYOUNG)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions">Enchantment Descriptions (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass">SwingThroughGrass (by exidex)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/attributefix">AttributeFix (by DarkhaxDev)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/lootr">Lootr (by Noobanidus)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/tetranomicon">Tetranomicon (by syrikalis)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/konkrete">Konkrete [Forge] (by Keksuccino)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/atmospheric">Atmospheric (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore">FerriteCore (Forge) (by malte0811)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mod-name-tooltip">Mod Name Tooltip (by mezz)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/tiny-coal">Tiny Coal (by AzureDoomC)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fastworkbench">FastWorkbench (by Shadows_of_Fire)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/top-addons">TOP Addons (by DrManganese)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin">AppleSkin (by squeek502)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/backpacker">Backpacker (by MrCrayfish)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/more-overlays-updated">More Overlays Updated (by RiDGo8)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/beta-dannys-expansion">Danny's Expansion (by bottomtextdanny)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers">Guard Villagers (by almightytallestred)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest">The Twilight Forest (by Benimatic)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/progressive-bosses">Progressive Bosses (by Insane96MCP)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/iron-chests">Iron Chests (by ProgWML6)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge">Cloth Config API (Forge) (by shedaniel)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-outer-end">The Outer End (by BlueDuckYT)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mutant-beasts">Mutant Beasts (by Chumbanotz)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/entityculling">Entity Culling Fabric/Forge (by tr9zw)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs">Mowzie's Mobs (by bobmowzie)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/caelus">Caelus API (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar">Overloaded Armor Bar (by tfarecnim)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-renewed">Inventory Tweaks Renewed (by David1544)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/createaddition">Create Crafts & Additions (by MRHminer)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/default-options">Default Options (by BlayTheNinth)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/reauth">ReAuth (by TechnicianLP)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/patchouli">Patchouli (by Vazkii)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/minecolonies">MineColonies (by H3lay)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/charm-reforged">Charm Reforged (by svenhjol)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fastfurnace">FastFurnace (by Shadows_of_Fire)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/origins-forge">Origins (Forge) (by EdwinMindcraft)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/serverconfig-updater">ServerConfig Updater (by Darkere)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mgui">mGui (by mickelus)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/performant">Performant (by someaddon)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-compats">Farmer's Delight Compats (by beautiful_developer)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/alexs-mobs">Alex's Mobs (by alex1the1666)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries (by MehVahdJukaar)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/abnormals-delight">Abnormals Delight (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/charmonium-reforged">Charmonium Reforged (by svenhjol)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/decorative-blocks">Decorative Blocks (by stohun)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds">YUNG's Better Strongholds (Forge) (by YUNGNICKYOUNG)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/creativecore">CreativeCore (by CreativeMD)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/kubejs-create">KubeJS Create (by LatvianModder)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/toast-control">Toast Control (by Shadows_of_Fire)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons">Refined Storage Addons (by raoulvdberge)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/titanium">Titanium (by Buuz135)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks">Mouse Tweaks (by YaLTeR)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/thatched">Thatched (by lilypuree)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/upgrade-aquatic">Upgrade Aquatic (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings">Dynamic Surroundings (by OreCruncher)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/storage-drawers">Storage Drawers (by Texelsaur)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/chisels-bits">Chisels & Bits (by AlgorithmX2)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/curio-of-undying">Curio of Undying (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/geckolib">GeckoLib (by ThanosGecko)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge">Inventory HUD+ (by dmitrylovin)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/tumbleweed">Tumbleweed (by konwboj)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enchanted-book-redesign">Enchanted Book Redesign (by tfarecnim)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-mushrooms">Enhanced Mushrooms (Forge) (by team_aurora_modding)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/citadel">Citadel (by alex1the1666)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/trashslot">TrashSlot (by BlayTheNinth)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier">Pick Up Notifier (by Fuzs_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/the-undergarden">The Undergarden (by Quek04)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/meet-your-fight">Meet Your Fight (by Lykrast)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/rats">Rats (by alex1the1666)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/antique-atlas">Antique Atlas (by Hunternif)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/goblin-traders">Goblin Traders (by MrCrayfish)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/pregenforge">PreGenForge (by dags_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/betterend-forge-port">BetterEnd (Forge) (by Beethoven92)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-integration">Farmer's Delight Integration (by iku_tv)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/spiders-2-0">Spiders 2.0 (by TheCyberBrick)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/fastsuite">FastSuite (by Shadows_of_Fire)</a></li>
+</ul>
