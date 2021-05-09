@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:etherium_ore"
+    },
+    {
+      "item": "betterendforge:aeternium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

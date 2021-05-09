@@ -23,7 +23,7 @@
         "condition": {
             "type": "origins:temperature",
             "comparison": "<",
-            "compare_to": 0.5
+            "compare_to": 0.3
         }
     },
     "name": "Reptile",

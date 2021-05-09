@@ -1,0 +1,3 @@
+identifier = Momo
+title = Mo's Mods
+allowesc = true

@@ -1,22 +1,25 @@
 {
-    "unchoosable": true,
+    "unchoosable": false,
     "powers": [
         "mysticorigins:reptile",
         "origins:carnivore",
         "mysticorigins:amphibious",
         "mysticorigins:lifecycle",
-        "mysticorigins:lifecycle_cannibalismus",
+        "mysticorigins:lifecycle_growth",
+        "mysticorigins:lifecycle_climbing",
+        "mysticorigins:lifecycle_cannibalism",
         "mysticorigins:lifecycle_hunted",
+        "mysticorigins:lifecycle_venombite",
+        "mysticorigins:lifecycle_venom_immunity",
+        "mysticorigins:lifecycle_invisible",
 
         "mysticorigins:lifecycle_driver_dummy",
         "mysticorigins:lifecycle_death_reset_dummy",
-        "mysticorigins:lifecycle_health_1_dummy",
-        "mysticorigins:lifecycle_health_2_dummy",
-        "mysticorigins:lifecycle_health_3_dummy"
+        "mysticorigins:climbing_toggle"
     ],
     "icon": "kelp",
     "impact": 2,
     "order": 2,
-    "name": "Lizardon (WIP!!!)",
-    "description": "Never having evolved Wings, these creatures jealously blick to the sky seeing their dragon brothers roaming through the clouds. Due to not beeing able to lift of the ground, this species has eveolved perfectly to living on land and water."
+    "name": "Lizardon",
+    "description": "Never having evolved Wings, these creatures jealously blick to the sky seeing their dragon brothers roaming through the clouds. Due to not beeing able to lift of the ground without help, this species has evolved perfectly to living on land and water."
 }

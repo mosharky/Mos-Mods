@@ -18,7 +18,7 @@
         "fireballExplosionPower": 0.5
       }
     },
-    "hunger": {
+    "glutton": {
       "spawn": true,
       "rate": 5,
       "biomes": [
@@ -32,7 +32,7 @@
       "health": 20.0,
       "maxEnchants": 5
     },
-    "kraken": {
+    "barnacle": {
       "spawn": true,
       "rate": 2,
       "biomes": [

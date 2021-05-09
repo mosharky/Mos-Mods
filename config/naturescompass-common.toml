@@ -9,7 +9,7 @@
 	#Range: 0 ~ 1000000
 	maxSamples = 50000
 	#A list of biomes that the compass will not be able to search for. Specify by resource location or numeric ID. Ex: ["minecraft:desert", "minecraft:savanna"]
-	biomeBlacklist = []
+	biomeBlacklist = ["biomesoplenty:alps", "biomesoplenty:bayou", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:coniferous_forest", "biomesoplenty:dead_forest", "biomesoplenty:dryland", "biomesoplenty:fungal_jungle", "biomesoplenty:grove", "biomesoplenty:highland", "biomesoplenty:lavender_field", "biomesoplenty:meadow", "biomesoplenty:mystic_grove", "biomesoplenty:ominous_woods", "biomesoplenty:rainforest", "biomesoplenty:redwood_forest", "biomesoplenty:seasonal_forest", "biomesoplenty:silkglade", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:tundra", "biomesoplenty:wasteland", "biomesoplenty:wetland", "biomesoplenty:wooded_wasteland", "biomesoplenty:tropic_plains"]
 	#biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource .
 	#Range: 0 ~ 1000000
 	radiusModifier = 2500

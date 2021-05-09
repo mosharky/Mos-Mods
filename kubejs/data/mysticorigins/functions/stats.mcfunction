@@ -1,0 +1,1 @@
+tellraw @s {"text": "stats function is WIP"}

@@ -2,7 +2,7 @@
   "type": "betterendforge:infusion",
   "input": 
   {
-     "item": "enigmaticlegacy:etherium_ore"
+     "item": "betterendforge:terminite_ingot"
   },
   "output": "betterendforge:aeternium_ingot",
   "time": 250,

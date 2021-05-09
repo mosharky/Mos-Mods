@@ -1,164 +1,7 @@
-//Item Tags
-onEvent('item.tags', event => {
-
-    //Diamond
-    event.removeAll('forge:ores/diamond')
-    event.removeAll('forge:dusts/diamond')
-    event.add('forge:dusts/diamond', 'emendatusenigmatica:diamond_dust')
-    event.add('forge:ores/diamond', 'emendatusenigmatica:diamond_chunk')
-    //Coal
-    event.removeAll('forge:ores/coal')
-    event.add('forge:ores/coal', 'emendatusenigmatica:coal_chunk')
-    //Lapis
-    event.removeAll('forge:ores/lapis')
-    event.add('forge:ores/lapis', 'emendatusenigmatica:lapis_chunk')
-    //Redstone
-    event.removeAll('forge:ores/redstone')
-    event.add('forge:ores/redstone', 'emendatusenigmatica:redstone_chunk')
-    //Emerald
-    event.removeAll('forge:ores/emerald')
-    event.add('forge:ores/emerald', 'emendatusenigmatica:emerald_chunk')
-    //Iron
-    event.removeAll('forge:ores/iron')
-    event.removeAll('forge:rods/iron')
-    event.removeAll('forge:plates/iron')
-    event.removeAll('forge:dusts/iron')
-    event.add('forge:ores/iron', 'emendatusenigmatica:iron_chunk')
-    event.add('forge:rods/iron', 'emendatusenigmatica:iron_rod')
-    event.add('forge:plates/iron', 'emendatusenigmatica:iron_plate')
-    event.add('forge:dusts/iron', 'emendatusenigmatica:iron_dust')
-    //Gold
-    event.removeAll('forge:ores/gold')
-    event.removeAll('forge:rods/gold')
-    event.removeAll('forge:plates/gold')
-    event.removeAll('forge:dusts/gold')
-    event.add('forge:ores/gold', 'emendatusenigmatica:gold_chunk')
-    event.add('forge:rods/gold', 'emendatusenigmatica:gold_rod')
-    event.add('forge:plates/gold', 'emendatusenigmatica:gold_plate')
-    event.add('forge:dusts/gold', 'emendatusenigmatica:gold_dust')
-    //Copper
-    event.removeAll('forge:ingots/copper')
-    event.removeAll('forge:storage_blocks/copper')
-    event.removeAll('forge:nuggets/copper')
-    event.removeAll('forge:ores/copper')
-    event.removeAll('forge:rods/copper')
-    event.removeAll('forge:plates/copper')
-    event.removeAll('forge:dusts/copper')
-    event.add('forge:ingots/copper', 'emendatusenigmatica:copper_ingot')
-    event.add('forge:storage_blocks/copper', 'emendatusenigmatica:copper_block')
-    event.add('forge:nuggets/copper', 'emendatusenigmatica:copper_nugget')
-    event.add('forge:ores/copper', 'emendatusenigmatica:copper_chunk')
-    event.add('forge:rods/copper', 'emendatusenigmatica:copper_rod')
-    event.add('forge:plates/copper', 'emendatusenigmatica:copper_plate')
-    event.add('forge:dusts/copper', 'emendatusenigmatica:copper_dust')
-    //Zinc
-    event.removeAll('forge:ingots/zinc')
-    event.removeAll('forge:storage_blocks/zinc')
-    event.removeAll('forge:nuggets/zinc')
-    event.removeAll('forge:ores/zinc')
-    event.removeAll('forge:rods/zinc')
-    event.removeAll('forge:plates/zinc')
-    event.removeAll('forge:dusts/zinc')
-    event.add('forge:ingots/zinc', 'emendatusenigmatica:zinc_ingot')
-    event.add('forge:storage_blocks/zinc', 'emendatusenigmatica:zinc_block')
-    event.add('forge:nuggets/zinc', 'emendatusenigmatica:zinc_nugget')
-    event.add('forge:ores/zinc', 'emendatusenigmatica:zinc_chunk')
-    event.add('forge:rods/zinc', 'emendatusenigmatica:zinc_rod')
-    event.add('forge:plates/zinc', 'emendatusenigmatica:zinc_plate')
-    event.add('forge:dusts/zinc', 'emendatusenigmatica:zinc_dust')
-    //Brass
-    event.removeAll('forge:ingots/brass')
-    event.removeAll('forge:storage_blocks/brass')
-    event.removeAll('forge:nuggets/brass')
-    event.removeAll('forge:plates/brass')
-    event.removeAll('forge:rods/brass')
-    event.add('forge:ingots/brass', 'emendatusenigmatica:brass_ingot')
-    event.add('forge:storage_blocks/brass', 'emendatusenigmatica:brass_block')
-    event.add('forge:nuggets/brass', 'emendatusenigmatica:brass_nugget')
-    event.add('forge:plates/brass', 'emendatusenigmatica:brass_plate')
-    event.add('forge:rods/brass', 'emendatusenigmatica:brass_rod')
-    //Silver
-    event.removeAll('forge:ingots/silver')
-    event.removeAll('forge:storage_blocks/silver')
-    event.removeAll('forge:nuggets/silver')
-    event.removeAll('forge:ores/silver')
-    event.removeAll('forge:rods/silver')
-    event.removeAll('forge:plates/silver')
-    event.removeAll('forge:dusts/silver')
-    event.add('forge:ingots/silver', 'emendatusenigmatica:silver_ingot')
-    event.add('forge:storage_blocks/silver', 'emendatusenigmatica:silver_block')
-    event.add('forge:nuggets/silver', 'emendatusenigmatica:silver_nugget')
-    event.add('forge:ores/silver', 'emendatusenigmatica:silver_chunk')
-    event.add('forge:rods/silver', 'emendatusenigmatica:silver_rod')
-    event.add('forge:plates/silver', 'emendatusenigmatica:silver_plate')
-    event.add('forge:dusts/silver', 'emendatusenigmatica:silver_dust')
-    //Lead
-    event.removeAll('forge:ingots/lead')
-    event.removeAll('forge:storage_blocks/lead')
-    event.removeAll('forge:nuggets/lead')
-    event.removeAll('forge:ores/lead')
-    event.removeAll('forge:rods/lead')
-    event.removeAll('forge:plates/lead')
-    event.removeAll('forge:dusts/lead')
-    event.add('forge:ingots/lead', 'emendatusenigmatica:lead_ingot')
-    event.add('forge:storage_blocks/lead', 'emendatusenigmatica:lead_block')
-    event.add('forge:nuggets/lead', 'emendatusenigmatica:lead_nugget')
-    event.add('forge:ores/lead', 'emendatusenigmatica:lead_chunk')
-    event.add('forge:rods/lead', 'emendatusenigmatica:lead_rod')
-    event.add('forge:plates/lead', 'emendatusenigmatica:lead_plate')
-    event.add('forge:dusts/lead', 'emendatusenigmatica:lead_dust')
-    //Obsidian
-    event.removeAll('forge:dusts/obsidian')
-    event.add('forge:dusts/obsidian', 'emendatusenigmatica:obsidian_dust')
-    //Quartz
-    event.removeAll('forge:ores/quartz')
-    event.add('forge:ores/quartz', 'emendatusenigmatica:quartz_chunk')
-    //Other ores
-    event.removeAll('forge:ores/aluminum')
-    event.removeAll('forge:ores/nickel')
-    event.removeAll('forge:ores/uranium')
-    event.removeAll('forge:ores/osmium')
-    event.removeAll('forge:ores/tin')
-    event.removeAll('forge:ores/certus_quartz')
-    event.removeAll('forge:ores/charged_certus_quartz')
-    event.removeAll('forge:ores/fluorite')
-    event.removeAll('forge:ores/bitumen')
-    event.removeAll('forge:ores/cinnabar')
-    event.removeAll('forge:ores/apatite')
-    event.removeAll('forge:ores/sulfur')
-    event.removeAll('forge:ores/potassium_nitrate')
-    event.removeAll('forge:ores/arcane')
-    event.removeAll('forge:ores/dimensional')
-    event.removeAll('forge:ores/cobalt')
-    //Other Ingots
-    event.removeAll('forge:ingots/aluminum')
-    event.removeAll('forge:ingots/nickel')
-    event.removeAll('forge:ingots/uranium')
-    event.removeAll('forge:ingots/osmium')
-    event.removeAll('forge:ingots/tin')
-    event.removeAll('forge:ingots/certus_quartz')
-    event.removeAll('forge:ingots/charged_certus_quartz')
-    event.removeAll('forge:ingots/fluorite')
-    event.removeAll('forge:ingots/bitumen')
-    event.removeAll('forge:ingots/cinnabar')
-    event.removeAll('forge:ingots/apatite')
-    event.removeAll('forge:ingots/sulfur')
-    event.removeAll('forge:ingots/potassium_nitrate')
-    event.removeAll('forge:ingots/arcane')
-    event.removeAll('forge:ingots/dimensional')
-    event.removeAll('forge:ingots/cobalt')
-    //Random
-    event.remove('forge:grain/rice', 'environmental:rice')
-    event.remove('forge:seeds/rice', 'environmental:rice')
-    event.remove('forge:crops/rice', 'environmental:rice')
-    event.remove('forge:grain', 'environmental:rice')
-    event.remove('forge:crops', 'environmental:rice')
-    event.remove('forge:seeds', 'environmental:rice')
-});
-
 //Recipes
 events.listen('recipes', (event) => {
-
+    
+    //Replace
     //Diamond
     event.replaceOutput({}, 'createaddition:diamond_grit', 'emendatusenigmatica:diamond_dust')
     //Iron
@@ -199,7 +42,8 @@ events.listen('recipes', (event) => {
     //Nether Quartz
     event.replaceInput({}, 'minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_chunk')
 
-
+    //Removes all recipes in the betterendforge:alloying type
+    event.remove({type: 'betterendforge:alloying'})
 
     //Remove by Recipe ID
     var idRemovals = [
@@ -304,9 +148,6 @@ events.listen('recipes', (event) => {
         'emendatusenigmatica:gem_from_ore/smelting/redstone',
         'emendatusenigmatica:gem_from_ore/blasting/lapis',
         'emendatusenigmatica:gem_from_ore/smelting/lapis',
-        //BetterEnd
-        'betterendforge:additional_gold',
-        'betterendforge:additional_iron',
         //Enigmatic Legacy
         'enigmaticlegacy:etherium_ingot_from_blasting',
         'enigmaticlegacy:etherium_ingot',
@@ -314,7 +155,12 @@ events.listen('recipes', (event) => {
         'minecraft:ender_eye',
         'emendatusenigmatica:enigmatic_fortunizer',
         'charm:extra_recipes/trident',
-        'upgrade_aquatic:trident'
+        'upgrade_aquatic:trident',
+        'botania:petal_apothecary/orechid',
+        'botania:petal_apothecary/orechid_ignem',
+        'betterendforge:ender_shard_to_dust',
+        'betterendforge:ender_pearl_to_dust',
+        'betterendforge:end_stone_smelter'
     ];
 
     //Remove inputs and outputs
@@ -358,6 +204,7 @@ events.listen('recipes', (event) => {
         'naturescompass:naturescompass',
         'environmental:rice',
         'outvoted:prismarine_rod',
+        'twilightforest:raw_venison',
     ];
 
 

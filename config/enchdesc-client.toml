@@ -8,5 +8,5 @@
 	#Should descriptions only be shown on enchanted books?
 	onlyEnchantedBooks = true
 	#Should players be required to press a keybind in order to see the descriptions?
-	requireKeybind = true
+	requireKeybind = false
 

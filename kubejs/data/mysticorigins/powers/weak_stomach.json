@@ -1,0 +1,31 @@
+{
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:nausea",
+                "duration": 300,
+                "amplifier": 1
+            },
+            {
+                "effect": "minecraft:weakness",
+                "duration": 240,
+                "amplifier": 0
+            },
+            {
+                "effect": "minecraft:mining_fatique",
+                "duration": 280,
+                "amplifier": 0
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "mysticorigins:raw"
+        }
+    },
+    "name": "Weak Stomache",
+    "description": "Your not used to eating raw food, as a consequence if you consume raw food items you might not fell that well."
+}

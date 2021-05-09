@@ -10,17 +10,17 @@
             },
             {
                 "type": "origins:execute_command",
-                "command": "execute at @s run effect give @e[distance=1..10,nbt={Inventory:[{id:minecraft:leather_helmet,Slot:103b}]}] minecraft:nausea 30 1 false",
+                "command": "execute at @s run effect give @e[distance=1..10] minecraft:nausea 30 1 false",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "execute at @s run effect give @e[distance=1..10,nbt={Inventory:[{id:minecraft:leather_helmet,Slot:103b}]}] minecraft:weakness 30 1 false",
+                "command": "execute at @s run effect give @e[distance=1..10] minecraft:weakness 30 1 false",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "execute at @s run effect give @e[distance=1..10,nbt={Inventory:[{id:minecraft:leather_helmet,Slot:103b}]}] minecraft:blindness 30 1 false",
+                "command": "execute at @s run effect give @e[distance=1..10] minecraft:blindness 30 1 false",
                 "permission_level": 4
             }
         ]
@@ -28,7 +28,8 @@
     "cooldown": 300,
     "hud_render": {
         "should_render": true,
-        "bar_index": 8
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 13
     },
     "key": "primary",
     "name": "Songs of the Siren",

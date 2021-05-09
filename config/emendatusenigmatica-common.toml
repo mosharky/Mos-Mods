@@ -473,7 +473,7 @@
 		#Range: 0 ~ 64
 		nether_count = 16
 		#Activate/Deactivate the Ore Gen in The Nether [Default: false]
-		generate_in_the_nether = true
+		generate_in_the_nether = false
 		#List of biome IDs in which the ore is not allowed to generate.
 		#To blacklist all biomes from a single mod, use 'modid:*'
 		nether_biome_blacklist = []

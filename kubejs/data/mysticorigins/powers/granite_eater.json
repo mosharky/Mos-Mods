@@ -30,5 +30,5 @@
         ]
     },
     "name": "Granite Eater",
-    "desription": "While you can break natural stone and other stone_types like granite faster, they dont drop and only granite restores hunger. This only applys when the granite is not mined with a pickaxe or a tool that has silk touch on it."
+    "description": "While you can break natural stone and other stone_types like granite faster, they dont drop and only granite restores hunger. This only applys when the granite is not mined with a pickaxe or a tool that has silk touch on it."
 }

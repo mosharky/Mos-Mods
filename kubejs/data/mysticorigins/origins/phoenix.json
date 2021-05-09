@@ -1,0 +1,16 @@
+{
+    "unchoosable": true,
+    "powers": [
+        "origins:fire_immunity",
+        "mysticorigins:wings",
+        "mysticorigins:powerd_flight",
+        "mysticorigins:enflame",
+        "mysticorigins:inferno",
+        "origins:water_vulnerability"
+    ],
+    "icon": "blaze_powder",
+    "order": 3,
+    "impact": 3,
+    "name": "Phoenix (WIP)",
+    "description": "(WIP) Born from the eternal flame, these magnifiecent Creatures travel throughout the Realm and bring fire wherever they go."
+}

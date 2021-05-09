@@ -1,0 +1,9 @@
+{
+    "type": "origins:multiple",
+    "camouflage_stage_1": {
+        "type": "origins:modify_skin"
+    },
+    "camouflage_stage_2": {
+        
+    }
+}
