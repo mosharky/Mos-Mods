@@ -1,0 +1,8 @@
+{
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "name": "Fire Immunity",
+    "description": "You are immune to all kinds of fire damage but can still be set on fire."
+}

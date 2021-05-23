@@ -36,6 +36,11 @@ onEvent('item.tags', event => {
     event.add('forge:rods/gold', 'emendatusenigmatica:gold_rod')
     event.add('forge:plates/gold', 'emendatusenigmatica:gold_plate')
     event.add('forge:dusts/gold', 'emendatusenigmatica:gold_dust')
+    //Silicon
+    event.removeAll('forge:silicon')
+    event.removeAll('refinedstorage:silicon')
+    event.add('forge:silicon', 'emendatusenigmatica:silicon_gem')
+    event.add('refinedstorage:silicon', 'emendatusenigmatica:silicon_gem')
     //Copper
     event.removeAll('forge:ingots/copper')
     event.removeAll('forge:storage_blocks/copper')
@@ -154,6 +159,9 @@ onEvent('item.tags', event => {
     event.remove('forge:grain', 'environmental:rice')
     event.remove('forge:crops', 'environmental:rice')
     event.remove('forge:seeds', 'environmental:rice')
+    event.remove('forge:seeds', 'environmental:rice')
+    event.remove('forge:cooked_eggs', 'environmental:fried_egg')
+
 
     //Forge:ores
     //Cobalt

@@ -1,16 +1,28 @@
 {
-    "unchoosable": true,
+    "unchoosable": false,
     "powers": [
-        "origins:fire_immunity",
+        "mysticorigins:fire_damage_immunity",
         "mysticorigins:wings",
         "mysticorigins:powerd_flight",
+        "mysticorigins:fire_wings_toggle",
+        "mysticorigins:fire_wings",
         "mysticorigins:enflame",
         "mysticorigins:inferno",
-        "origins:water_vulnerability"
+        "mysticorigins:phoenix_revival",
+        "origins:hotblooded",
+        "origins:water_vulnerability",
+        "origins:light_armor",
+        "origins:no_shield",
+        "mysticorigins:no_invisibility",
+
+        "mysticorigins:resource",
+        "origins:flame_particles",
+        "mysticorigins:no_elytra_equip",
+        "mysticorigins:phoenix_respawn_particles"
     ],
     "icon": "blaze_powder",
     "order": 3,
     "impact": 3,
-    "name": "Phoenix (WIP)",
-    "description": "(WIP) Born from the eternal flame, these magnifiecent Creatures travel throughout the Realm and bring fire wherever they go."
+    "name": "Phoenix",
+    "description": "Born from the eternal flame, these magnifiecent Creatures travel throughout the Realm and bring fire wherever they go."
 }

@@ -41,6 +41,8 @@ events.listen('recipes', (event) => {
     event.replaceOutput({}, 'occultism:obsidian_dust', 'emendatusenigmatica:obsidian_dust')
     //Nether Quartz
     event.replaceInput({}, 'minecraft:nether_quartz_ore', 'emendatusenigmatica:quartz_chunk')
+    //Other
+    event.replaceOutput({}, 'environmental:fried_egg', 'farmersdelight:fried_egg')
 
     //Removes all recipes in the betterendforge:alloying type
     event.remove({type: 'betterendforge:alloying'})
@@ -160,7 +162,8 @@ events.listen('recipes', (event) => {
         'botania:petal_apothecary/orechid_ignem',
         'betterendforge:ender_shard_to_dust',
         'betterendforge:ender_pearl_to_dust',
-        'betterendforge:end_stone_smelter'
+        'betterendforge:end_stone_smelter',
+        'refinedstorage:silicon'
     ];
 
     //Remove inputs and outputs

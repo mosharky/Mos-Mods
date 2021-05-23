@@ -1,0 +1,28 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "/spawnpoint @s ~ ~ ~"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:on_block",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:air",
+                    "inverted": true
+                }
+            },
+            {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_end",
+                "inverted": true
+            }
+        ]
+    },
+    "name": "Rise from the ashes",
+    "description": "Your Respawn point will always be on the last block you stood on. If you die in water or lava your ash will get washed away (you'll respawn at spawn). Does not work in the end."
+}

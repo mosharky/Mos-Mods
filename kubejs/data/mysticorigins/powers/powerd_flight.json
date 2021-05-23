@@ -17,7 +17,23 @@
     },
     "cooldown": 60,
     "condition": {
-        "type": "origins:fall_flying"
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:fall_flying"
+            },
+            {
+                "type": "origins:food_level",
+                "comparison": ">=",
+                "compare_to": 4
+            },
+            {
+                "type": "origins:status_effect",
+                "effect": "minecraft:slowness",
+                "min_amplifier": 1,
+                "inverted": true
+            }
+        ]
     },
     "hud_render": {
         "should_render": true,
@@ -28,5 +44,5 @@
        "continuous": true
     },
     "name": "Powerd Flight",
-    "description": "Use the forward key while gliding to fly forward."
+    "description": "Use the forward key while gliding to fly forward. Requires at least 2 Hunger bars. You cannot use it with slowness 2 or higher."
 }

@@ -31,14 +31,6 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
-  orientation = mid-centered
-  x = -54
-  action = movebutton
-  y = 37
-}
-
-customization {
   identifier = %id=376382%
   action = hidebutton
 }
@@ -86,10 +78,25 @@ customization {
 }
 
 customization {
+  identifier = %id=400322%
+  width = 200
+  action = resizebutton
+  height = 19
+}
+
+customization {
   identifier = %id=400298%
   orientation = mid-centered
   x = -100
   action = movebutton
   y = -37
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -49
+  action = movebutton
+  y = 38
 }
 
