@@ -27,8 +27,8 @@
 		traderMaxSpawnLevel = 64
 		#The amount of ticks before the trader will spawn again
 		#Range: > 0
-		traderSpawnDelay = 24000
+		traderSpawnDelay = 72000
 		#The chance out of one hundred that the trader will spawn in the over world
 		#Range: 1 ~ 100
-		traderSpawnChance = 25
+		traderSpawnChance = 5
 

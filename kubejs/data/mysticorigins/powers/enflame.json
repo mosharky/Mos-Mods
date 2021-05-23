@@ -5,7 +5,7 @@
         "actions": [
             {
                 "type": "origins:set_on_fire",
-                "duration": 10
+                "duration": 20
             },
             {
                 "type": "origins:exhaust",
@@ -22,5 +22,5 @@
         "key": "key.origins.primary_active"
     },
     "name": "Inner Flame",
-    "description": "You can set yourself on fire for 10 seconds every 40 seconds."
+    "description": "You can set yourself on fire for 20 seconds every 40 seconds."
 }

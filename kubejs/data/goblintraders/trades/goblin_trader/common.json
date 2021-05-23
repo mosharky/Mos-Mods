@@ -19,14 +19,14 @@
             "type": "goblintraders:basic",
             "offer_item": {
                 "item": "minecraft:iron_ingot",
-                "count": 2
+                "count": 3
             },
             "payment_item": {
                 "item": "emendatusenigmatica:iron_chunk",
-                "count": 1
+                "count": 2
             },
             "price_multiplier": 0.0,
-            "max_trades": 30,
+            "max_trades": 15,
             "experience": 20
         },
         {
@@ -40,63 +40,63 @@
                 "count": 2
             },
             "price_multiplier": 0.0,
-            "max_trades": 30,
+            "max_trades": 15,
             "experience": 30
         },
         {
             "type": "goblintraders:basic",
             "offer_item": {
                 "item": "emendatusenigmatica:copper_ingot",
-                "count": 2
+                "count": 3
             },
             "payment_item": {
                 "item": "emendatusenigmatica:copper_chunk",
-                "count": 1
+                "count": 2
             },
             "price_multiplier": 0.0,
-            "max_trades": 30,
+            "max_trades": 15,
             "experience": 20
         },
         {
             "type": "goblintraders:basic",
             "offer_item": {
                 "item": "emendatusenigmatica:lead_ingot",
-                "count": 2
+                "count": 3
             },
             "payment_item": {
                 "item": "emendatusenigmatica:lead_chunk",
-                "count": 1
+                "count": 2
             },
             "price_multiplier": 0.0,
-            "max_trades": 30,
+            "max_trades": 15,
             "experience": 20
         },
         {
             "type": "goblintraders:basic",
             "offer_item": {
                 "item": "emendatusenigmatica:silver_ingot",
-                "count": 2
+                "count": 3
             },
             "payment_item": {
                 "item": "emendatusenigmatica:silver_chunk",
-                "count": 1
+                "count": 2
             },
             "price_multiplier": 0.0,
-            "max_trades": 30,
+            "max_trades": 15,
             "experience": 20
         },
         {
             "type": "goblintraders:basic",
             "offer_item": {
                 "item": "emendatusenigmatica:zinc_ingot",
-                "count": 2
+                "count": 3
             },
             "payment_item": {
                 "item": "emendatusenigmatica:zinc_chunk",
-                "count": 1
+                "count": 2
             },
             "price_multiplier": 0.0,
-            "max_trades": 30,
+            "max_trades": 15,
             "experience": 20
         },
         {

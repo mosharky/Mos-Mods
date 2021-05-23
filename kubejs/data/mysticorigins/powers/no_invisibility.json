@@ -1,0 +1,6 @@
+{
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:invisibility",
+    "name": "Light-like body",
+    "description": "You cant have the invisibility effect."
+}

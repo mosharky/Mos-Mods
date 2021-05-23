@@ -14,7 +14,8 @@
         "origins:more_exhaustion",
         "origins:carnivore",
 
-        "origins:damage_from_snowballs"
+        "origins:damage_from_snowballs",
+        "mysticorigins:no_elytra_equip"
     ],
     "icon": "dragon_head",
     "impact": 2,

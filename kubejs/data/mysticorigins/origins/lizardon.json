@@ -11,14 +11,14 @@
         "mysticorigins:lifecycle_hunted",
         "mysticorigins:lifecycle_venombite",
         "mysticorigins:lifecycle_venom_immunity",
-        "mysticorigins:lifecycle_invisible",
+        "mysticorigins:lifecycle_camouflage",
 
         "mysticorigins:lifecycle_driver_dummy",
         "mysticorigins:lifecycle_death_reset_dummy",
         "mysticorigins:climbing_toggle"
     ],
     "icon": "kelp",
-    "impact": 2,
+    "impact": 3,
     "order": 2,
     "name": "Lizardon",
     "description": "Never having evolved Wings, these creatures jealously blick to the sky seeing their dragon brothers roaming through the clouds. Due to not beeing able to lift of the ground without help, this species has evolved perfectly to living on land and water."

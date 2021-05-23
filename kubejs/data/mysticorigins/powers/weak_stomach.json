@@ -14,7 +14,7 @@
                 "amplifier": 0
             },
             {
-                "effect": "minecraft:mining_fatique",
+                "effect": "minecraft:mining_fatigue",
                 "duration": 280,
                 "amplifier": 0
             }
