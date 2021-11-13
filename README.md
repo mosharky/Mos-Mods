@@ -1,4 +1,4 @@
-# Mos-Mods
+# Mo's Mods
 Official repository and issue-tracker for Mo's Mods. Repo isn't currently up-to-date after all code being rewritten.
 
 # Modlist
