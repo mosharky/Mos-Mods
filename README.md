@@ -1,7 +1,7 @@
 # Mo's Mods
 Official repository and issue-tracker for Mo's Mods. Repo isn't currently up-to-date after all code being rewritten.
 
-# Modlist (v4.0.0-beta1)
+# Modlist (v4.0.0-beta3)
 <ul>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cavebiomeapi">CaveBiomeAPI [Forge] (by blackgear27)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
