@@ -124,7 +124,7 @@
     B:EtheriumWarxeEnabled=false
 
     # Whether or not Exquisite Ring should be enabled. [default: true, synchronized: yes]
-    B:ExquisiteRingEnabled=true
+    B:ExquisiteRingEnabled=false
 
     # Whether or not Extradimensional Eye should be enabled. [default: true, synchronized: yes]
     B:ExtradimensionalEyeEnabled=true
@@ -163,7 +163,7 @@
     B:HeartoftheGuardianEnabled=false
 
     # Whether or not Iron Ring should be enabled. [default: true, synchronized: yes]
-    B:IronRingEnabled=true
+    B:IronRingEnabled=false
 
     # Whether or not Keystone of The Oblivion should be enabled. [default: true, synchronized: yes]
     B:KeystoneofTheOblivionEnabled=false
@@ -172,7 +172,7 @@
     B:LoreFragmentEnabled=true
 
     # Whether or not Magnet Ring should be enabled. [default: true, synchronized: yes]
-    B:MagnetRingEnabled=true
+    B:MagnetRingEnabled=false
 
     # Whether or not Megasponge should be enabled. [default: true, synchronized: yes]
     B:MegaspongeEnabled=true
@@ -199,7 +199,7 @@
     B:RingofDislocationEnabled=false
 
     # Whether or not Ring of Ender should be enabled. [default: true, synchronized: yes]
-    B:RingofEnderEnabled=true
+    B:RingofEnderEnabled=false
 
     # Whether or not Ring of the Seven Curses should be enabled. [default: true, synchronized: yes]
     B:RingoftheSevenCursesEnabled=false
