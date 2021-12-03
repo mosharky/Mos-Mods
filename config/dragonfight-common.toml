@@ -6,7 +6,7 @@
 	#Prints the dragon phase in chat if enabled: default:false
 	printDragonPhases = false
 	#Disables mob spawning on the Dragon island: default:true
-	disableDragonAreaSpawns = true
+	disableDragonAreaSpawns = false
 	#List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
 	forbidspawnoncrystaldestroydenMobs = ["minecraft:phantom"]
 	#List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
