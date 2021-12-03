@@ -22,9 +22,9 @@
 		#This option will hide your offhand item. It can be toggled via an optional key binding.
 		hideOffhandItem = false
 		#This adds back the master volume slider to the options screen. Saves you a click!
-		masterVolumeSlider = true
+		masterVolumeSlider = false
 		#This adds back the music volume slider to the options screen. Saves you a click!
-		musicVolumeSlider = true
+		musicVolumeSlider = false
 		#This option disables the shifting of the inventory to the right when potion effects are active.
 		disablePotionShift = true
 		#This option will disable step assist added by other mods.
@@ -32,7 +32,7 @@
 		#This option will let you climb ladders automatically by just looking upwards, rather than requiring a key to be held down.
 		autoClimbLadder = false
 		#This option will hide your own potion particle effects for your client (other players will still see them).
-		hideOwnParticleEffects = false
+		hideOwnParticleEffects = true
 		#This option will hide your shield unless you are holding a weapon.
 		hideShieldUnlessHoldingWeapon = true
 		#This prevents torches from being placed from your off hand if you have an empty main hand.
