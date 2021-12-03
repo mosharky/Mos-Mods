@@ -198,6 +198,24 @@ onEvent('recipes', (event) => {
             },
             id: 'betterendforge:guidebook'
         },
+        {
+            output: '2x buzzier_bees:candle',
+            pattern: [' A ', ' B ', ' B '],
+            key: {
+                A: '#buzzier_bees:candle_wick',
+                B: '#buzzier_bees:candle_base',
+            },
+            id: 'buzzier_bees:candles/candle'
+        },
+        {
+            output: 'eidolon:candle',
+            pattern: [' A ', ' B '],
+            key: {
+                A: '#buzzier_bees:candle_wick',
+                B: '#buzzier_bees:candle_base',
+            },
+            id: 'eidolon:candle'
+        },
     ]
 
     event.shaped('3x minecraft:ladder', [

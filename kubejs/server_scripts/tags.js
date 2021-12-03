@@ -26,6 +26,7 @@ onEvent('item.tags', event => {
         'forge:ingots/silver',
         'forge:ores/lead',
         'forge:ingots/lead',
+        'curios:spellstone'
     ]
 
     //Strip all tags from an item
@@ -70,6 +71,10 @@ onEvent('item.tags', event => {
         { tag: 'minecraft:planks', item: ['darkerdepths:petrified_planks', 'darkerdepths:vertical_petrified_planks'] },
         { tag: 'forge:slimeballs', item: 'autumnity:snail_slime' },
         { tag: 'momo:armor/helmets', item: /.*helmet/ },
+        { tag: 'momo:armor/chestplates', item: /.*chestplate/ },
+        { tag: 'momo:armor/leggings', item: [/.*leggings/, /.*pants/] },
+        { tag: 'momo:armor/boots', item: /.*boots/ },
+        { tag: 'momo:armor', item: ['#momo:armor/helmets', '#momo:armor/chestplates', '#momo:armor/leggings', '#momo:armor/boots'] },
         { tag: 'momo_origins:deer_berry_foods', item: [/.*berry*/, /.*berries*/] },
         { tag: 'momo_origins:piglin_all_loved_axes', item: ['comfortable_nether:axe_of_rectitude', 'twilightforest:minotaur_axe_gold'] },
         { tag: 'momo_origins:piglin_golden_armor', item: ['comfortable_nether:golden_snout_helmet'] },

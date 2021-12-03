@@ -5,7 +5,6 @@ onEvent('recipes', (event) => {
         'farmersdelight:rope',
         'minecraft:trident',
         'upgrade_aquatic:trident',
-        'backpacker:endersack',
         /darkerdepths:.*_ore/,
         /comfortable_nether:withered_remains.*/,
         /infernalexp:.*iron_ingot/,

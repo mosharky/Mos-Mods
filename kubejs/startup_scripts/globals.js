@@ -37,5 +37,6 @@ global.fullRemovals = [
     'dragonmounts:fire_dragon_egg',
     'dragonmounts:forest_dragon_egg',
     'dragonmounts:ice_dragon_egg',
-    'dragonmounts:nether_dragon_egg'
+    'dragonmounts:nether_dragon_egg',
+    'eidolon:tallow'
 ]

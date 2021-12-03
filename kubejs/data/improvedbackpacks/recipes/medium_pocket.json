@@ -1,0 +1,12 @@
+{
+  "type": "improvedbackpacks:sewing",
+  "spools_count": 1,
+  "first": {
+    "item": "improvedbackpacks:tanned_leather"
+  },
+  "first_count": 2,
+  "second": {
+    "tag": "forge:gems/diamond"
+  },
+  "result": "improvedbackpacks:medium_pocket"
+}
