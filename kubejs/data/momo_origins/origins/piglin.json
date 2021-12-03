@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"momo_origins:banished",
+		"momo_origins:banished_speed",
+		"momo_origins:piglin_strong_arms",
+		"origins:strong_arms_break_speed",
+		"momo_origins:all_that_is_cursed",
+		"momo_origins:homesick",
+		"momo_origins:all_that_glitters",
+		"momo_origins:axe_efficient",
+		"momo_origins:crossbowman",
+		"momo_origins:flabby",
+		"origins:no_shield",
+		"momo_origins:soul_spooked"
+	],
+	"icon": "minecraft:golden_axe",
+	"order": 1,
+	"impact": 3,
+	"name": "Lost Piglin",
+	"description": "Native of the Nether, now banished into the Overworld in search of a way to create a portal home."
+}

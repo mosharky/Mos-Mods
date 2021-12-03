@@ -1,0 +1,8 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "momo_origins:crab_walk"
+    },
+    "type": "origins:ignore_water"
+}

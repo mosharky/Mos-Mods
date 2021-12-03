@@ -1,0 +1,16 @@
+{
+	"name": "Inchling",
+	"description": "A subspecies of humans that are incredibly small. They utilize their size to hide from enemies and navigate small spaces.",
+	"powers": [
+	  "momo_origins:bite_sized",
+	  "momo_origins:inchling_attributes",
+	  "momo_origins:nimble",
+	  "momo_origins:small_appetite",
+	  "origins:climbing",
+	  "momo_origins:mounted_menace",
+	  "momo_origins:inchling_hidden"
+	],
+	"icon": "anvil",
+	"order": 1,
+	"impact": 3
+  }

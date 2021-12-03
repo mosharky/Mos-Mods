@@ -1,0 +1,23 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "attack_speed": {
+    "type": "origins:attribute",
+    "modifier": [
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "multiply_total",
+        "value": 0.25
+      },
+      {
+        "name": "Extra Reach forge",
+        "attribute": {
+          "name": "forge:reach_distance",
+          "platform": "forge"
+        },
+        "value": -1.0,
+        "operation": "addition"
+      }
+    ]
+  }
+}

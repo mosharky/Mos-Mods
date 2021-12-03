@@ -1,0 +1,39 @@
+{
+    "name": "Chelipeds",
+    "description": "Your legs move much faster when wet.",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 26,
+    "duration_per_stack": 5,
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:strength",
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:water"
+                }
+            },
+            {
+                "type": "origins:in_rain"
+            }
+        ]
+    }
+}

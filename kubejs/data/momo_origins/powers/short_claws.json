@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "name": "Extra Reach forge",
+      "attribute": {
+        "name": "forge:reach_distance",
+        "platform": "forge"
+      },
+      "value": -1.5,
+      "operation": "addition"
+    }
+  ],
+  "name": "Crab Reach",
+  "description": "You can't reach as far.",
+  "hidden": true
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Crab Walk",
+    "description": "You may walk on the Ocean floor if you choose.",
+    "type": "origins:toggle",
+    "active_by_default": true,
+    "key": "secondary"
+}

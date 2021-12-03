@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "create:natural_scoria",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 16,
+      "maxVeinSize": 40,
+      "spawnRate": 2.0,
+      "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:glowshroom_caves", "darkerdepths:molten_cavern"],
+      "biomeWhitelist": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "momo_origins:home",
+        "momo_origins:crab_sized",
+        "momo_origins:short_claws",
+        "momo_origins:chelipeds",
+        "momo_origins:need_moisture",
+        "momo_origins:shell",
+        "momo_origins:crustacean_gills",
+        "origins:aquatic",
+        "origins:aqua_affinity",
+        "origins:water_vision",
+        "momo_origins:crab_walk",
+        "momo_origins:crab_walk_hidden",
+        "momo_origins:crab_claw",
+        "momo_origins:no_weapons",
+        "origins:no_shield"
+    ],
+    "icon": "minecraft:shears",
+    "order": 0,
+    "impact": 2,
+    "name": "Beach Crab",
+    "description": "Crustaceans who like to rave."
+}

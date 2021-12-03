@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "create:dolomite",
+      "filler": "minecraft:stone",
+      "minY": 25,
+      "maxY": 60,
+      "maxVeinSize": 64,
+      "spawnRate": 0.1,
+      "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:glowshroom_caves", "darkerdepths:molten_cavern", "darkerdepths:sandy_catacombs"],
+      "biomeWhitelist": []
+    }
+  ]
+}

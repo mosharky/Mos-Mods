@@ -1,0 +1,45 @@
+{
+  "name": "Happier Feet",
+  "description": "Your webbed feet allow for an increased swim speed and decreased fall damage, but they also slow you down if not standing on snow, ice, or sand.",
+  "type": "origins:multiple",
+  "swim_speed": {
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "name": "Additional swim speed",
+      "value": 0.75,
+      "operation": "multiply_base"
+    }
+  },
+  "reduced_kinetic_damage": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "name": "More kinetic damage taken",
+      "value": -0.1,
+      "operation": "multiply_base"
+    },
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": {
+        "type": "origins:name",
+        "name": "fall"
+      }
+    }
+  },
+  "slowed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "addition",
+      "value": -0.02
+    },
+    "tick_rate": 20,
+    "condition": {
+      "inverted": true,
+      "type": "origins:on_block",
+      "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "momo_origins:penguin_walkable_blocks"
+      }
+    }
+  }
+}

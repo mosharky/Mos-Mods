@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "create:copper_ore",
+      "filler": "minecraft:stone",
+      "minY": 20,
+      "maxY": 85,
+      "maxVeinSize": 10,
+      "spawnRate": 6.0,
+      "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:glowshroom_caves", "darkerdepths:molten_cavern", "darkerdepths:sandy_catacombs"],
+      "biomeWhitelist": []
+    }
+  ]
+}

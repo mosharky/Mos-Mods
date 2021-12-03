@@ -1,0 +1,25 @@
+#Whether the deed needs to be in a deed pedestal inside the claimed area for the claim to be valid
+requirePedestals = true
+#Whether opening blocks (like furnaces and chests) is allowed inside other players' claims
+allowOpeningBlocks = false
+#The dimension ids of dimensions that using claims is allowed in. To allow all dimensions, add an entry "*"
+allowedDimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+#The amount of hours that have to pass before a destroyed claim's area can be claimed by anyone but the previous owner again
+claimCooldown = 12
+#The list of blocks that can be broken in an area even if it is claimed, supports regex
+breakableBlocks = []
+#The list of blocks that can be interacted with in an area even if it is claimed, supports regex
+interactableBlocks = ["minecraft:lever", ".*_door", ".*_fence_gate", ".*_button"]
+#The permission level required to bypass deed restrictions
+deedBypassPermissionLevel = 4
+#The registry names of additional mobs that should be considered loyal and attack players in a claim. Note that, if a mob is tameable, it only attacks if tamed
+additionalLoyalMobs = []
+
+[explosions]
+	#Whether creeper explosions are allowed in claimed areas
+	creepers = false
+	#Whether explosions caused by withers are allowed in claimed areas
+	withers = false
+	#Whether TNT explosions are allowed in claimed areas
+	tnt = false
+

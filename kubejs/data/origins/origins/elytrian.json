@@ -1,0 +1,17 @@
+{
+	"loading_priority": 10,
+	"powers": [
+		"origins:elytra",
+		"origins:launch_into_air",
+		"origins:aerial_combatant",
+		"momo_origins:rideable",
+		"momo_origins:no_chestplate",
+		"origins:claustrophobia",
+		"origins:more_kinetic_damage"
+	],
+	"icon": {
+		"item": "minecraft:elytra"
+	},
+	"order": 3,
+	"impact": 1
+}

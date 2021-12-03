@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:vegetarian",
+		"momo_origins:forest_native",
+		"momo_origins:berry_good",
+		"momo_origins:berry_good_hidden",
+		"momo_origins:oh_deer_god",
+		"momo_origins:lightweight",
+		"momo_origins:springed_step",
+		"momo_origins:hooved_grace",
+		"momo_origins:sensitive_awareness"
+	],
+	"icon": "environmental:venison",
+	"order": 3,
+	"impact": 1,
+	"name": "Deer",
+	"description": "The cloven-hoofed inhabitant of the forests, and the fastest prey of the wilds."
+}

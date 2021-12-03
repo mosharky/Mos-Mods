@@ -1,0 +1,23 @@
+{
+	"type": "origins:conditioned_attribute",
+	"name": "Crab Claws",
+    "description":"You can't use weapons because you have claws instead of hands. You deal more damage with your claws.",
+	"condition": {
+		"type": "origins:equipped_item",
+		"inverted": false,
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"inverted": false,
+			"ingredient": {
+				"item": "minecraft:air"
+			}
+		}
+	},
+	"modifier": {
+		"operation": "addition",
+		"value": 5,
+		"attribute": "minecraft:generic.attack_damage"
+	},
+	"tick_rate": 20
+}

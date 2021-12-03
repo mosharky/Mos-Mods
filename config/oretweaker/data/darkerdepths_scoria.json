@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "create:natural_scoria",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 16,
+      "maxVeinSize": 64,
+      "spawnRate": 100.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["darkerdepths:sandy_catacombs"]
+    }
+  ]
+}

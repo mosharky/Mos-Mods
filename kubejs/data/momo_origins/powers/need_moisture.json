@@ -1,0 +1,16 @@
+{
+    "type": "origins:burn",
+    "name": "Need Moisture",
+    "description": "You're scorched in hot climates. Fire Protection will allow you to remain cool and maintain moisture.",
+    "interval": 15,
+    "burn_duration": 2,
+    "protection_enchantment": "minecraft:fire_protection",
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+        }
+    }
+}

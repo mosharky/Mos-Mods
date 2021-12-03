@@ -1,0 +1,21 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:speed",
+		"duration": 20,
+		"amplifier": 2,
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true
+	},
+	"condition": {
+		"type": "origins:health",
+		"comparison": "<=",
+		"compare_to": "4"
+	},
+	"name": "Oh Deer God!",
+	"description": "Your evolution has bestowed the ability to make a great escape when your vitality is low."
+}

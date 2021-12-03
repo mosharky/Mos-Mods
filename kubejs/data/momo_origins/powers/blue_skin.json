@@ -1,0 +1,9 @@
+{
+    "type": "origins:model_color",
+    "red": 0.5,
+    "green": 0.5,
+    "blue": 1,
+    "alpha": 1,
+    "name": "Blue Skin",
+    "description": "You have a shade of blue on your skin due to living in cold environments for so long!"
+}

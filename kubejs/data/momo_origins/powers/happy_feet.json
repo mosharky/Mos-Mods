@@ -1,0 +1,86 @@
+{
+	"type": "origins:action_on_callback",
+	"execute_chosen_when_orb": true,
+	"entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 0.5"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 0.6"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:motion 0.9"
+			}
+		]
+	},
+	"entity_action_respawned":{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 0.5"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 0.6"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:motion 0.9"
+			}
+		]
+	},
+	"entity_action_removed":{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 1"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 1"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:motion 1"
+			}
+		]
+	},
+	"entity_action_lost":{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:height 1"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:width 1"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "scale set pehkui:motion 1"
+			}
+		]
+	},
+	"name": "Happy Feet",
+	"description": "You are a half the size of a human. You're lighter on your feet, have 25% more attack speed, and less attack/build range."
+}

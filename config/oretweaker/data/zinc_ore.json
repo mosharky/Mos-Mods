@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "create:zinc_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 30,
+      "maxVeinSize": 6,
+      "spawnRate": 6.0,
+      "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:glowshroom_caves", "darkerdepths:molten_cavern", "darkerdepths:sandy_catacombs"],
+      "biomeWhitelist": []
+    }
+  ]
+}

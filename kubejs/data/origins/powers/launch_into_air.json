@@ -1,0 +1,53 @@
+{
+	"loading_priority": 10,
+	"type": "origins:active_self",
+	"cooldown": 600,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/resource_bar.png",
+		"bar_index": 4
+	},
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:add_velocity",
+			"x": 0,
+			"y": 0.2,
+			"z": 1.1,
+			"space": "local"
+		},
+		{
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.parrot.fly",
+			"volume": 2,
+			"pitch": 1
+		},
+		{
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.blaze.shoot",
+			"volume": 0.2,
+			"pitch": 2
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 5,
+			"action": {
+				"type": "origins:play_sound",
+				"sound": "minecraft:entity.parrot.fly",
+				"volume": 2,
+				"pitch": 0.7
+			}
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "particle minecraft:poof ~ ~ ~ 0.6 0.02 0.6 0.1 10"
+		}
+		]
+	},
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": true
+	},
+	"name": "Gift of the Winds",
+	"description": "Every 30 seconds, you are able to propel yourself forwards."
+}

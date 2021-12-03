@@ -1,0 +1,27 @@
+{
+  "name": "Banished",
+  "description": "You're banished to the Overworld. Your panic and adrenaline has given you the ability to break stones, iron, gold, and coal ores, and obsidian with your bare paws.",
+  "type": "origins:modify_harvest",
+  "allow": true,
+  "block_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:block",
+        "block": "minecraft:obsidian"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "forge:ores/iron"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "forge:ores/coal"
+      },
+      {
+        "type": "origins:in_tag",
+        "tag": "forge:ores/gold"
+      }
+    ]
+  }
+}

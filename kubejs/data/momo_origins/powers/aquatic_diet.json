@@ -1,0 +1,51 @@
+{
+  "name": "Aquatic Diet",
+  "description": "You can only eat seafood, and it sustains you much farther.",
+  "type": "origins:multiple",
+  "sea_food_only": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": 
+            {
+              "inverted": true,
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "momo_origins:penguin_seafood"
+              }
+            }
+        },
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
+          },
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "yummy_fish": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "momo_origins:penguin_seafood"
+      }
+    },
+    "food_modifier": {
+      "operation": "addition",
+      "value": 2
+    },
+    "saturation_modifier": {
+      "operation": "addition",
+      "value": 0.7
+    }
+  }
+}

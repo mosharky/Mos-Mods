@@ -1,0 +1,68 @@
+#If the mod is enabled.
+enableMod = true
+
+["Save Chance Values"]
+	#Chance for item to be kept from 0.00 to 1.00 with every added level.
+	#So if someone with Soulbound 3 dies their chances of keeping the item would be:
+	#(saveChance) + ((level - 1) * additiveSaveChance)
+	#Remember if you've set a lot of levels this could lead to the higher levels always being saved.
+	#Range: 0.0 ~ 1.0
+	additive_save_chance = 1.0
+	#Chance for item with enchant to be kept from 0.00 to 1.00.
+	#Range: 0.0 ~ 1.0
+	save_chance = 1.0
+
+["Basic Enchantment Values"]
+	#If curses can be applied with the enchant. **NOT RECOMMENDED**
+	curses_applicable = false
+	#Maximum level the enchant can be.
+	#Range: 1 ~ 32767
+	maximum_level = 1
+	#If the enchantment can be obtained on items through an enchanting table.
+	enchantable = true
+	#If the enchantment can be obtained on a book through an enchanting table.
+	enchantable_books = true
+	#How rare the enchantment is at the enchantment table (some loot spawns included).
+	#Acceptable values are listed below.
+	#1 - COMMON
+	#2 - UNCOMMON
+	#3 - RARE
+	#4 - VERY RARE
+	#Range: 1 ~ 4
+	rarity = 4
+
+["Level Drop Values"]
+	#Chance for the enchant to drop down 1 level on death from 0.00 to 1.00.
+	#Range: 0.0 ~ 1.0
+	drop_level = 0.0
+	#Chance for enchant to drop down 1 level with every added level
+	#So if someone with Soulbound 3 dies the chance of the enchant being downgraded would be:
+	#(dropLevel) - ((level - 1) * additiveDropChance)
+	#Remember if you've set a lot of levels this could lead to the higher levels never dropping down
+	#Range: 0.0 ~ 1.0
+	additive_drop_chance = 0.0
+
+["Durability Drop Values"]
+	#If set to true, the item will be broken if the durability reaches 0 on it's durabilityDrop
+	break_item_on_zero_durability = false
+	#Defines the maximum percentage that the durability goes down when returned (this percentage is of
+	#the items max durability NOT the actual durability)
+	#Range: 0.0 ~ 1.0
+	minimum_durability_drop = 0.2
+	#Defines the minimum percentage that the durability goes down when returned (this percentage is of
+	#the items max durability NOT the actual durability)
+	#Range: 0.0 ~ 1.0
+	maximum_durability_drop = 0.35
+	#Subtracts this number from the max, min, and mode each level effectively making the durability 
+	#drop go down the higher the level
+	#Range: 0.0 ~ 1.0
+	additive_durability_drop = 0.05
+	#Defines the mode (average value) percentage that the durability goes down when returned. This value
+	#cannot be more than the maximum or less than the minimum. (this percentage is of
+	#the items max durability NOT the actual durability)
+	#Range: 0.0 ~ 1.0
+	mode_durability_drop = 0.25
+	#Set whether durability drop is enabled or not. Durability drop is calculated with the min and max 
+	#variables. The values chosen will most likely be in the middle and get rarer towards the ends. (triangular distribution)
+	durability_drop = false
+

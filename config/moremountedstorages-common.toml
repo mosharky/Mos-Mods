@@ -1,0 +1,31 @@
+
+#Mod integration config
+[Integration]
+
+	#EnderStorage
+	[Integration.enderstorage]
+
+		#Ender Storage
+		[Integration.enderstorage.ender_chest]
+			#Ender Storage storage priority. Items are inserted first into storages with higher priority. Default value is 1
+			priority = 1
+			#Enabled Ender Storage integration. Default value is true
+			enabled = true
+
+	#Storage Drawers
+	[Integration.storagedrawers]
+
+		#compacting drawers
+		[Integration.storagedrawers.compacting_drawer]
+			#compacting drawers storage priority. Items are inserted first into storages with higher priority. Default value is 10
+			priority = 10
+			#Enabled compacting drawers integration. Default value is true
+			enabled = true
+
+		#standard drawers
+		[Integration.storagedrawers.drawer]
+			#standard drawers storage priority. Items are inserted first into storages with higher priority. Default value is 10
+			priority = 10
+			#Enabled standard drawers integration. Default value is true
+			enabled = true
+

@@ -1,0 +1,19 @@
+{
+  "name": "Crustacean Gills",
+  "description": "You have a much higher oxygen capacity.",
+  "condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+  },
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 10,
+  "effect": {
+    "effect": "minecraft:water_breathing",
+    "duration": 10,
+    "amplifier": 0,
+    "show_particles": false,
+    "show_icon": false
+  }
+}

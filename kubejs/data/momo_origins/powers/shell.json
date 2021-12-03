@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Exoskeleton",
+    "attribute": "minecraft:generic.armor",
+    "value": 6.0,
+    "operation": "addition"
+  },
+  "name": "Shell",
+  "description": "Your shell acts as natural extra armour."
+}

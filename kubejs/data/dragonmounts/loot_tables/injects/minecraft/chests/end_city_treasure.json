@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "dragonmounts:ender_dragon_egg"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 75,
+          "name": "betterendforge:ender_shard"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "betterendforge:ender_shard"
+        }
+      ]
+    }
+  ]
+}

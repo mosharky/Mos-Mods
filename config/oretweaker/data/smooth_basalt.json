@@ -1,0 +1,14 @@
+{
+    "oreConfig": [
+      {
+        "ore": "quark:smooth_basalt",
+        "filler": "quark:deepslate",
+        "minY": 1,
+        "maxY": 20,
+        "maxVeinSize": 16,
+        "spawnRate": 5.0,
+        "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:sandy_catacombs"],
+        "biomeWhitelist": []
+      }
+    ]
+  }

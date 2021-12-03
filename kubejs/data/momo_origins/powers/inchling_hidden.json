@@ -1,0 +1,50 @@
+{
+	"type": "origins:action_on_callback",
+	"execute_chosen_when_orb": true,
+	"entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team add inchling"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team modify inchling collisionRule pushOwnTeam"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team modify inchling nametagVisibility hideForOtherTeams"
+			},
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team join inchling"
+			}
+		]
+	},
+	"entity_action_removed":{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team leave @s"
+			}
+		]
+	},
+	"entity_action_lost":{
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"permission_level": 4,
+				"command": "team leave @s"
+			}
+		]
+	},
+	"hidden": true
+}

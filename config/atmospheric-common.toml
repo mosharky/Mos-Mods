@@ -1,0 +1,26 @@
+
+#Common configurations for Atmospheric
+[common]
+
+	#Values for biome frequencies; lower = more rare. (Requires restart)
+	#If a biome has a default weight of 0, it generates as a sub-biome and not on its own.
+	[common.biome_weights]
+
+		#Dunes biome weights
+		[common.biome_weights.dunes]
+			"Rocky Dunes weight" = 5
+			"Rocky Dunes Hills weight" = 2
+			"Dunes Hills weight" = 4
+			"Flourishing Dunes weight" = 2
+			"Petrified Dunes weight" = 1
+			"Dunes weight" = 5
+
+		#Rainforest biome weights
+		[common.biome_weights.rainforest]
+			"Rainforest weight" = 5
+			"Rainforest Plateau weight" = 1
+			"Rainforest Basin weight" = 3
+			"Sparse Rainforest Basin weight" = 1
+			"Rainforest Mountains weight" = 2
+			"Sparse Rainforest Plateau weight" = 1
+

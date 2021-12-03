@@ -1,0 +1,15 @@
+{
+    "name": "Fuzzy Fur",
+    "description": "The Nether sets your fur aflame, only to be countered by Fire Protection.",
+    "type": "origins:burn",
+    "interval": 15,
+    "burn_duration": 2,
+    "protection_enchantment": "minecraft:fire_protection",
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:category",
+            "category": "nether"
+        }
+    }
+}

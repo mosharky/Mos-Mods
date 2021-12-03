@@ -1,0 +1,16 @@
+{
+    "name": "Mounted Menace",
+    "description": "You're a very lightweight rider, allowing any mounted creature move much faster.",
+    "type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:riding_action",
+		"action": {
+			"type": "origins:apply_effect",
+			"effect": {
+				"effect": "minecraft:speed",
+				"duration": 100,
+				"amplifier": 1
+			}
+		}
+	}
+}

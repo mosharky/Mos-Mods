@@ -1,0 +1,60 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": -20,
+	"max_stacks": 6,
+	"duration_per_stack": 20,
+	"effects": [
+		{
+			"effect": "minecraft:speed",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false,
+			"amplifier": 0
+		},
+		{
+			"effect": "minecraft:regeneration",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false,
+			"amplifier": 1
+		}
+	],
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+			{
+				"type": "origins:biome",
+				"condition": {
+					"type": "origins:category",
+					"category": "forest"
+				}
+			},
+			{
+				"type": "origins:biome",
+				"biome": "autumnity:maple_forest"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "autumnity:maple_forest_hills"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "autumnity:orange_spotted_dark_forest"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "autumnity:red_spotted_taiga"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "autumnity:orange_spotted_dark_forest"
+			},
+			{
+				"type": "origins:biome",
+				"biome": "autumnity:yellow_spotted_forest"
+			}
+		]
+	},
+	"name": "Forest Native",
+	"description": "You were born in the land of bark and leaves. The serenity of your lands provides you with a swift step and a natural regenerative ability."
+}

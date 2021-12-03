@@ -1,0 +1,37 @@
+{
+  "name": "Terrestrial",
+  "description": "You recieve damage over time while in water. You're can swim in water so long as a Sea Lantern or Conduit is nearby.",
+  "type": "origins:damage_over_time",
+  "interval": 20,
+  "onset_delay": 1,
+  "damage": 2,
+  "damage_easy": 1,
+  "damage_source": {
+    "name": "hurt_by_water",
+    "unblockable": true,
+    "bypasses_armor": true
+  },
+  "protection_enchantment": "origins:water_protection",
+  "protection_effectiveness": 1.0,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "inverted": true,
+        "type": "origins:power_active",
+        "power": "momo_origins:affinity_sea"
+      },
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

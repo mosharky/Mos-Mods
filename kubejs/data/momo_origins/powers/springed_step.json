@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_jump",
+    "name": "Springed Stride",
+    "description": "Your natural elasticity allows for a higher jump while taking longer strides.",
+    "modifier": {
+      "name": "Bonus jump force while sprinting",
+      "value": 0.3,
+      "operation": "multiply_base"
+    },
+    "condition": {
+      "type": "origins:sprinting"
+    }
+  }

@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"momo_origins:happy_feet",
+		"momo_origins:blue_skin",
+		"momo_origins:cold_embrace",
+		"origins:fragile",
+		"momo_origins:fuzzy_fur",
+		"momo_origins:aquatic_diet",
+		"momo_origins:happier_feet",
+		"momo_origins:snowball_shotgun",
+		"momo_origins:aquatic_lunge",
+		"momo_origins:fish_hunter",
+		"momo_origins:penguin_attributes"
+	],
+	"icon": "minecraft:snow_block",
+	"order": 2,
+	"impact": 2,
+	"name": "Penguin",
+	"description": "A group of little furry birds that enjoy the ice, snow, and murdering fish!"
+}

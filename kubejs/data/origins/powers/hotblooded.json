@@ -1,0 +1,11 @@
+{
+	"loading_priority": 10,
+	"type": "origins:effect_immunity",
+	"effects": [
+		"minecraft:poison",
+		"minecraft:hunger",
+		"minecraft:nausea"
+	],
+	"name": "Hotblooded",
+	"description": "Due to your hot body, venoms burn up, making you immune to poison, hunger and nausea status effects."
+}

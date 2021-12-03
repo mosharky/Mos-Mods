@@ -1,0 +1,18 @@
+{
+	"replace": false,
+	"order": 0,
+	"enabled": true,
+	"origins": [
+		"momo_origins:inchling",
+		"momo_origins:beach_crab",
+		"momo_origins:penguin",
+		"momo_origins:deer",
+		"momo_origins:piglin",
+		"momo_origins:moth"
+	],
+	"allow_random": true,
+	"exclude_random": [
+		"origins:human"
+	],
+	"allow_random_unchoosable": false
+}

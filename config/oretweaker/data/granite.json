@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:granite",
+      "filler": "minecraft:stone",
+      "minY": 40,
+      "maxY": 80,
+      "maxVeinSize": 32,
+      "spawnRate": 2.0,
+      "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:glowshroom_caves", "darkerdepths:molten_cavern", "darkerdepths:sandy_catacombs"],
+      "biomeWhitelist": []
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+type = hud
+
+customization-meta {
+  fadeout = false
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #000000
+}
+
+customization {
+  x = 3
+  textcolor = #002e6b
+  action = editforgememoryinfo
+  y = 10
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  action = editprogressbar
+  y = 60
+  barcolor = #002e6b
+}
+
+customization {
+  textcolor = #002e6b
+  action = editforgestatustext
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #2b558c
+  shadow = true
+  rotation = 0.0
+  x = -3
+  actionid = 3edd5caa-a388-4674-b6a0-89e1338a253e1638425505641
+  action = addsplash
+  y = -19
+  scale = 2.0
+  refresh = false
+  text = Mo's Mods
+  bouncing = true
+}
+

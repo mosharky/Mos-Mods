@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "quark:deepslate",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 20,
+      "maxVeinSize": 40,
+      "spawnRate": 7.0,
+      "biomeBlacklist": ["darkerdepths:crystal_cave", "darkerdepths:sandy_catacombs"],
+      "biomeWhitelist": []
+    }
+  ]
+}

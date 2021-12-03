@@ -1,0 +1,299 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "charge":
+    {
+        "type": "origins:resource",
+        "max": 200,
+        "min": 0,
+        "start_value": 0,
+        "hud_render":
+        {
+            "should_render": false,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 18,
+            "condition":
+            {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "*:*_charge",
+                        "comparison": "!=",
+                        "compare_to": 0
+                    }
+                ]
+            }
+        },
+        "max_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_overcharge",
+                    "change": 1
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.player.burp player @a[distance=..10] ~ ~ ~ 1 1",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 3,
+                    "saturation": 1
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                }
+            ]
+        }
+    },
+    "overcharge":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "max_action":
+            {
+                "type":"origins:and",
+                "actions": [
+                    {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_charge",
+                    "change": -200
+                    },
+                    {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_delay",
+                    "change": -10
+                    }
+                ]
+            },
+        "hud_render":
+        {
+            "should_render": false
+        }
+    },
+    "delay":
+    {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "start_value": 0,
+        "hud_render":
+        {
+            "should_render": false
+        }
+    },
+    "fill_charge":
+    {
+        "type": "origins:active_self",
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_charge",
+                    "change": 8
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect":
+                    {
+                        "duration": 2,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": false,
+                        "effect": "slowness",
+                        "amplifier": 2
+                    }
+                }
+            ]
+        },
+        "cooldown": 0,
+        "hud_render":
+        {
+            "should_render": false
+        },
+        "key":
+        {
+            "key": "key.use",
+            "continuous": true
+        },
+        "condition":
+        {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_overcharge",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_delay",
+                    "comparison": ">=",
+                    "compare_to": 10
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "momo_origins:moth_wool_edible"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "<",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "drain_overcharge":
+    {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action":
+        {
+            "type": "origins:change_resource",
+            "change": -1,
+            "resource": "*:*_overcharge"
+        }
+    },
+    "eating_illusion":
+    {
+        "type": "origins:action_over_time",
+        "entity_action":
+        {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:block white_wool ~ ~1 ~ .15 .3 .15 0 10",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.generic.eat player @a[distance=..10] ~ ~ ~ 1 1",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "interval": 4,
+        "condition":
+        {
+            "type": "origins:and",
+            "inverted": false,
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "resource": "*:*_charge",
+                    "comparison": "!=",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "inverted": false,
+                    "resource": "*:*_charge",
+                    "comparison": "<",
+                    "compare_to": 200
+                }
+            ]
+        }
+    },
+    "n": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 3,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+
+
+    "decay": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_n",
+            "change": -1
+        },
+        "interval": 1,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_n",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+
+
+    "key": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_n",
+                    "change": 2
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        }
+    },
+
+
+    "hold_or_release": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_delay",
+            "change": 3
+        },
+        "interval": 1,
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "change": -200,
+                    "resource": "*:*_charge"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "change": -10,
+                    "resource": "*:*_delay"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_n",
+            "comparison": ">",
+            "compare_to": 1
+        }
+    }
+}

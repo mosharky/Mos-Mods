@@ -1,0 +1,19 @@
+{
+  "name": "Berry Good",
+  "description": "Berry-related foods and drinks provide addtional nourishment. Berry bushes are also much easier to maneuver.",
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "momo_origins:deer_berry_foods"
+    }
+  },
+  "food_modifier": {
+    "operation": "addition",
+    "value": 3
+  },
+  "saturation_modifier": {
+    "operation": "addition",
+    "value": 0.6
+  }
+}

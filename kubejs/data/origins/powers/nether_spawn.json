@@ -1,0 +1,10 @@
+{
+	"loading_priority": 10,
+	"type": "origins:modify_player_spawn",
+	"dimension": "the_nether",
+	"biome": "minecraft:crimson_forest",
+	"dimension_distance_multiplier": 0.125,
+	"spawn_strategy": "center",
+	"name": "Nether Inhabitant",
+	"description": "Your natural spawn will be in the Nether. HEY YOU, THIS IS BUGGED. You cannot set your spawn outside of the Nether. Your spawn-points need to be in the Nether until further notice."
+}
