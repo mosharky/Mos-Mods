@@ -1,9 +1,0 @@
-{
-    "type": "origins:toggle",
-    "active_by_default": false,
-    "key": {
-        "key": "key.origins.secondary_active"
-    },
-    "name": "Fire Wings",
-    "description": "With the secondary power key you can toggle fire wing particles when flying."
-}
