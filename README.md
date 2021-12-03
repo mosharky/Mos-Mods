@@ -1,5 +1,5 @@
 # Mo's Mods
-Official repository and issue-tracker for Mo's Mods. Repo isn't currently up-to-date after all code being rewritten.
+Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 
 # Modlist (v4.0.0-beta3)
 <ul>
