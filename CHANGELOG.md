@@ -1,4 +1,4 @@
-# [4.0.0-beta4] - 2021-12-02
+**# [4.0.0-beta4] - 2021-12-02**
 
 Note: Antique Atlas' are now colorized! New textured for modded biomes now too. The origins collection mods have been replaced with a custom datapack (the same origins, but bug-fixed/enhanced/nerfed). Upon death, you can update your origin once after updating. Backpacks are being changed into a different mod. Backpacks are going to be removed, so please empty all of their contents before updating. Elytra will also no longer be able to be equipped as a curio.
 
@@ -193,7 +193,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Player's own particles are now hidden
 
 
-# [4.0.0-beta3] - 2021-11-17
+**# [4.0.0-beta3] - 2021-11-17**
 
 ### ADDED:
 - 'Babel'
@@ -241,7 +241,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 
 
 
-# [4.0.0-beta2] - 2021-11-16
+**# [4.0.0-beta2] - 2021-11-16**
 
 Note: Removed a bunch of mods for performance enhancements. I've added Antique Atlas since it's the only good alternative to Xaero's Map at the moment. There will be a resource pack in the future for better mod compatibility and better visuals.
 
@@ -299,7 +299,7 @@ Note: Removed a bunch of mods for performance enhancements. I've added Antique A
 
 
 
-# [4.0.0-beta1] - 2021-11-12
+**# [4.0.0-beta1] - 2021-11-12**
 
 Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that removal with new biome mods that don't break compatibility, and adding ones that were previously incompatible. If you made a world, it will be completely incompatible with this version. Magnesium was removed, but that also means that a manual OptiFine install is required if you want high FPS :/. On the bright side, a new optional resourcepack has been added that adds in custom animations, because of OptiFines addition! This update also features a bunch of mods and changes that make everything feel more complete.
 
@@ -400,7 +400,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 
 
 
-# [4.0.0-alpha3] - 2021-11-08
+**# [4.0.0-alpha3] - 2021-11-08**
 
 ### ADDED:
 - 'Block Carpentry'
@@ -412,7 +412,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 
 
 
-# [4.0.0-alpha2] - 2021-11-08
+**# [4.0.0-alpha2] - 2021-11-08**
 
 ### ADDED:
 - 'Better Ping Display'
@@ -427,7 +427,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 
 
 
-# [4.0.0-alpha1] - 2021-11-08
+**# [4.0.0-alpha1] - 2021-11-08**
 
 Note: PREVIOUS WORLDS INCOMPATIBLE, AND THE END DIMENSION IS PARTIALLY DISABLED. PLEASE WAIT FOR AN UPDATE THAT RE-INTRODUCES IT!!
 
