@@ -31,6 +31,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Smooth Basalt, rarely generating in Deepslate blocks
 
 ### UPDATED:
+- 'Bamboo Blocks'
 - 'Curios API'
 - 'CodeChicken Lib'
 - 'Controlling'
@@ -58,6 +59,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Polymorph'
 - 'Repurposed Structures'
 - 'Quark'
+- 'Snow! Real Magic!'
 - 'Supplementaries'
 
 ### REMOVED:
