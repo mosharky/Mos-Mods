@@ -11,18 +11,18 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'DrawerFPS'
 - 'Drippy Loading Screen'
 - 'Enhanced Celestials'
-    - Crash fixed, now re-added
+  - Crash fixed, now re-added
 - 'FancyMenu'
 - 'Konkrete'
 - 'ModernWorldCreation'
 - 'More Mounted Storages'
   - Different types of storage can be mounted on Create's moving contraptions
 - 'More Overlays Updated'
-    - JEI Item Searching implemented! (And pressing F7 and F9 shows mobspawn/chunk overlays)
+  - JEI Item Searching implemented! (And pressing F7 and F9 shows mobspawn/chunk overlays)
 - 'RandomPatches'
-    - Fixes multiple server-side issues
+  - Fixes multiple server-side issues
 - 'Stylish Effects'
-    - Replaced InventoryHUD
+  - Replaced InventoryHUD
 - 'Truly Treasures'
   - Removes "Treasure" enchantments from villagers and adds them to the Wandering Trader
 - 'Visual Workbench'
@@ -72,23 +72,27 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Backpacker'
 - 'Chunk-Pregenerator'
 - 'Chisels & Bits'
-    - Will be re-added once several issues have been resolved
+  - Will be re-added once several issues have been resolved
 - 'Create Deco'
 - 'Create Gears'
-    - Will likely not update for future versions of Create
+  - Will likely not update for future versions of Create
 - 'Curious Elytra'
 - 'Mutant Creatures'
 - 'Mutant More'
+  - I felt like Mutants don't quite fit the modpack. Their removal makes sense to me.
 - 'Darker Loading Screen'
 - 'Enchant With Mob'
 - 'InventoryHUD'
 - 'Origins Collection 1'
 - 'Origins Reservoir 2'
+  - Origins have been reworked :)
 - 'ReAuth'
 - 'Scuba Gear'
+  - Overshadow's Create's scuba gear
 - Disabled Emblem of Monster Slayer
 - Disabled Gift of the Heaven
 - Disabled Iron, Exquisite, Ender, Magnetic and Dislocation rings
+  - Overshadows Botania's various items
 - Removed custom Pirat Hat from loot tables
 
 ### ORIGINS REWORK:
@@ -100,76 +104,76 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Added custom-made Buried Knight origin that spawns in the twilight forest
 - Water Vulnerabilty can be entirely negated by a conduit block within 20 blocks
 - Origin-related items are now tagged for easy searching with JEI. The following searches will allow you to find all items correlated to their origin:
-    - $piglin_all
-    - $penguin
-    - $moth
-    - $deer_berry
+  - $piglin_all
+  - $penguin
+  - $moth
+  - $deer_berry
 - Elytrian:
-    - New 'Rideable' ability
-    - Can now use any armor, but can't use chestplates
-    - Gift of the Winds now launches you forwards, as opposed to straight into the air. Recommended for use in the air, or during takeoff
-    - New sounds and effects added to Gift of the Winds
+  - New 'Rideable' ability
+  - Can now use any armor, but can't use chestplates
+  - Gift of the Winds now launches you forwards, as opposed to straight into the air. Recommended for use in the air, or during takeoff
+  - New sounds and effects added to Gift of the Winds
 - Blazeborn:
-    - Blazeborns always spawn in a Crimson Forest
-    - Blazeborns can swim through Lava
-    - Hotblooded now also gives Nausea immunity, in addition to immunity to Hunger and Poison.
+  - Blazeborns always spawn in a Crimson Forest
+  - Blazeborns can swim through Lava
+  - Hotblooded now also gives Nausea immunity, in addition to immunity to Hunger and Poison.
 - Penguin:
-    - No longer spawns in a tundra biome due to a nasty bug
-    - Custom icon added
-    - Snowy & Icy biomes now give Resistance II. Warm biomes give Weakness I. Very warm biomes (including the nether) give Weakness II & Slowness II
-    - Nether biomes burn you, unless Fire Protection armor is equipped
-    - Can only consume seafood (but gains more out of consumption)
-    - Size is half of a human
-    - Increased attack speed
-    - Slightly increased Snowball cooldown
-    - Snowballs play the correct sound now
-    - Penguins now have a much higher Oxygen storage
-    - Added Aquatic Lunge ability
-    - Removed Fins ability
-    - Better ability bars
-    - Decreased fall damage
+  - No longer spawns in a tundra biome due to a nasty bug
+  - Custom icon added
+  - Snowy & Icy biomes now give Resistance II. Warm biomes give Weakness I. Very warm biomes (including the nether) give Weakness II & Slowness II
+  - Nether biomes burn you, unless Fire Protection armor is equipped
+  - Can only consume seafood (but gains more out of consumption)
+  - Size is half of a human
+  - Increased attack speed
+  - Slightly increased Snowball cooldown
+  - Snowballs play the correct sound now
+  - Penguins now have a much higher Oxygen storage
+  - Added Aquatic Lunge ability
+  - Removed Fins ability
+  - Better ability bars
+  - Decreased fall damage
 - Crab:
-    - Overhauled ability names and descriptions
-    - Custom icon added
-    - No longer spawns in beach biome due to a nasty bug
-    - Crab is now 20% smaller than a human and W I D E
-    - Made Crab Walk ability toggle-able
-    - Increased armor from Shell ability from 4 to 6
-    - Reworked "Land Breathe" to "Crustacean Gills", an increased oxygen capacity ability.
-    - Fire Protection now protects crabs from high temperature biomes
-    - Reduced speed bonus from being wet
-    - Halved beach biome regeneration
-    - Removed Strong Arms ability
+  - Overhauled ability names and descriptions
+  - Custom icon added
+  - No longer spawns in beach biome due to a nasty bug
+  - Crab is now 20% smaller than a human and W I D E
+  - Made Crab Walk ability toggle-able
+  - Increased armor from Shell ability from 4 to 6
+  - Reworked "Land Breathe" to "Crustacean Gills", an increased oxygen capacity ability.
+  - Fire Protection now protects crabs from high temperature biomes
+  - Reduced speed bonus from being wet
+  - Halved beach biome regeneration
+  - Removed Strong Arms ability
 - Deer:
-    - Combined the Forrest Gump ability into the Forest Native ability
-    - Overhauled ability descriptions and names
-    - Un-hid multiple hidden abilities
-    - Increased food gained from eating berries and Deers can now consume every berry-related item
-    - Immune to berry bush damage
-    - Decreased fall damage negation
-    - "Oh Deer God!" only activates when below 4 health now
-    - Modded forests now supported
+  - Combined the Forrest Gump ability into the Forest Native ability
+  - Overhauled ability descriptions and names
+  - Un-hid multiple hidden abilities
+  - Increased food gained from eating berries and Deers can now consume every berry-related item
+  - Immune to berry bush damage
+  - Decreased fall damage negation
+  - "Oh Deer God!" only activates when below 4 health now
+  - Modded forests now supported
 - Moth:
-    - Reduced max hearts from 9 to 8
-    - New 'Rideable' ability
-    - Custom icon added
-    - Reworked eating ability. You can now just hold right-click as you would with normal food (and you can't eat enchanting tables anymore)
-    - Moth now properly displays its abilities
-    - Proximity buffs no longer display potion particles
-    - Fibrous Diet ability is more descriptive
-    - Night Vision is now toggle-able with secondary ability key
-    - "Overwhelming Light" causes a progressive weakness effect
-    - Now recieves damage while in water
-    - Slowness applied when under rain
-    - Sea lanterns no longer provide Dolphin's Grace
-    - Soul Torches provide Speed I instead of Speed II
-    - Removed Speed effect from Glowstone
+  - Reduced max hearts from 9 to 8
+  - New 'Rideable' ability
+  - Custom icon added
+  - Reworked eating ability. You can now just hold right-click as you would with normal food (and you can't eat enchanting tables anymore)
+  - Moth now properly displays its abilities
+  - Proximity buffs no longer display potion particles
+  - Fibrous Diet ability is more descriptive
+  - Night Vision is now toggle-able with secondary ability key
+  - "Overwhelming Light" causes a progressive weakness effect
+  - Now recieves damage while in water
+  - Slowness applied when under rain
+  - Sea lanterns no longer provide Dolphin's Grace
+  - Soul Torches provide Speed I instead of Speed II
+  - Removed Speed effect from Glowstone
 - Piglin Brute:
-    - Renamed to Lost Piglin, no longer "brute" themed
-    - Total ability overhaul
-    - No longer spawns in nether, spawns in overworld due to a pretty nasty bug
-    - Reworked to make the player immediately progress towards a nether portal to live in the Nether
-    - Fixed descriptions
+  - Renamed to Lost Piglin, no longer "brute" themed
+  - Total ability overhaul
+  - No longer spawns in nether, spawns in overworld due to a pretty nasty bug
+  - Reworked to make the player immediately progress towards a nether portal to live in the Nether
+  - Fixed descriptions
 
 ### CHANGED:
 - Overhauled how resources are loaded
