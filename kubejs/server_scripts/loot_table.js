@@ -5,11 +5,11 @@ onEvent('chest.loot_tables', event => {
       pool.rolls = 1
       pool.addItem('minecraft:heart_of_the_sea', 80)
     }),
-    table.addPool(pool => {
-      pool.rolls = 1
-      pool.addItem('dragonmounts:water_dragon_egg', 20)
-      pool.addItem('create:copper_ingot', 100)
-    })
+      table.addPool(pool => {
+        pool.rolls = 1
+        pool.addItem('dragonmounts:water_dragon_egg', 20)
+        pool.addItem('create:copper_ingot', 100)
+      })
   })
   event.modify('minecraft:simple_dungeon', table => {
     table.addPool(pool => {
@@ -40,6 +40,64 @@ onEvent('block.loot_tables', event => {
   event.addSimpleBlock(/.*zinc_ore/, 'momo:raw_zinc')
   event.addSimpleBlock('comfortable_nether:withered_remains', '2x minecraft:coal')
   event.addSimpleBlock('chisel:basalt/raw', 'create:scoria')
+
+  //Straw from Giant Grass
+  event.modify('environmental:giant_tall_grass', table => {
+    table.addPool(pool => {
+      pool.rolls = 1
+      pool.addEntry(
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "environmental:giant_tall_grass",
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "tag": "farmersdelight:straw_harvesters"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ],
+          "name": "farmersdelight:straw"
+        }
+      )
+    })
+  })
+
+  //Straw from Beachgrass
+  event.modify('upgrade_aquatic:beachgrass', table => {
+    table.addPool(pool => {
+      pool.rolls = 1
+      pool.addEntry(
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": 'upgrade_aquatic:beachgrass',
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "tag": "farmersdelight:straw_harvesters"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ],
+          "name": "farmersdelight:straw"
+        }
+      )
+    })
+  })
 
   //Coal Ore Drops
   event.addBlock(/.*coal_ore/, table => {

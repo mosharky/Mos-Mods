@@ -1,6 +1,6 @@
 # **[4.0.0-beta4] - 2021-12-04**
 
-Note: Antique Atlas' are now colorized! New textured for modded biomes now too. The origins collection mods have been replaced with a custom datapack (the same origins, but bug-fixed/enhanced/nerfed). Upon death, you can update your origin once after updating. Backpacks are being changed into a different mod. Backpacks are going to be removed, so please empty all of their contents before updating. Elytra will also no longer be able to be equipped as a curio.
+Note: Antique Atlas' are now colorized! New textured for modded biomes now too. The origins collection mods have been replaced with a custom datapack (the same origins, but bug-fixed/enhanced/nerfed). Upon death, you can update your origin once after updating. Backpacks are being changed into a different mod, so please empty all of their contents before updating. Elytra will also no longer be able to be equipped as a curio.
 
 ### ADDED:
 - 'AI Improvements'
@@ -24,7 +24,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
     - Replaced InventoryHUD
 - 'Visual Workbench'
 - 'AntiqueAtlasEMS' resourcepack
-- 'LootrChestRetexture for Create!' - resourcepack
+- 'LootrChestRetexture for Create!' resourcepack
 - New fancy Knightmetal textures
 - New application icon & name
 - Custom menu and loading screens
@@ -191,6 +191,9 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Candle recipe changes
 - Removed Master and Music volume from main options menu
 - Player's own particles are now hidden
+- Straws can be harvested from (when holding a knife):
+  - Giant tall grass at a 50% chance
+  - Beachgrass at an 80% chance
 
 
 # **[4.0.0-beta3] - 2021-11-17**
