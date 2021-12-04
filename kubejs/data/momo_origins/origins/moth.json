@@ -3,7 +3,7 @@
 	"impact": 2,
 	"name": "Moth",
 	"description": "Moths are sneaky bugs with an odd appetite for natural fibers and an infatuation with lamps and lights.",
-	"icon": "minecraft:lantern",
+	"icon": "momo_origins:moth_icon",
 	"powers": [
 		"momo_origins:fiberfood_description",
 		"origins:vegetarian",

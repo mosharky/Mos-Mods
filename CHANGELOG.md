@@ -108,6 +108,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
     - Hotblooded now also gives Nausea immunity, in addition to immunity to Hunger and Poison.
 - Penguin:
     - No longer spawns in a tundra biome due to a nasty bug
+    - Custom icon added
     - Snowy & Icy biomes now give Resistance II. Warm biomes give Weakness I. Very warm biomes (including the nether) give Weakness II & Slowness II
     - Nether biomes burn you, unless Fire Protection armor is equipped
     - Can only consume seafood (but gains more out of consumption)
@@ -122,6 +123,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
     - Decreased fall damage
 - Crab:
     - Overhauled ability names and descriptions
+    - Custom icon added
     - No longer spawns in beach biome due to a nasty bug
     - Crab is now 20% smaller than a human and W I D E
     - Made Crab Walk ability toggle-able
@@ -143,6 +145,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Moth:
     - Reduced max hearts from 9 to 8
     - New 'Rideable' ability
+    - Custom icon added
     - Reworked eating ability. You can now just hold right-click as you would with normal food (and you can't eat enchanting tables anymore)
     - Moth now properly displays its abilities
     - Proximity buffs no longer display potion particles

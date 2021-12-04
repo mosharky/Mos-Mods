@@ -14,7 +14,7 @@
 	scaledMotion = true
 	scalesKeptOnRespawn = []
 	enableDebugCommands = false
-	enableCommands = false
+	enableCommands = true
 
 	[general.scale_limits]
 
