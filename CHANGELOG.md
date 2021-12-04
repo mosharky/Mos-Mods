@@ -16,14 +16,19 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Konkrete'
 - 'ModernWorldCreation'
 - 'More Mounted Storages'
+  - Different types of storage can be mounted on Create's moving contraptions
 - 'More Overlays Updated'
     - JEI Item Searching implemented! (And pressing F7 and F9 shows mobspawn/chunk overlays)
 - 'RandomPatches'
     - Fixes multiple server-side issues
 - 'Stylish Effects'
     - Replaced InventoryHUD
+- 'Truly Treasures'
+  - Removes "Treasure" enchantments from villagers and adds them to the Wandering Trader
 - 'Visual Workbench'
+  - Keeps items in crafting table, and shows them visual;y
 - 'AntiqueAtlasEMS' resourcepack
+  - Coloured Antique Atlas with mod support!
 - 'LootrChestRetexture for Create!' resourcepack
 - New fancy Knightmetal textures
 - New application icon & name
