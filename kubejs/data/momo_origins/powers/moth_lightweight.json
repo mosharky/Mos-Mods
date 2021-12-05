@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Fragile health reduction",
+      "attribute": "minecraft:generic.max_health",
+      "value": -6,
+      "operation": "addition"
+    },
+    "name": "Lightweight",
+    "description": "Your body is lighter than others. You have 3 hearts less than a human."
+  }

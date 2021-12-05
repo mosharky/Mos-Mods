@@ -168,6 +168,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
   - Sea lanterns no longer provide Dolphin's Grace
   - Soul Torches provide Speed I instead of Speed II
   - Removed Speed effect from Glowstone
+  - Can no longer fly under the effects of rain
 - Piglin Brute:
   - Renamed to Lost Piglin, no longer "brute" themed
   - Total ability overhaul

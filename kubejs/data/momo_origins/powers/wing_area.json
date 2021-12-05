@@ -1,5 +1,5 @@
 {
-	"loading_priority": 10,
+	"hidden": true,
 	"type": "origins:restrict_armor",
 	"chest": {
 		"type": "origins:armor_value",

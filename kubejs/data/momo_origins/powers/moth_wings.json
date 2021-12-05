@@ -1,0 +1,11 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "condition": {
+        "inverted": true,
+        "type": "origins:power_active",
+        "power": "momo_origins:wet_wings"
+    },
+    "name": "Wings",
+    "description": "As a moth, you have wings! Due to your wings, you cannot comfortably fit chestplates."
+}

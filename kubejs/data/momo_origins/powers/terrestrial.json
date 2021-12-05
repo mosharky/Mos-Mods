@@ -1,6 +1,6 @@
 {
   "name": "Terrestrial",
-  "description": "You recieve damage over time while in water. You're can swim in water so long as a Sea Lantern or Conduit is nearby.",
+  "description": "You recieve damage over time while in water. You can swim in water so long as a Sea Lantern or Conduit is nearby.",
   "type": "origins:damage_over_time",
   "interval": 20,
   "onset_delay": 1,

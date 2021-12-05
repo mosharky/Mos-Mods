@@ -1,27 +1,18 @@
 {
+  "name": "Wet Wings and Fluff",
+  "description": "Your fluff weighs you down signifincatly when soaked, and you struggle to flap your wings while under rainfall.",
   "type": "origins:stacking_status_effect",
   "min_stacks": -6,
   "max_stacks": 50,
   "duration_per_stack": 10,
-  "effects": [
-    {
-      "effect": "minecraft:slowness",
-      "amplifier": 1,
-      "is_ambient": true,
-      "show_particles": false,
-      "show_icon": true
-    }
-  ],
-  "conditions": [
-    {
-      "type": "origins:in_rain"
-    },
-    {
-      "inverted": true,
-      "type": "origins:power_active",
-      "power": "momo_origins:affinity_sea"
-    }
-  ],
-  "name": "Wet Wings",
-  "description": "Rain affects your wings and slows you down. Your wings are protected by the allure of a nearby Sea Lantern or Conduit."
+  "effects": {
+    "effect": "minecraft:slowness",
+    "amplifier": 2,
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": true
+  },
+  "condition": {
+    "type": "origins:in_rain"
+  }
 }
