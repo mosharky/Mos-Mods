@@ -213,7 +213,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
   - Beachgrass at an 80% chance
 - Bookcases are now unified
 - Fixed Dungeons Plus's Bigger Dungeons having broken loot tables due to Clef injects
-- 
+
 
 
 # **[4.0.0-beta3] - 2021-11-17**
