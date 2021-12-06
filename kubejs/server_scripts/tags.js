@@ -207,6 +207,14 @@ onEvent('block.tags', event => {
                 'betterendforge:dense_snow'
             ]
         },
+        {
+            tag: 'momo_origins:moth_glow',
+            block: [
+                '#chisel:glowstone',
+                /infernalexp:.*glowstone*./,
+                /infernalexp:.*dimstone*./,
+            ]
+        },
     ]
     addTagToBlock.forEach((instance) => {
         event.add(instance.tag, instance.block)

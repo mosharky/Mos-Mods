@@ -169,6 +169,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
   - Soul Torches provide Speed I instead of Speed II
   - Removed Speed effect from Glowstone
   - Can no longer fly under the effects of rain
+  - More blocks considered as Glowstone
 - Piglin Brute:
   - Renamed to Lost Piglin, no longer "brute" themed
   - Total ability overhaul
