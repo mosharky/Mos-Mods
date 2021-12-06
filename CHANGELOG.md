@@ -197,6 +197,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Added Bayou as potential spawn for Crocodiles
 - Added Armor Shards to stronghold_room loot table (goblin dungeons in twilight forest should have more armor shards)
 - The One Probe has been set to a toggle keybind instead of a hold
+- Blocks no longer show if they're harvestable or not
 - Decreased Copper ingot rates from Drowned
 - Chisel's Wool can now be used as a windmill sail
 - Removed Flax seeds from loot tables
@@ -211,6 +212,8 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
   - Giant tall grass at a 50% chance
   - Beachgrass at an 80% chance
 - Bookcases are now unified
+- Fixed Dungeons Plus's Bigger Dungeons having broken loot tables due to Clef injects
+- 
 
 
 # **[4.0.0-beta3] - 2021-11-17**
