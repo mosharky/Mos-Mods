@@ -26,5 +26,5 @@
 	#Some abc file have titles but aren't set properly. This will make the list show file names instead.
 	showFileTitle = true
 	#Loot tables for chests that will be disabled. EG: minecraft:chests/stronghold_corridor
-	disabledLootChests = ["minecraft:chests/end_city_treasure", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasture", "minecraft:chests/buried_treasure", "minecraft:chests/jungle_temple_dispenser"]
+	disabledLootChests = ["minecraft:chests/end_city_treasure", "minecraft:chests/bastion_bridge", "minecraft:chests/bastion_hoglin_stable", "minecraft:chests/bastion_other", "minecraft:chests/bastion_treasture", "minecraft:chests/buried_treasure", "minecraft:chests/jungle_temple_dispenser", "dungeons_plus:chests/vanilla_dungeon"]
 
