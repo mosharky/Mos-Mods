@@ -36,11 +36,14 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Smooth Basalt, rarely generating in Deepslate blocks
 
 ### UPDATED:
+- 'Abnormals Delight'
 - 'Bamboo Blocks'
+- 'Botania'
 - 'Curios API'
 - 'CodeChicken Lib'
 - 'Controlling'
 - 'Easy Discord Rich Presence'
+- 'Farmers Delight'
 - 'FastWorkbench'
 - 'GeckoLib'
 - 'Architectury API'
