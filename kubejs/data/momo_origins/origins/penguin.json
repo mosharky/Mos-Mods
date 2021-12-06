@@ -12,7 +12,7 @@
 		"momo_origins:fish_hunter",
 		"momo_origins:penguin_attributes"
 	],
-	"icon": "momo_origins:penguin_icon",
+	"icon": "momo:penguin_icon",
 	"order": 2,
 	"impact": 2,
 	"name": "Penguin",

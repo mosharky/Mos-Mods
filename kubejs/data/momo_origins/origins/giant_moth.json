@@ -3,7 +3,7 @@
 	"impact": 2,
 	"name": "Giant Moth",
 	"description": "Giant Moths are large, able-bodied bugs with an odd appetite for natural fibers and an infatuation with lamps and lights.",
-	"icon": "momo_origins:moth_icon",
+	"icon": "momo:moth_icon",
 	"powers": [
 		"momo_origins:fiberfood_description",
 		"origins:vegetarian",
