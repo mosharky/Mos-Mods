@@ -17,7 +17,7 @@ showModName = "NORMAL"
 #Show harvest level (0 = not, 1 = always, 2 = sneak)
 showHarvestLevel = "NOT"
 #Show if the block can be harvested (0 = not, 1 = always, 2 = sneak)
-showCanBeHarvested = "NORMAL"
+showCanBeHarvested = "NOT"
 #Show the growth level of crops (0 = not, 1 = always, 2 = sneak)
 showCropPercentage = "NORMAL"
 #Show chest contents (0 = not, 1 = always, 2 = sneak)
