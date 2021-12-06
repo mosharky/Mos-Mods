@@ -210,6 +210,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Straws can be harvested from (when holding a knife):
   - Giant tall grass at a 50% chance
   - Beachgrass at an 80% chance
+- Bookcases are now unified
 
 
 # **[4.0.0-beta3] - 2021-11-17**
