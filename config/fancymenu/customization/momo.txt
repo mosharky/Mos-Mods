@@ -14,6 +14,11 @@ customization {
 }
 
 customization {
+  action = setscale
+  scale = 4
+}
+
+customization {
   baseheight = 1080
   action = autoscale
   basewidth = 1920
@@ -27,14 +32,14 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = mid-right
-  x = -150
+  x = -155
   action = movebutton
-  y = -35
+  y = 8
 }
 
 customization {
   identifier = %id=400322%
-  width = 150
+  width = 155
   action = resizebutton
   height = 20
 }
@@ -58,7 +63,14 @@ customization {
   orientation = mid-left
   x = 0
   action = movebutton
-  y = 1
+  y = 50
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -104,7 +116,7 @@ customization {
   orientation = mid-left
   x = 0
   action = movebutton
-  y = -35
+  y = 8
 }
 
 customization {
@@ -126,9 +138,16 @@ customization {
 customization {
   identifier = %id=400346%
   orientation = mid-right
-  x = -98
+  x = -100
   action = movebutton
-  y = 1
+  y = 50
+}
+
+customization {
+  identifier = %id=400346%
+  width = 100
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -177,7 +196,7 @@ customization {
   loopbackgroundanimations = true
   fadein = true
   fadeinspeed = 1.0
-  x = 59
+  x = 19
   width = 22
   actionid = df0222bf-a661-4ed8-9132-a7458b463faf1638428101069
   action = addbutton
@@ -196,7 +215,7 @@ customization {
   scale = 1.0
   fadein = true
   fadeinspeed = 1.0
-  x = -49
+  x = -50
   action = addtext
   actionid = 6fcdd9fc-7268-4ec9-a6fa-21039252410f1638428273167
   y = -34
@@ -213,7 +232,7 @@ customization {
   scale = 1.0
   fadein = true
   fadeinspeed = 1.0
-  x = 52
+  x = 13
   action = addtext
   actionid = 5cc82567-7420-4907-a89b-e0be05619f9e1638428319262
   y = -34
@@ -234,10 +253,10 @@ customization {
   bouncing = true
   fadein = true
   fadeinspeed = 1.0
-  x = -37
+  x = -54
   actionid = 3bc034d7-41c4-4e50-84aa-97a01a2c577e1638428529303
   action = addsplash
-  y = -68
+  y = -44
   delayappearance = true
   text = Mo's Mods
   delayappearanceeverytime = false
