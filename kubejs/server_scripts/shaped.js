@@ -25,7 +25,16 @@ onEvent('recipes', (event) => {
             },
             id: 'quark:building/crafting/chests/chest_revert'
         },
-
+        //Bookshelf unification
+        {
+            output: 'minecraft:bookshelf',
+            pattern: ['AAA', 'BBB', 'AAA'],
+            key: {
+                A: '#minecraft:planks',
+                B: 'minecraft:book'
+            },
+            id: 'quark:building/crafting/oak_bookshelf'
+        },
         //Upgrade Aquatic Trident
         {
             output: 'minecraft:trident',
@@ -37,7 +46,6 @@ onEvent('recipes', (event) => {
             },
             id: 'momo:trident'
         },
-
         //Chainmail Helmet
         {
             output: 'minecraft:chainmail_helmet',

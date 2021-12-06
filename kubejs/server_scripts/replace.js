@@ -15,6 +15,11 @@ onEvent('recipes', (event) => {
     const inputReplace = [
         {
             filter: {},
+            toReplace: 'minecraft:bookshelf',
+            replaceWith: '#forge:bookshelves'
+        },
+        {
+            filter: {},
             toReplace: 'minecraft:egg',
             replaceWith: '#forge:eggs'
         },

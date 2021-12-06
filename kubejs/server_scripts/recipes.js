@@ -5,6 +5,7 @@ events.listen('recipes', (event) => {
 
     //Chest
     event.shapeless('minecraft:chest', '#forge:chests')
+    event.shapeless('minecraft:bookshelf', '#forge:bookshelves')
     event.shapeless('2x eidolon:pewter_blend', ['create:zinc_ingot', 'minecraft:iron_ingot']).id('eidolon:pewter_blend')
     event.shapeless('comforts:rope_and_nail', ['minecraft:iron_ingot', 'supplementaries:rope']).id('comforts:rope_and_nail')
     event.shapeless('minecraft:ender_eye', ['minecraft:ender_pearl', 'minecraft:blaze_powder', 'minecraft:blaze_powder']).id('minecraft:ender_eye')
