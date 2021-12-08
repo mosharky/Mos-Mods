@@ -26,7 +26,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Truly Treasures'
   - Removes "Treasure" enchantments from villagers and adds them to the Wandering Trader
 - 'Visual Workbench'
-  - Keeps items in crafting table, and shows them visual;y
+  - Keeps items in crafting table, and shows them visualy
 - 'AntiqueAtlasEMS' resourcepack
   - Coloured Antique Atlas with mod support!
 - 'LootrChestRetexture for Create!' resourcepack
@@ -37,8 +37,11 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 
 ### UPDATED:
 - 'Abnormals Delight'
+- 'Atmospheric'
+- 'Autumnity'
 - 'Bamboo Blocks'
 - 'Botania'
+- 'Buzzier Bees'
 - 'Curios API'
 - 'CodeChicken Lib'
 - 'Controlling'
