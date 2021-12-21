@@ -36,7 +36,11 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Smooth Basalt, rarely generating in Deepslate blocks
 
 ### UPDATED:
+- Forge v36.2.9 -> v36.2.22
 - 'Abnormals Delight'
+- 'Archer's Paradox'
+- 'Architectury API'
+- 'Buzzier Bees'
 - 'Atmospheric'
 - 'Autumnity'
 - 'Bamboo Blocks'
@@ -72,6 +76,23 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Quark'
 - 'Snow! Real Magic!'
 - 'Supplementaries'
+- 'Upgrade Aquatic'
+- 'Toast Control'
+- 'Storage Drawers'
+- 'Snow! Real Magic!'
+- 'Savage and Ravage'
+- 'RoadRunner'
+- 'Lootr'
+- 'FramedBlocks'
+- 'FastWorkbench'
+- 'Farmer's Delight'
+- 'FancyMenu'
+- 'Environmental'
+- 'Drippy Loading Screen'
+- 'FancyMenu'
+- 'Curios API'
+- 'CoFH Core'
+- 'Cloth Config API'
 
 ### REMOVED:
 - 'Backpacked'
