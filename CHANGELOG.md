@@ -34,6 +34,13 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - New application icon & name
 - Custom menu and loading screens
 - Smooth Basalt, rarely generating in Deepslate blocks
+- Added tags to all armors to make them more searchable (please let me know if I missed any):
+  - $armor
+  - $armor/helmets
+  - $armor/chestplates
+  - $armor/leggings
+  - $armor/boots
+
 
 ### UPDATED:
 - Forge v36.2.9 -> v36.2.22
@@ -234,7 +241,6 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Removed Flax seeds from loot tables
 - Added unique cobble and stone generation if a cobblestone generator is built on bedrock
 - More default-y default settings
-- Added tags to all armors to make them more searchable ($armor)
 - Changed recipe display order
 - Candle recipe changes
 - Removed Master and Music volume from main options menu
@@ -244,6 +250,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
   - Beachgrass at an 80% chance
 - Bookcases are now unified
 - Fixed Dungeons Plus's Bigger Dungeons having broken loot tables due to Clef injects
+- Removed Quark's chest-item search (redundant with More Overlays)
 
 
 
