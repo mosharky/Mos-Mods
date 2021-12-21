@@ -252,6 +252,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Fixed Dungeons Plus's Bigger Dungeons having broken loot tables due to Clef injects
 - Removed Quark's chest-item search (redundant with More Overlays)
 - Stronghold library rooms use vanilla loot tables now, ancient tomes are now obtainable
+- Data-driven recipes now contained within KubeJS scripts
 
 
 
