@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-12-21T01:02:35.1313578Z",
-  "playedCount": 289,
+  "lastPlayed": "2021-12-21T01:58:32.8981382Z",
+  "playedCount": 291,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -14985,138 +14985,6 @@
       "dateInstalled": "2021-11-01T22:55:30.2749593Z",
       "dateUpdated": "2021-11-01T22:55:30.2779625Z",
       "dateLastUpdateAttempted": "2021-11-01T22:55:30.2779625Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 532286,
-      "gameInstanceID": "36f4bac3-7864-41a4-b7fd-d42ad8436de0",
-      "installedFile": {
-        "id": 3541185,
-        "displayName": "jeed-1.16.5-1.6.jar",
-        "fileName": "jeed-1.16.5-1.6.jar",
-        "fileDate": "2021-11-29T23:00:22.513Z",
-        "fileLength": 69011,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3541/185/jeed-1.16.5-1.6.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3476056459,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 3249294908,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 90792779,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3032494029,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "icon.png",
-            "fingerprint": 952754866,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "jeed.mixins.json",
-            "fingerprint": 1564422864,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1438559181,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "jeed.refmap.json",
-            "fingerprint": 222334296,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 928016087,
-        "gameVersion": [
-          "1.16.3",
-          "1.16.5",
-          "Forge",
-          "1.16.4"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000003",
-            "gameVersion": "1.16.3",
-            "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
-            "gameVersionName": "1.16.3",
-            "gameVersionTypeId": 70886
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000005",
-            "gameVersion": "1.16.5",
-            "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
-            "gameVersionName": "1.16.5",
-            "gameVersionTypeId": 70886
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge",
-            "gameVersionTypeId": 68441
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000004",
-            "gameVersion": "1.16.4",
-            "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
-            "gameVersionName": "1.16.4",
-            "gameVersionTypeId": 70886
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2603654,
-        "projectId": 532286,
-        "packageFingerprintId": 796007572,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3506448,
-        "gameVersionId": 7498,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "jeed-1.16.5-1.6.jar"
-      },
-      "dateInstalled": "2021-11-17T01:34:58.8669811Z",
-      "dateUpdated": "2021-11-30T04:41:20.6746406Z",
-      "dateLastUpdateAttempted": "2021-11-30T04:41:20.6746406Z",
       "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,

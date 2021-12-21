@@ -116,6 +116,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'ReAuth'
 - 'Scuba Gear'
   - Overshadow's Create's scuba gear
+- 'Just Enough Effect Descriptions'
 - Disabled Emblem of Monster Slayer
 - Disabled Gift of the Heaven
 - Disabled Iron, Exquisite, Ender, Magnetic and Dislocation rings
@@ -130,11 +131,14 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - Added Inchling Origin
 - Added custom-made Buried Knight origin that spawns in the twilight forest
 - Water Vulnerabilty can be entirely negated by a conduit block within 20 blocks
+- Vegetarians and Carnivores can no longer eat "omnivore" foods 
 - Origin-related items are now tagged for easy searching with JEI. The following searches will allow you to find all items correlated to their origin:
   - $piglin_all
   - $penguin
   - $moth
   - $deer_berry
+  - $omnifood
+  - $meat
 - Elytrian:
   - New 'Rideable' ability
   - Can now use any armor, but can't use chestplates
