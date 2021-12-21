@@ -3,14 +3,14 @@ global.akashictome = Item.of('akashictome:tome', '{"akashictome:is_morphing":1b,
 
 events.listen('recipes', (event) => {
 
-    //Chest
     event.shapeless('minecraft:chest', '#forge:chests')
     event.shapeless('minecraft:bookshelf', '#forge:bookshelves')
     event.shapeless('2x eidolon:pewter_blend', ['create:zinc_ingot', 'minecraft:iron_ingot']).id('eidolon:pewter_blend')
     event.shapeless('comforts:rope_and_nail', ['minecraft:iron_ingot', 'supplementaries:rope']).id('comforts:rope_and_nail')
-    event.shapeless('minecraft:ender_eye', ['minecraft:ender_pearl', 'minecraft:blaze_powder', 'minecraft:blaze_powder']).id('minecraft:ender_eye')
+    event.shapeless('momo:lesser_ender_eye', ['minecraft:ender_pearl', 'minecraft:blaze_powder', 'minecraft:blaze_powder'])
     event.shapeless('minecraft:coal', '8x tinycoal:tinycoal')
     event.shapeless('minecraft:charcoal', '8x tinycoal:tinycharcoal')
+    event.shapeless('2x momo:hemolymph_pustules', 'alexsmobs:hemolymph_sac')
     event.shapeless(global.akashictome, ['minecraft:book', '#forge:bookshelves']).id('akashictome:tome')
 
     event.recipes.createMixing('moreminecarts:glass_spines', 'infernalexp:glowdust_sand').heated()

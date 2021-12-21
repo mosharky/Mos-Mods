@@ -158,6 +158,11 @@ onEvent('recipes', (event) => {
             toReplace: 'minecraft:emerald',
             replaceWith: 'betterendforge:eternal_crystal'
         },
+        {
+            filter: {},
+            toReplace: 'minecraft:ender_eye',
+            replaceWith: 'momo:lesser_ender_eye'
+        },
         
     ];
 

@@ -224,15 +224,34 @@ onEvent('recipes', (event) => {
             },
             id: 'eidolon:candle'
         },
+        {
+            output: '3x minecraft:ladder',
+            pattern: ['A A', 'AAA', 'A A'],
+            key: {
+                A: 'minecraft:stick'
+            },
+        }
     ]
 
-    event.shaped('3x minecraft:ladder', [
-        'A A',
-        'AAA',
-        'A A'
-    ], {
-        A: 'minecraft:stick'
-    })
+    //Greater Eye of Ender recipe
+    event.custom({
+        "type": "farmersdelight:cooking",
+        "ingredients": [
+            {
+                "item": "momo:lesser_ender_eye"
+            },
+            {
+                "item": "alexsmobs:blood_sac"
+            },
+            {
+                "item": "momo:hemolymph_pustules"
+            }
+        ],
+        "result": {
+            "item": "minecraft:ender_eye"
+        },
+        "cookingtime": 200
+    }).id("minecraft:ender_eye")
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
