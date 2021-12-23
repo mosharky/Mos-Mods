@@ -108,6 +108,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Curios API'
 - 'CoFH Core'
 - 'Cloth Config API'
+- 'Twilight Forest'
 
 ### REMOVED:
 - 'Backpacked'
@@ -132,6 +133,7 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
 - 'Scuba Gear'
   - Overshadow's Create's scuba gear
 - 'Just Enough Effect Descriptions'
+- 'Goblin Traders'
 - Disabled Emblem of Monster Slayer
 - Disabled Gift of the Heaven
 - Disabled Iron, Exquisite, Ender, Magnetic and Dislocation rings
