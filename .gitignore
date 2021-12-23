@@ -31,3 +31,4 @@ config/ichunutil/
 servers.dat_old
 options.justenoughkeys.txt
 optionsshaders.txt
+.curseclient
