@@ -231,6 +231,17 @@ onEvent('recipes', (event) => {
                 A: 'minecraft:stick'
             },
             id: 'momo:ladders'
+        },
+        {
+            output: 'enigmaticlegacy:antiforbidden_potion',
+            pattern: ['AB ', 'CD '],
+            key: {
+                A: 'enigmaticlegacy:unholy_grail',
+                B: 'enigmaticlegacy:recall_potion',
+                C: 'minecraft:dragon_breath',
+                D: 'enigmaticlegacy:astral_dust'
+            },
+            id: 'momo:antiforbidden_potion'
         }
     ]
     recipes.forEach((recipe) => {

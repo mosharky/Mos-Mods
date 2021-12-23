@@ -1,3 +1,16 @@
+# **[4.0.1] - 2021-23-04**
+
+Note: it wasn't the last update.
+
+### ADDED:
+- Recipe for the Potion of Redemption
+
+### CHANGED:
+- Replaced items in Twisted Heart recipe as to make it obtainable
+
+
+
+
 # **[4.0.0-RELEASE] - 2021-23-04**
 
 Note: Antique Atlas' are now colorized! New textured for modded biomes now too. The origins collection mods have been replaced with a custom datapack (the same origins, but bug-fixed/enhanced/nerfed). Upon death, you can update your origin once after updating. Backpacks are being changed into a different mod, so please empty all of their contents before updating. Elytra will also no longer be able to be equipped as a curio.
