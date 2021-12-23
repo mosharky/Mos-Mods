@@ -40,6 +40,14 @@ Note: Antique Atlas' are now colorized! New textured for modded biomes now too. 
   - $armor/chestplates
   - $armor/leggings
   - $armor/boots
+- Added tags to all tools to make them more searchable (again, let me know if I missed any):
+  - $tools
+  - $tools/swords
+  - $tools/pickaxes
+  - $tools/axes
+  - $tools/shovels
+  - $tools/hoes
+  - $tools/misc
 
 
 ### UPDATED:
