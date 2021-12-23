@@ -1,8 +1,8 @@
-# **[4.0.0-beta4] - 2021-12-04**
+# **[4.0.0-RELEASE] - 2021-12-04**
 
 Note: Antique Atlas' are now colorized! New textured for modded biomes now too. The origins collection mods have been replaced with a custom datapack (the same origins, but bug-fixed/enhanced/nerfed). Upon death, you can update your origin once after updating. Backpacks are being changed into a different mod, so please empty all of their contents before updating. Elytra will also no longer be able to be equipped as a curio.
 
-This is likely to be the last update, either to this modpack, or to the 1.16 version. This is hopefully as complete as this modpack will be, and I'm already working on a new project for 1.18.1. Thank you to all who have stuck around and played the pack <3
+This is likely to be the last update, either to this modpack, or to the 1.16 version. This is hopefully as complete as this modpack will be, and I'm already working on a new project for 1.18.1. Thank you to all who have stuck around and played the pack <3. Enjoy the release!
 
 ### ADDED:
 - 'AI Improvements'
