@@ -949,7 +949,7 @@
       "dateInstalled": "2021-11-05T10:37:11.6811802Z",
       "dateUpdated": "2021-12-23T07:05:39.4543482Z",
       "dateLastUpdateAttempted": "2021-12-23T07:05:39.4543482Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9429,35 +9429,47 @@
       "addonID": 274259,
       "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
       "installedFile": {
-        "id": 3339353,
-        "displayName": "carryon-1.16.5-1.15.5.15.jar",
-        "fileName": "carryon-1.16.5-1.15.5.15.jar",
-        "fileDate": "2021-06-05T23:02:04.717Z",
-        "fileLength": 330091,
+        "id": 3578500,
+        "displayName": "carryon-1.16.5-1.15.5.21",
+        "fileName": "carryon-1.16.5-1.15.5.21.jar",
+        "fileDate": "2021-12-23T22:41:35.373Z",
+        "fileLength": 322770,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3339/353/carryon-1.16.5-1.15.5.15.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3578/500/carryon-1.16.5-1.15.5.21.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 65609067,
+            "id": 81955900,
             "addonId": 290240,
             "type": 1,
-            "fileId": 3339353
+            "fileId": 3578500
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1336328113,
+            "fingerprint": 2986098867,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "tschipp",
+            "fingerprint": 446404084,
+            "type": 3,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2910862888,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 1945307005,
+            "fingerprint": 1105696931,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -9472,24 +9484,11 @@
             "fingerprint": 4036356024,
             "type": 3,
             "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2910862888,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "tschipp",
-            "fingerprint": 3364550465,
-            "type": 3,
-            "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 1143236652,
+        "packageFingerprint": 1771982292,
         "gameVersion": [
-          "1.16.5",
-          "Forge"
+          "1.16.5"
         ],
         "sortableGameVersion": [
           {
@@ -9498,34 +9497,27 @@
             "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
             "gameVersionName": "1.16.5",
             "gameVersionTypeId": 70886
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge",
-            "gameVersionTypeId": 68441
           }
         ],
         "hasInstallScript": false,
-        "isCompatibleWithClient": false,
+        "isCompatibleWithClient": true,
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2346903,
+        "renderCacheId": 2647541,
         "projectId": 274259,
-        "packageFingerprintId": 676992390,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3011420,
-        "gameVersionId": 7498,
+        "packageFingerprintId": 817358798,
+        "gameVersionDateReleased": "2021-01-15T14:14:48.91Z",
+        "gameVersionMappingId": 3600639,
+        "gameVersionId": 8203,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "carryon-1.16.5-1.15.5.15.jar"
+        "FileNameOnDisk": "carryon-1.16.5-1.15.5.21.jar"
       },
       "dateInstalled": "2021-11-16T23:33:13.8715704Z",
-      "dateUpdated": "2021-11-16T23:33:13.8805805Z",
-      "dateLastUpdateAttempted": "2021-11-16T23:33:13.8805805Z",
-      "status": 5,
+      "dateUpdated": "2021-12-24T22:12:37.069186Z",
+      "dateLastUpdateAttempted": "2021-12-24T22:12:37.069186Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12542,14 +12534,14 @@
       "addonID": 416935,
       "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
       "installedFile": {
-        "id": 3508441,
-        "displayName": "Valhelsia Core - 16.0.13a",
-        "fileName": "valhelsia_core-16.0.13a.jar",
-        "fileDate": "2021-10-29T15:52:51.37Z",
-        "fileLength": 601128,
+        "id": 3579029,
+        "displayName": "Valhelsia Core 16.0.14",
+        "fileName": "valhelsia_core-16.0.14.jar",
+        "fileDate": "2021-12-24T12:01:02.127Z",
+        "fileLength": 601667,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3508/441/valhelsia_core-16.0.13a.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3579/29/valhelsia_core-16.0.14.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12557,13 +12549,13 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4179973337,
+            "fingerprint": 3395413529,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "net",
-            "fingerprint": 2135605802,
+            "fingerprint": 3242556037,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -12592,7 +12584,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2324193014,
+        "packageFingerprint": 685722912,
         "gameVersion": [
           "1.16.5",
           "Forge"
@@ -12614,24 +12606,24 @@
           }
         ],
         "hasInstallScript": false,
-        "isCompatibleWithClient": false,
+        "isCompatibleWithClient": true,
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2562134,
+        "renderCacheId": 2648210,
         "projectId": 416935,
-        "packageFingerprintId": 772911939,
+        "packageFingerprintId": 817739681,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 3423087,
+        "gameVersionMappingId": 3602065,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "valhelsia_core-16.0.13a.jar"
+        "FileNameOnDisk": "valhelsia_core-16.0.14.jar"
       },
       "dateInstalled": "2021-11-09T08:21:53.4423922Z",
-      "dateUpdated": "2021-11-09T08:21:53.4463963Z",
-      "dateLastUpdateAttempted": "2021-11-09T08:21:53.4463963Z",
-      "status": 5,
+      "dateUpdated": "2021-12-24T22:12:36.4611006Z",
+      "dateLastUpdateAttempted": "2021-12-24T22:12:36.4611006Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13952,14 +13944,14 @@
       "addonID": 361276,
       "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
       "installedFile": {
-        "id": 3562133,
-        "displayName": "lootr-1.16.5-0.0.9.30.jar",
-        "fileName": "lootr-1.16.5-0.0.9.30.jar",
-        "fileDate": "2021-12-12T08:05:08.713Z",
-        "fileLength": 232565,
+        "id": 3578542,
+        "displayName": "lootr-1.16.5-0.0.9.31.jar",
+        "fileName": "lootr-1.16.5-0.0.9.31.jar",
+        "fileDate": "2021-12-23T23:13:11.723Z",
+        "fileLength": 234878,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3562/133/lootr-1.16.5-0.0.9.30.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3578/542/lootr-1.16.5-0.0.9.31.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -13967,19 +13959,19 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3053047462,
+            "fingerprint": 1530634055,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "noobanidus",
-            "fingerprint": 3831010350,
+            "fingerprint": 3372401503,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 4048255908,
+            "fingerprint": 3275347779,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -14008,7 +14000,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 911038119,
+        "packageFingerprint": 2956770897,
         "gameVersion": [
           "1.16.5",
           "Forge",
@@ -14042,20 +14034,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2627893,
+        "renderCacheId": 2647588,
         "projectId": 361276,
-        "packageFingerprintId": 806457561,
+        "packageFingerprintId": 817377639,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 3558341,
+        "gameVersionMappingId": 3600738,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "lootr-1.16.5-0.0.9.30.jar"
+        "FileNameOnDisk": "lootr-1.16.5-0.0.9.31.jar"
       },
       "dateInstalled": "2021-11-02T06:31:58.6506567Z",
-      "dateUpdated": "2021-12-21T00:57:33.788537Z",
-      "dateLastUpdateAttempted": "2021-12-21T00:57:33.788537Z",
-      "status": 5,
+      "dateUpdated": "2021-12-24T22:12:36.5446878Z",
+      "dateLastUpdateAttempted": "2021-12-24T22:12:36.5446878Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16934,7 +16926,7 @@
       "dateInstalled": "2021-11-02T01:05:16.5580007Z",
       "dateUpdated": "2021-12-23T07:08:45.6126241Z",
       "dateLastUpdateAttempted": "2021-12-23T07:08:45.6126241Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18925,7 +18917,7 @@
       "dateInstalled": "2021-11-22T09:49:45.5138677Z",
       "dateUpdated": "2021-12-23T07:05:39.9678195Z",
       "dateLastUpdateAttempted": "2021-12-23T07:05:39.9678195Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -21551,7 +21543,7 @@
       "dateInstalled": "2021-11-01T23:02:57.836102Z",
       "dateUpdated": "2021-12-23T07:08:31.4459967Z",
       "dateLastUpdateAttempted": "2021-12-23T07:08:31.4459967Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

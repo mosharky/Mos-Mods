@@ -10,7 +10,10 @@ Note: it wasn't the last update.
 
 ### UPDATED:
 - 'Architectuary'
+- 'Carry On'
+- 'Lootr'
 - 'Stylish Effects'
+- 'Valhelsia Core'
 
 ### REMOVED
 - 'Curious Elytra'
