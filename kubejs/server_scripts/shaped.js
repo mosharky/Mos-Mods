@@ -253,7 +253,7 @@ onEvent('recipes', (event) => {
         type: ''
     })
     */
-    
+
     //Greater Eye of Ender recipe
     event.custom({
         type: 'farmersdelight:cooking',
@@ -266,7 +266,7 @@ onEvent('recipes', (event) => {
         cookingtime: 200
     }).id('minecraft:ender_eye')
 
-    
+
     //Pocket recipes
     //Large
     event.custom({
@@ -283,7 +283,7 @@ onEvent('recipes', (event) => {
         spools_count: 2,
         first: { item: 'improvedbackpacks:tanned_leather' },
         first_count: 2,
-        second: { tag: 'forge:ingots/netherite'},
+        second: { tag: 'forge:ingots/netherite' },
         result: 'improvedbackpacks:medium_pocket'
     }).id('improvedbackpacks:medium_pocket')
     //Tiny
@@ -292,7 +292,7 @@ onEvent('recipes', (event) => {
         spools_count: 1,
         first: { item: 'improvedbackpacks:tanned_leather' },
         first_count: 1,
-        second: { tag: 'forge:ingots/gold'},
+        second: { tag: 'forge:ingots/gold' },
         result: 'improvedbackpacks:tiny_pocket'
     }).id('improvedbackpacks:tiny_pocket')
 
@@ -305,9 +305,9 @@ onEvent('recipes', (event) => {
         output: 'betterendforge:crystalite_helmet',
         time: 150,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0},
-            { item: 'betterendforge:crystal_shards', index: 2},
-            { item: 'betterendforge:crystal_shards', index: 6},
+            { item: 'betterendforge:amber_gem', index: 0 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
         ]
     }).id('betterendforge:crystalite_helmet')
     //Chestplate
@@ -317,7 +317,7 @@ onEvent('recipes', (event) => {
         output: 'betterendforge:crystalite_chestplate',
         time: 300,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0},
+            { item: 'betterendforge:amber_gem', index: 0 },
             { item: 'betterendforge:crystal_shards', index: 1 },
             { item: 'betterendforge:crystal_shards', index: 3 },
             { item: 'betterendforge:crystal_shards', index: 5 },
@@ -350,4 +350,23 @@ onEvent('recipes', (event) => {
         ]
     }).id('betterendforge:crystalite_boots')
 
+    /*
+    //Water Protection Infusion
+    for (let i = 1; i < 6; i++) {
+        event.custom({
+            type: 'betterendforge:infusion',
+            input: Item.of('minecraft:enchanted_book').enchant('minecraft:protection', i),
+            output: Item.of('minecraft:enchanted_book').enchant('origins:water_protection', i),
+            time: 300,
+            catalysts: [
+                { item: 'betterendforge:enchanted_petal', index: 0 },
+                { item: 'minecraft:lapis_lazuli', index: 1 },
+                { item: 'minecraft:lapis_lazuli', index: 3 },
+                { item: 'minecraft:turtle_helmet', index: 4 },
+                { item: 'minecraft:lapis_lazuli', index: 5 },
+                { item: 'minecraft:lapis_lazuli', index: 7 }
+            ]
+        }).id('momo:test_water_protection' + i)
+    }
+    */
 })
