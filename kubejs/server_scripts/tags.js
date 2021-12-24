@@ -70,7 +70,24 @@ onEvent('item.tags', event => {
         { tag: 'minecraft:wooden_slabs', item: 'darkerdepths:petrified_slab' },
         { tag: 'minecraft:planks', item: ['darkerdepths:petrified_planks', 'darkerdepths:vertical_petrified_planks'] },
         { tag: 'forge:slimeballs', item: 'autumnity:snail_slime' },
-        { tag: 'momo:armor/helmets', item: /.*helmet*./ },
+        {
+            tag: 'momo:armor/helmets',
+            item: [
+                /.*helmet*./,
+                /.*_mask(?!.)/,
+                /.*_mask_*./,
+                /.*hat(?!.)/,
+                'alexsmobs:moose_headgear',
+                'environmental:thief_hood',
+                'rats:rat_fez',
+                'alexsmobs:spiked_turtle_shell',
+                'alexsmobs:fedora',
+                'rats:chef_toque',
+                'alexsmobs:sombrero',
+                'alexsmobs:frontier_cap',
+                'darkerdepths:glowshroom_cap'
+            ]
+        },
         { tag: 'momo:armor/chestplates', item: /.*chestplate*./ },
         { tag: 'momo:armor/leggings', item: [/.*leggings*./, /.*pants/] },
         { tag: 'momo:armor/boots', item: /.*boots*./ },
@@ -84,9 +101,9 @@ onEvent('item.tags', event => {
         { tag: 'momo:tools/axes', item: [/.*_axe/, /axe_*./, /.*_axe_*./] },
         { tag: 'momo:tools/shovels', item: /.*_shovel/ },
         { tag: 'momo:tools/hoes', item: /.*_hoe/ },
-        { tag: 'momo:tools/bows', item: /.*bow(?!.)/ },
+        { tag: 'momo:tools/bows', item: [/.*bow(?!.)/, 'mowziesmobs:blowgun', 'create:potato_cannon'] },
         { tag: 'momo:tools/misc', item: ['twilightforest:block_and_chain'] },
-        { tag: 'momo:tools', item: ['#momo:tools/swords', '#momo:tools/pickaxes', '#momo:tools/axes', '#momo:tools/shovels', '#momo:tools/hoes', '#momo:tools/bows', '#momo:tools/misc' ] },
+        { tag: 'momo:tools', item: ['#momo:tools/swords', '#momo:tools/pickaxes', '#momo:tools/axes', '#momo:tools/shovels', '#momo:tools/hoes', '#momo:tools/bows', '#momo:tools/misc'] },
         {
             tag: 'momo_origins:penguin_seafood',
             item: [
@@ -250,6 +267,7 @@ onEvent('block.tags', event => {
         {
             tag: 'origins:natural_stone',
             block: [
+                '#forge:stone',
                 'minecraft:blackstone',
                 'quark:deepslate',
                 'darkerdepths:shale',

@@ -7,6 +7,7 @@ Note: it wasn't the last update.
 
 ### CHANGED:
 - Replaced items in Twisted Heart recipe as to make it obtainable
+- Added more items into `momo:armor/helmets` tag
 
 
 
