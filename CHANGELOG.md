@@ -15,7 +15,8 @@ Note: it wasn't the last update.
 
 ### CHANGED:
 - Replaced items in Twisted Heart recipe as to make it obtainable
-- Added more items into `momo:armor/helmets` tag
+- Added more items into `momo:armor/helmets` and `momo_origins:penguin_seafood` tags
+- Added item tags to origin-related block tags, for JEI searching
 - Added JEI Information tab to Elder Eye
 - Disabled Hand of Ender pickpocketing
 
