@@ -20,7 +20,13 @@ events.listen('recipes', (event) => {
     event.smithing('twilightforest:fiery_ingot', 'twilightforest:knightmetal_ingot', 'twilightforest:fiery_blood').id('twilightforest:material/fiery_iron_ingot')
     //Water Prot enchants from lvl 1-5
     for (let i = 1; i < 6; i++) {
-        event.smithing(Item.of('minecraft:enchanted_book').enchant('origins:water_protection', i), Item.of('minecraft:enchanted_book').enchant('minecraft:protection', i), 'upgrade_aquatic:elder_eye').id('momo:water_protection' + i)
+        event.smithing(
+            Item.of('minecraft:enchanted_book')
+            .enchant('origins:water_protection', i), 
+            Item.of('minecraft:enchanted_book').
+            enchant('minecraft:protection', i),
+            'upgrade_aquatic:elder_eye')
+            .id('momo:water_protection' + i)
     }
 
 
