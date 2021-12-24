@@ -22,6 +22,7 @@ Note: it wasn't the last update.
 - Added item tags to origin-related block tags, for JEI searching
 - Added JEI Information tab to Elder Eye
 - Disabled Hand of Ender pickpocketing
+- Cleaned up Loot Table scripts
 
 
 
