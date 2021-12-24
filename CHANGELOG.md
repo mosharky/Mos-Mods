@@ -23,6 +23,7 @@ Note: it wasn't the last update.
 - Added JEI Information tab to Elder Eye
 - Disabled Hand of Ender pickpocketing
 - Cleaned up Loot Table scripts
+- Fixed Valhelsia Structures spawning in Twilight Forest dimension
 
 
 
