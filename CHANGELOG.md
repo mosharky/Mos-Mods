@@ -5,12 +5,15 @@ Note: it wasn't the last update.
 ### ADDED:
 - Recipe for the Potion of Redemption
 
+## UPDATED:
+- 'Architectuary'
+- 'Stylish Effects'
+
 ### CHANGED:
 - Replaced items in Twisted Heart recipe as to make it obtainable
 - Added more items into `momo:armor/helmets` tag
 - Added JEI Information tab to Elder Eye
 - Disabled Hand of Ender pickpocketing
-
 
 
 

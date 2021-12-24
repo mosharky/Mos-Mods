@@ -1288,41 +1288,41 @@
       "addonID": 543661,
       "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
       "installedFile": {
-        "id": 3569753,
-        "displayName": "StylishEffects-v1.1.1-1.16.5-Forge.jar",
-        "fileName": "StylishEffects-v1.1.1-1.16.5-Forge.jar",
-        "fileDate": "2021-12-17T16:01:59.007Z",
-        "fileLength": 98044,
+        "id": 3578370,
+        "displayName": "StylishEffects-v1.2.0-1.16.5-Forge.jar",
+        "fileName": "StylishEffects-v1.2.0-1.16.5-Forge.jar",
+        "fileDate": "2021-12-23T21:02:11.877Z",
+        "fileLength": 99250,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3569/753/StylishEffects-v1.1.1-1.16.5-Forge.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3578/370/StylishEffects-v1.2.0-1.16.5-Forge.jar",
         "isAlternate": false,
-        "alternateFileId": 3569754,
+        "alternateFileId": 3578371,
         "dependencies": [
           {
-            "id": 81317819,
-            "addonId": 403303,
-            "type": 2,
-            "fileId": 3569753
-          },
-          {
-            "id": 81317820,
+            "id": 81946437,
             "addonId": 495476,
             "type": 3,
-            "fileId": 3569753
+            "fileId": 3578370
+          },
+          {
+            "id": 81946436,
+            "addonId": 403303,
+            "type": 2,
+            "fileId": 3578370
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 994331241,
+            "fingerprint": 3622469954,
             "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "CHANGELOG.md",
-            "fingerprint": 3801529420,
+            "fingerprint": 3708266308,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -1340,7 +1340,7 @@
           },
           {
             "foldername": "fuzs",
-            "fingerprint": 3445301618,
+            "fingerprint": 284577888,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -1363,7 +1363,7 @@
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 3845020193,
+        "packageFingerprint": 1436790850,
         "gameVersion": [
           "1.16.3",
           "1.16.5",
@@ -1413,20 +1413,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2636874,
+        "renderCacheId": 2647381,
         "projectId": 543661,
-        "packageFingerprintId": 811651595,
+        "packageFingerprintId": 817320092,
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameVersionMappingId": 3577816,
+        "gameVersionMappingId": 3600156,
         "gameVersionId": 7498,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "StylishEffects-v1.1.1-1.16.5-Forge.jar"
+        "FileNameOnDisk": "StylishEffects-v1.2.0-1.16.5-Forge.jar"
       },
       "dateInstalled": "2021-11-22T07:35:48.824701Z",
-      "dateUpdated": "2021-12-21T00:55:26.4670837Z",
-      "dateLastUpdateAttempted": "2021-12-21T00:55:26.4670837Z",
-      "status": 3,
+      "dateUpdated": "2021-12-24T04:23:21.1480359Z",
+      "dateLastUpdateAttempted": "2021-12-24T04:23:21.1480359Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
