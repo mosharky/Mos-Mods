@@ -30,8 +30,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-12-23T21:17:37.4423447Z",
-  "playedCount": 294,
+  "lastPlayed": "2021-12-24T05:28:57.3573061Z",
+  "playedCount": 296,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -9818,135 +9818,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 317716,
-      "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
-      "installedFile": {
-        "id": 3522097,
-        "displayName": "curiouselytra-forge-1.16.5-4.0.2.4.jar",
-        "fileName": "curiouselytra-forge-1.16.5-4.0.2.4.jar",
-        "fileDate": "2021-11-11T05:12:17.997Z",
-        "fileLength": 35409,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3522/97/curiouselytra-forge-1.16.5-4.0.2.4.jar",
-        "isAlternate": false,
-        "alternateFileId": 3522098,
-        "dependencies": [
-          {
-            "id": 78078040,
-            "addonId": 308989,
-            "type": 3,
-            "fileId": 3522097
-          },
-          {
-            "id": 78078041,
-            "addonId": 309927,
-            "type": 3,
-            "fileId": 3522097
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1615401440,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "top",
-            "fingerprint": 3410513641,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "CHANGELOG.md",
-            "fingerprint": 56591279,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "curiouselytra_icon.png",
-            "fingerprint": 2512131936,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2177482972,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "licenses",
-            "fingerprint": 3368067102,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1111621113,
-            "type": 3,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "README.md",
-            "fingerprint": 347289972,
-            "type": 3,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3365211646,
-        "gameVersion": [
-          "1.16.5",
-          "Forge"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000016.0000000005",
-            "gameVersion": "1.16.5",
-            "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
-            "gameVersionName": "1.16.5",
-            "gameVersionTypeId": 70886
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge",
-            "gameVersionTypeId": 68441
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 2579449,
-        "projectId": 317716,
-        "packageFingerprintId": 782144895,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 3456909,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "curiouselytra-forge-1.16.5-4.0.2.4.jar"
-      },
-      "dateInstalled": "2021-11-01T22:53:40.9473613Z",
-      "dateUpdated": "2021-11-11T11:13:01.7087268Z",
-      "dateLastUpdateAttempted": "2021-11-11T11:13:01.7087268Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 416306,
       "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
       "installedFile": {
@@ -12333,14 +12204,14 @@
       "addonID": 419699,
       "gameInstanceID": "974d7307-f319-47a9-b787-f223a4241d81",
       "installedFile": {
-        "id": 3570507,
-        "displayName": "[Forge 1.16.4/5] v1.26.40",
-        "fileName": "architectury-1.26.40.jar",
-        "fileDate": "2021-12-18T09:13:24.567Z",
+        "id": 3577751,
+        "displayName": "[Forge 1.16.4/5] v1.26.42",
+        "fileName": "architectury-1.26.42.jar",
+        "fileDate": "2021-12-23T10:00:26.92Z",
         "fileLength": 542288,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3570/507/architectury-1.26.40.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3577/751/architectury-1.26.42.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12348,7 +12219,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 91401960,
+            "fingerprint": 4061145481,
             "type": 3,
             "invalidFingerprint": false
           },
@@ -12390,18 +12261,18 @@
           },
           {
             "foldername": "me",
-            "fingerprint": 3145192556,
+            "fingerprint": 1489672853,
             "type": 3,
             "invalidFingerprint": false
           },
           {
-            "foldername": "architectury_inject_architectury_common_24c13dcd76e84dfcae0f3da3e85d441e_8cc3935fd3beef71573049ad48c841986d6173437b0bf5e462531e49fd817ebdarchitectury12640devjar",
-            "fingerprint": 664575840,
+            "foldername": "architectury_inject_architectury_common_89ee1e1a10c448b99f1f810578f7275a_ff919535975efd94dcf8903a70bd4bd3ae7098612875e0b7f9af17fd391dd498architectury12642devjar",
+            "fingerprint": 2766733286,
             "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 572215150,
+        "packageFingerprint": 4136033146,
         "gameVersion": [
           "1.16.5",
           "Forge",
@@ -12435,20 +12306,20 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 2637789,
+        "renderCacheId": 2646587,
         "projectId": 419699,
-        "packageFingerprintId": 812151069,
+        "packageFingerprintId": 816869937,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 3579851,
+        "gameVersionMappingId": 3598289,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "architectury-1.26.40.jar"
+        "FileNameOnDisk": "architectury-1.26.42.jar"
       },
       "dateInstalled": "2021-11-01T23:03:11.8963271Z",
-      "dateUpdated": "2021-12-21T01:01:10.0759885Z",
-      "dateLastUpdateAttempted": "2021-12-21T01:01:10.0759885Z",
-      "status": 3,
+      "dateUpdated": "2021-12-24T04:23:21.2581338Z",
+      "dateLastUpdateAttempted": "2021-12-24T04:23:21.2581338Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

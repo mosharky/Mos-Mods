@@ -1,4 +1,18 @@
 //priority: 5000
+
+//Item & block tag lists
+penguin_walkable_blocks = [
+    /betterendforge:*_ice/,
+    /environmental:ice_*/,
+    /quark:snow*/,
+    'betterendforge:dense_snow'
+]
+moth_glow = [
+    '#chisel:glowstone',
+    /infernalexp:.*glowstone*./,
+    /infernalexp:.*dimstone*./,
+]
+
 //Item Tags
 onEvent('item.tags', event => {
 
@@ -53,6 +67,8 @@ onEvent('item.tags', event => {
 
     //Add a tag to an item:
     const addTagToItem = [
+        { tag: 'momo_origins:penguin_walkable', item: penguin_walkable_blocks },
+        { tag: 'momo_origins:moth_glow', item: moth_glow },
         { tag: 'supplementaries:ropes', item: 'supplementaries:rope' },
         { tag: 'alexsmobs:drops_acacia_blossoms', item: 'outvoted:baobab_leaves' },
         { tag: 'alexsmobs:drops_bananas', item: ['atmospheric:rosewood_leaves', 'atmospheric:morado_leaves', 'atmospheric:flowering_morado_leaves'] },
@@ -114,7 +130,8 @@ onEvent('item.tags', event => {
                 'farmersdelight:squid_ink_pasta',
                 'irregularchef:pool_party_stick',
                 'abnormals_delight:pike_with_beetroot',
-                'abnormals_delight:perch_with_mushrooms'
+                'abnormals_delight:perch_with_mushrooms',
+                /quark:.*crab_leg/
             ]
         },
         {
@@ -263,6 +280,8 @@ onEvent('item.tags', event => {
 
 onEvent('block.tags', event => {
     const addTagToBlock = [
+        { tag: 'momo_origins:penguin_walkable_blocks', block: penguin_walkable_blocks },
+        { tag: 'momo_origins:moth_glow', block: moth_glow },
         { tag: 'create:windmill_sails', block: /chisel:wool*/ },
         {
             tag: 'origins:natural_stone',
@@ -274,23 +293,6 @@ onEvent('block.tags', event => {
                 'darkerdepths:aridrock',
                 'darkerdepths:limestone',
                 'darkerdepths:grimestone'
-            ]
-        },
-        {
-            tag: 'momo_origins:penguin_walkable_blocks',
-            block: [
-                /betterendforge:*_ice/,
-                /environmental:ice_*/,
-                /quark:snow*/,
-                'betterendforge:dense_snow'
-            ]
-        },
-        {
-            tag: 'momo_origins:moth_glow',
-            block: [
-                '#chisel:glowstone',
-                /infernalexp:.*glowstone*./,
-                /infernalexp:.*dimstone*./,
             ]
         },
     ]
