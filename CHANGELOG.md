@@ -4,6 +4,9 @@ Note: it wasn't the last update.
 
 ### ADDED:
 - Recipe for the Potion of Redemption
+- Items & recipes for Water Protection enchantments
+  - Added 5 new "Aquatic Catalyst" items for use in Water Protection recipes
+  - Needs feedback
 
 ### UPDATED:
 - 'Architectuary'

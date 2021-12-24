@@ -350,23 +350,106 @@ onEvent('recipes', (event) => {
         ]
     }).id('betterendforge:crystalite_boots')
 
-    /*
+
+    //Aquatic Catalyst Recipes
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'betterendforge:eternal_crystal' },
+        output: 'momo:aquatic_catalyst1',
+        time: 100,
+        catalysts: [
+            { item: 'upgrade_aquatic:elder_eye', index: 0 },
+            { item: 'betterendforge:amber_gem', index: 1 },
+            { item: 'betterendforge:amber_gem', index: 7 },
+            { item: 'minecraft:prismarine_shard', index: 2 },
+            { item: 'minecraft:prismarine_shard', index: 6 },
+            { item: 'minecraft:prismarine_crystals', index: 3 },
+            { item: 'minecraft:prismarine_crystals', index: 4 },
+            { item: 'minecraft:prismarine_crystals', index: 5 }
+        ]
+    }).id('momo:aquatic_catalyst1')
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'momo:aquatic_catalyst1' },
+        output: 'momo:aquatic_catalyst2',
+        time: 100,
+        catalysts: [
+            { item: 'minecraft:prismarine_crystals', index: 0 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
+        ]
+    }).id('momo:aquatic_catalyst2')
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'momo:aquatic_catalyst2' },
+        output: 'momo:aquatic_catalyst3',
+        time: 100,
+        catalysts: [
+            { item: 'minecraft:prismarine_crystals', index: 7 },
+            { item: 'minecraft:prismarine_crystals', index: 1 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 4 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
+        ]
+    }).id('momo:aquatic_catalyst3')
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'momo:aquatic_catalyst3' },
+        output: 'momo:aquatic_catalyst4',
+        time: 100,
+        catalysts: [
+            { item: 'minecraft:heart_of_the_sea', index: 0 },
+            { item: 'minecraft:prismarine_crystals', index: 7 },
+            { item: 'minecraft:prismarine_crystals', index: 1 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 4 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
+        ]
+    }).id('momo:aquatic_catalyst4')
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'momo:aquatic_catalyst4' },
+        output: 'momo:aquatic_catalyst5',
+        time: 100,
+        catalysts: [
+            { item: 'betterendforge:eternal_crystal', index: 0 },
+            { item: 'minecraft:prismarine_crystals', index: 7 },
+            { item: 'minecraft:prismarine_crystals', index: 1 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 4 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
+            { item: 'botania:rune_water', index: 3 },
+            { item: 'botania:rune_water', index: 5 },
+        ]
+    }).id('momo:aquatic_catalyst5')
+
+
     //Water Protection Infusion
     for (let i = 1; i < 6; i++) {
         event.custom({
             type: 'betterendforge:infusion',
-            input: Item.of('minecraft:enchanted_book').enchant('minecraft:protection', i),
-            output: Item.of('minecraft:enchanted_book').enchant('origins:water_protection', i),
+            input: { item: 'momo:aquatic_catalyst' + i },
+            output: {
+                id: 'minecraft:enchanted_book',
+                Count: 1,
+                tag: {
+                  StoredEnchantments: [
+                    {
+                      lvl: i,
+                      id: 'origins:water_protection'
+                    }
+                  ]
+                }
+            },
             time: 300,
             catalysts: [
                 { item: 'betterendforge:enchanted_petal', index: 0 },
                 { item: 'minecraft:lapis_lazuli', index: 1 },
                 { item: 'minecraft:lapis_lazuli', index: 3 },
-                { item: 'minecraft:turtle_helmet', index: 4 },
+                { item: 'minecraft:scute', index: 4 },
                 { item: 'minecraft:lapis_lazuli', index: 5 },
                 { item: 'minecraft:lapis_lazuli', index: 7 }
             ]
-        }).id('momo:test_water_protection' + i)
+        }).id('momo:water_protection' + i)
     }
-    */
 })
