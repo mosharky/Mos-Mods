@@ -301,7 +301,7 @@ This is likely to be the last update, either to this modpack, or to the 1.16.5 v
 - Stronghold library rooms use vanilla loot tables now, ancient tomes are now obtainable
 - Data-driven recipes now contained within KubeJS scripts
 
-
+---
 
 # **[4.0.0-beta3] - 2021-11-17**
 
@@ -349,7 +349,7 @@ This is likely to be the last update, either to this modpack, or to the 1.16.5 v
 - Overhauled Create's Gabbro, Dolomite, Limestone, and Weathered Limestone generation
 - Added tooltip to the Empty Antique Atlas
 
-
+---
 
 # **[4.0.0-beta2] - 2021-11-16**
 
@@ -407,7 +407,7 @@ Note: Removed a bunch of mods for performance enhancements. I've added Antique A
 - Changed Scroll of Postmortal Recall recipe
 - Added Potion of Recall to dungeon loot tables
 
-
+---
 
 # **[4.0.0-beta1] - 2021-11-12**
 
@@ -508,7 +508,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 - Adjusted Nature's Compass recipe
 - Modified Buried Treasure loot tables with some surprises :)
 
-
+---
 
 # **[4.0.0-alpha3] - 2021-11-08**
 
@@ -535,7 +535,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 ### UPDATED:
 - 'Just Enough Items (JEI)'
 
-
+---
 
 # **[4.0.0-alpha1] - 2021-11-08**
 
