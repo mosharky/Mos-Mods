@@ -1,3 +1,11 @@
+# **[4.0.2] - 2021-12-25**
+
+Note:
+
+### CHANGED:
+- Fixed Origin height being reset upon world reload
+
+
 # **[4.0.1] - 2021-12-24**
 
 Note: it wasn't the last update. Hoping this makes things more complete!
