@@ -31,7 +31,7 @@ Note: it wasn't the last update. Hoping this makes things more complete!
 - Cleaned up Loot Table scripts
 - Fixed Valhelsia Structures spawning in Twilight Forest dimension
 
-
+---
 
 # **[4.0.0-RELEASE] - 2021-12-23**
 
