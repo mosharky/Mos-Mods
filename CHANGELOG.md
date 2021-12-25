@@ -18,7 +18,7 @@ Note: it wasn't the last update. Hoping this makes things more complete!
 - 'Stylish Effects'
 - 'Valhelsia Core'
 
-### REMOVED
+### REMOVED:
 - 'Curious Elytra'
   - actually deleted this time lol
 
