@@ -1,6 +1,6 @@
 //priority: 10000
 onEvent('item.registry', event => {
-  event.create('momo:hemolymph_pustules').displayName('Hemolymph Pustules')
+  event.create('momo:hemolymph_pustules').displayName('Hemolymph Pustules').rarity(RARITY_EPIC)
   event.create('momo:lesser_ender_eye').displayName('Lesser Eye of Ender')
   event.create('momo:raw_coal').displayName('Raw Coal')
   event.create('momo:raw_copper').displayName('Raw Copper')
@@ -15,8 +15,9 @@ onEvent('item.registry', event => {
   event.create('momo:beach_crab_icon').displayName('Beach Crab Icon')
   event.create('momo:moth_icon').displayName('Moth Icon')
   event.create('momo:aquatic_catalyst1').displayName('Lesser Aquatic Catalyst')
-  event.create('momo:aquatic_catalyst2').displayName('Aquatic Catalyst')
-  event.create('momo:aquatic_catalyst3').displayName('Great Aquatic Catalyst')
-  event.create('momo:aquatic_catalyst4').displayName('Greater Aquatic Catalyst')
-  event.create('momo:aquatic_catalyst5').displayName('Ultimate Aquatic Catalyst')
+  event.create('momo:aquatic_catalyst2').displayName('Aquatic Catalyst').rarity(RARITY_UNCOMMON)
+  event.create('momo:aquatic_catalyst3').displayName('Great Aquatic Catalyst').rarity(RARITY_UNCOMMON)
+  event.create('momo:aquatic_catalyst4').displayName('Greater Aquatic Catalyst').rarity(RARITY_RARE)
+  event.create('momo:aquatic_catalyst5').displayName('Ultimate Aquatic Catalyst').rarity(RARITY_EPIC)
+  event.create('momo:eternal_ingot').displayName('Eternal Ingot').rarity(RARITY_EPIC)
 })

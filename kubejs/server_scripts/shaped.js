@@ -297,58 +297,24 @@ onEvent('recipes', (event) => {
     }).id('improvedbackpacks:tiny_pocket')
 
 
-    //Crystalite Armor recipes
-    //Helmet
+    
+    //Eternal Ingot Recipe
     event.custom({
         type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_helmet' },
-        output: 'betterendforge:crystalite_helmet',
+        input: { item: 'minecraft:netherite_ingot' },
+        output: 'momo:eternal_ingot',
         time: 150,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0 },
-            { item: 'betterendforge:crystal_shards', index: 2 },
-            { item: 'betterendforge:crystal_shards', index: 6 },
+            { item: 'betterendforge:eternal_crystal', index: 0 },
+            { item: 'betterendforge:eternal_crystal', index: 2 },
+            { item: 'betterendforge:eternal_crystal', index: 4 },
+            { item: 'betterendforge:eternal_crystal', index: 6 },
+            { item: 'betterendforge:amber_gem', index: 1 },
+            { item: 'betterendforge:amber_gem', index: 7 },
+            { item: 'betterendforge:amber_gem', index: 3 },
+            { item: 'betterendforge:amber_gem', index: 5 },
         ]
-    }).id('betterendforge:crystalite_helmet')
-    //Chestplate
-    event.custom({
-        type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_chestplate' },
-        output: 'betterendforge:crystalite_chestplate',
-        time: 300,
-        catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0 },
-            { item: 'betterendforge:crystal_shards', index: 1 },
-            { item: 'betterendforge:crystal_shards', index: 3 },
-            { item: 'betterendforge:crystal_shards', index: 5 },
-            { item: 'betterendforge:crystal_shards', index: 7 }
-        ]
-    }).id('betterendforge:crystalite_chestplate')
-    //Leggings
-    event.custom({
-        type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_leggings' },
-        output: 'betterendforge:crystalite_leggings',
-        time: 225,
-        catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0 },
-            { item: 'betterendforge:crystal_shards', index: 2 },
-            { item: 'betterendforge:crystal_shards', index: 4 },
-            { item: 'betterendforge:crystal_shards', index: 6 }
-        ]
-    }).id('betterendforge:crystalite_leggings')
-    //Boots
-    event.custom({
-        type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_boots' },
-        output: 'betterendforge:crystalite_boots',
-        time: 150,
-        catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0 },
-            { item: 'betterendforge:crystal_shards', index: 2 },
-            { item: 'betterendforge:crystal_shards', index: 6 }
-        ]
-    }).id('betterendforge:crystalite_boots')
+    }).id('momo:eternal_ingot')
 
 
     //Aquatic Catalyst Recipes

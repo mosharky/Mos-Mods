@@ -7,6 +7,9 @@ Note: it wasn't the last update. Hoping this makes things more complete!
 - Items & recipes for Water Protection enchantments
   - Added 5 new "Aquatic Catalyst" items for use in Water Protection recipes
   - Needs feedback
+- Items & recipes for Crystalite Armor
+  - Added new Eternal Ingot item
+  - Crystalite armor now crafted in smithing table to keep enchantments from input
 
 ### UPDATED:
 - 'Architectuary'
