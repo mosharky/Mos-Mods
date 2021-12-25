@@ -85,7 +85,6 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/texture-packs/lootrchestretexture-for-create">LootrChestRetexture for Create! (by soldrk)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/armor-toughness-bar">Armor Toughness Bar (by tfarecnim)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/chisel">Chisel (by tterrag1098)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/curious-elytra">Curious Elytra (Forge) (by TheIllusiveC4)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/chocolate-fix">Chocolate Fix (by AlcatrazEscapee)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/dragon-mounts-legacy">Dragon Mounts: Legacy (by WolfSh0tz)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/curios">Curios API (Forge) (by TheIllusiveC4)</a></li>
