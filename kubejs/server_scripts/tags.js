@@ -1,4 +1,18 @@
 //priority: 5000
+
+//Item & block tag lists
+penguin_walkable_blocks = [
+    /betterendforge:*_ice/,
+    /environmental:ice_*/,
+    /quark:snow*/,
+    'betterendforge:dense_snow'
+]
+moth_glow = [
+    '#chisel:glowstone',
+    /infernalexp:.*glowstone*./,
+    /infernalexp:.*dimstone*./,
+]
+
 //Item Tags
 onEvent('item.tags', event => {
 
@@ -53,6 +67,8 @@ onEvent('item.tags', event => {
 
     //Add a tag to an item:
     const addTagToItem = [
+        { tag: 'momo_origins:penguin_walkable', item: penguin_walkable_blocks },
+        { tag: 'momo_origins:moth_glow', item: moth_glow },
         { tag: 'supplementaries:ropes', item: 'supplementaries:rope' },
         { tag: 'alexsmobs:drops_acacia_blossoms', item: 'outvoted:baobab_leaves' },
         { tag: 'alexsmobs:drops_bananas', item: ['atmospheric:rosewood_leaves', 'atmospheric:morado_leaves', 'atmospheric:flowering_morado_leaves'] },
@@ -70,7 +86,24 @@ onEvent('item.tags', event => {
         { tag: 'minecraft:wooden_slabs', item: 'darkerdepths:petrified_slab' },
         { tag: 'minecraft:planks', item: ['darkerdepths:petrified_planks', 'darkerdepths:vertical_petrified_planks'] },
         { tag: 'forge:slimeballs', item: 'autumnity:snail_slime' },
-        { tag: 'momo:armor/helmets', item: /.*helmet*./ },
+        {
+            tag: 'momo:armor/helmets',
+            item: [
+                /.*helmet*./,
+                /.*_mask(?!.)/,
+                /.*_mask_*./,
+                /.*hat(?!.)/,
+                'alexsmobs:moose_headgear',
+                'environmental:thief_hood',
+                'rats:rat_fez',
+                'alexsmobs:spiked_turtle_shell',
+                'alexsmobs:fedora',
+                'rats:chef_toque',
+                'alexsmobs:sombrero',
+                'alexsmobs:frontier_cap',
+                'darkerdepths:glowshroom_cap'
+            ]
+        },
         { tag: 'momo:armor/chestplates', item: /.*chestplate*./ },
         { tag: 'momo:armor/leggings', item: [/.*leggings*./, /.*pants/] },
         { tag: 'momo:armor/boots', item: /.*boots*./ },
@@ -84,9 +117,9 @@ onEvent('item.tags', event => {
         { tag: 'momo:tools/axes', item: [/.*_axe/, /axe_*./, /.*_axe_*./] },
         { tag: 'momo:tools/shovels', item: /.*_shovel/ },
         { tag: 'momo:tools/hoes', item: /.*_hoe/ },
-        { tag: 'momo:tools/bows', item: /.*bow(?!.)/ },
+        { tag: 'momo:tools/bows', item: [/.*bow(?!.)/, 'mowziesmobs:blowgun', 'create:potato_cannon'] },
         { tag: 'momo:tools/misc', item: ['twilightforest:block_and_chain'] },
-        { tag: 'momo:tools', item: ['#momo:tools/swords', '#momo:tools/pickaxes', '#momo:tools/axes', '#momo:tools/shovels', '#momo:tools/hoes', '#momo:tools/bows', '#momo:tools/misc' ] },
+        { tag: 'momo:tools', item: ['#momo:tools/swords', '#momo:tools/pickaxes', '#momo:tools/axes', '#momo:tools/shovels', '#momo:tools/hoes', '#momo:tools/bows', '#momo:tools/misc'] },
         {
             tag: 'momo_origins:penguin_seafood',
             item: [
@@ -97,7 +130,8 @@ onEvent('item.tags', event => {
                 'farmersdelight:squid_ink_pasta',
                 'irregularchef:pool_party_stick',
                 'abnormals_delight:pike_with_beetroot',
-                'abnormals_delight:perch_with_mushrooms'
+                'abnormals_delight:perch_with_mushrooms',
+                /quark:.*crab_leg/
             ]
         },
         {
@@ -246,33 +280,19 @@ onEvent('item.tags', event => {
 
 onEvent('block.tags', event => {
     const addTagToBlock = [
+        { tag: 'momo_origins:penguin_walkable_blocks', block: penguin_walkable_blocks },
+        { tag: 'momo_origins:moth_glow', block: moth_glow },
         { tag: 'create:windmill_sails', block: /chisel:wool*/ },
         {
             tag: 'origins:natural_stone',
             block: [
+                '#forge:stone',
                 'minecraft:blackstone',
                 'quark:deepslate',
                 'darkerdepths:shale',
                 'darkerdepths:aridrock',
                 'darkerdepths:limestone',
                 'darkerdepths:grimestone'
-            ]
-        },
-        {
-            tag: 'momo_origins:penguin_walkable_blocks',
-            block: [
-                /betterendforge:*_ice/,
-                /environmental:ice_*/,
-                /quark:snow*/,
-                'betterendforge:dense_snow'
-            ]
-        },
-        {
-            tag: 'momo_origins:moth_glow',
-            block: [
-                '#chisel:glowstone',
-                /infernalexp:.*glowstone*./,
-                /infernalexp:.*dimstone*./,
             ]
         },
     ]

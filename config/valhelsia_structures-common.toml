@@ -13,7 +13,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -33,7 +33,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "taiga"]
@@ -53,7 +53,7 @@
 		#Generate? [default: true]
 		generate = false
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -73,7 +73,7 @@
 		#Generate? [default: true]
 		generate = false
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga"]
@@ -93,7 +93,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest"]
@@ -113,7 +113,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["desert"]
@@ -128,7 +128,7 @@
 		#Range: 0 ~ 64
 		flatness_delta = 4
 		#Dimensions in which Structures can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 
 	[structures.castle_ruin]
 		#Biomes the structure can NOT generate in
@@ -142,7 +142,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "taiga"]
@@ -162,7 +162,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["swamp"]
@@ -182,7 +182,7 @@
 		#Generate? [default: true]
 		generate = true
 		#Dimensions the structure can NOT generate in
-		blacklisted_dimensions = []
+		blacklisted_dimensions = ["twilightforest:twilightforest"]
 		#Biome Categories the structure can generate in 
 		#Allowed Values: [none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, theend, beach, forest, ocean, desert, river, swamp, mushroom, nether]
 		biome_categories = ["plains", "forest", "extreme_hills", "taiga", "desert", "mesa", "savanna", "jungle", "icy", "swamp", "mushroom"]

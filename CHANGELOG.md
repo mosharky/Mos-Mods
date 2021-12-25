@@ -1,4 +1,39 @@
-# **[4.0.0-RELEASE] - 2021-23-04**
+# **[4.0.1] - 2021-12-24**
+
+Note: it wasn't the last update. Hoping this makes things more complete!
+
+### ADDED:
+- Recipe for the Potion of Redemption
+- Items & recipes for Water Protection enchantments
+  - Added 5 new "Aquatic Catalyst" items for use in Water Protection recipes
+  - Needs feedback
+- Items & recipes for Crystalite Armor
+  - Added new Eternal Ingot item
+  - Crystalite armor now crafted in smithing table to keep enchantments from input
+
+### UPDATED:
+- 'Architectuary'
+- 'Carry On'
+- 'Lootr'
+- 'Stylish Effects'
+- 'Valhelsia Core'
+
+### REMOVED
+- 'Curious Elytra'
+  - actually deleted this time lol
+
+### CHANGED:
+- Replaced items in Twisted Heart recipe as to make it obtainable
+- Added more items into `momo:armor/helmets` and `momo_origins:penguin_seafood` tags
+- Added item tags to origin-related block tags, for JEI searching
+- Added JEI Information tab to Elder Eye
+- Disabled Hand of Ender pickpocketing
+- Cleaned up Loot Table scripts
+- Fixed Valhelsia Structures spawning in Twilight Forest dimension
+
+---
+
+# **[4.0.0-RELEASE] - 2021-12-23**
 
 Note: Antique Atlas' are now colorized! New textured for modded biomes now too. The origins collection mods have been replaced with a custom datapack (the same origins, but bug-fixed/enhanced/nerfed). Upon death, you can update your origin once after updating. Backpacks are being changed into a different mod, so please empty all of their contents before updating. Elytra will also no longer be able to be equipped as a curio.
 
@@ -266,7 +301,7 @@ This is likely to be the last update, either to this modpack, or to the 1.16.5 v
 - Stronghold library rooms use vanilla loot tables now, ancient tomes are now obtainable
 - Data-driven recipes now contained within KubeJS scripts
 
-
+---
 
 # **[4.0.0-beta3] - 2021-11-17**
 
@@ -314,7 +349,7 @@ This is likely to be the last update, either to this modpack, or to the 1.16.5 v
 - Overhauled Create's Gabbro, Dolomite, Limestone, and Weathered Limestone generation
 - Added tooltip to the Empty Antique Atlas
 
-
+---
 
 # **[4.0.0-beta2] - 2021-11-16**
 
@@ -372,7 +407,7 @@ Note: Removed a bunch of mods for performance enhancements. I've added Antique A
 - Changed Scroll of Postmortal Recall recipe
 - Added Potion of Recall to dungeon loot tables
 
-
+---
 
 # **[4.0.0-beta1] - 2021-11-12**
 
@@ -473,7 +508,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 - Adjusted Nature's Compass recipe
 - Modified Buried Treasure loot tables with some surprises :)
 
-
+---
 
 # **[4.0.0-alpha3] - 2021-11-08**
 
@@ -500,7 +535,7 @@ Note: Fixed worldgen, but at the cost of Biomes O Plenty. I'm making up for that
 ### UPDATED:
 - 'Just Enough Items (JEI)'
 
-
+---
 
 # **[4.0.0-alpha1] - 2021-11-08**
 

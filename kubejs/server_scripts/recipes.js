@@ -18,6 +18,10 @@ events.listen('recipes', (event) => {
     event.recipes.createMilling('4x minecraft:string', '#forge:wool').id('create:milling/wool')
 
     event.smithing('twilightforest:fiery_ingot', 'twilightforest:knightmetal_ingot', 'twilightforest:fiery_blood').id('twilightforest:material/fiery_iron_ingot')
+    const armors = ['helmet', 'chestplate', 'leggings', 'boots']
+    armors.forEach((piece) => {
+        event.smithing('betterendforge:crystalite_' + piece, 'netherite_' + piece, 'momo:eternal_ingot').id('betterendforge:crystalite_' + piece)
+    })
 
 
     //ORE STUFF
@@ -44,4 +48,4 @@ events.listen('recipes', (event) => {
     event.recipes.createMilling('minecraft:emerald', 'momo:raw_emerald')
     event.recipes.createMilling('minecraft:lapis_lazuli', 'momo:raw_lapis')
     event.recipes.createMilling('minecraft:redstone', 'momo:raw_redstone')
-});
+})

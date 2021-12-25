@@ -5,9 +5,6 @@
 		#Maximum amount of status effects rendered in a single row.
 		#Range: 1 ~ 255
 		max_columns = 8
-		#Space between individual effect widgets.
-		#Range: > 0
-		widget_space = 1
 		#Show remaining status effect duration on tooltip.
 		tooltip_duration = true
 		#Screen side to render status effects on.
@@ -31,18 +28,26 @@
 		renderer_type = "COMPACT"
 		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing.
 		respect_hide_particles = false
-		#Exclude certain menus from showing active status effects. Useful when effect icons overlap with other screen elements.
-		menu_blacklist_raw = ["curios:curios_container"]
 		#Print menu type to game chat whenever a new menu screen is opened. Only intended to find menu types to be added to "menuBlacklistRaw".
 		debug_container_types = false
+		#Minimum screen border distance for effect widgets.
+		#Range: > 0
+		screen_border_distance = 3
+		#Space between individual effect widgets on y-axis.
+		#Range: > 0
+		widget_space_y = 1
+		#Space between individual effect widgets on x-axis.
+		#Range: > 0
+		widget_space_x = 1
+		#Exclude certain menus from showing active status effects. Useful when effect icons overlap with other screen elements.
+		menu_blacklist = ["curios:curios_container"]
+		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
+		allow_fallback = true
 
 	[renderers.hud_renderer]
 		#Maximum amount of status effects rendered in a single row.
 		#Range: 1 ~ 255
 		max_columns = 8
-		#Space between individual effect widgets.
-		#Range: > 0
-		widget_space = 1
 		#Screen side to render status effects on.
 		#Allowed Values: LEFT, RIGHT
 		screen_side = "RIGHT"
@@ -66,6 +71,14 @@
 		renderer_type = "COMPACT"
 		#Respect vanilla's "hideParticles" flag which prevents a status effect from showing.
 		respect_hide_particles = true
+		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
+		allow_fallback = false
+		#Space between individual effect widgets on y-axis.
+		#Range: > 0
+		widget_space_y = 1
+		#Space between individual effect widgets on x-axis.
+		#Range: > 0
+		widget_space_x = 1
 
 [widgets]
 

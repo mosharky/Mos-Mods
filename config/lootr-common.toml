@@ -20,4 +20,6 @@ dimension_whitelist = []
 dimension_blacklist = []
 #list of loot tables which shouldn't be converted [in the format of modid:loot_table]
 loot_table_blacklist = []
+#prevent the destruction of Lootr chests except while sneaking in creative mode
+disable_break = false
 

@@ -231,6 +231,17 @@ onEvent('recipes', (event) => {
                 A: 'minecraft:stick'
             },
             id: 'momo:ladders'
+        },
+        {
+            output: 'enigmaticlegacy:antiforbidden_potion',
+            pattern: ['AB ', 'CD '],
+            key: {
+                A: 'enigmaticlegacy:unholy_grail',
+                B: 'enigmaticlegacy:recall_potion',
+                C: 'minecraft:dragon_breath',
+                D: 'enigmaticlegacy:astral_dust'
+            },
+            id: 'momo:antiforbidden_potion'
         }
     ]
     recipes.forEach((recipe) => {
@@ -242,7 +253,7 @@ onEvent('recipes', (event) => {
         type: ''
     })
     */
-    
+
     //Greater Eye of Ender recipe
     event.custom({
         type: 'farmersdelight:cooking',
@@ -255,7 +266,7 @@ onEvent('recipes', (event) => {
         cookingtime: 200
     }).id('minecraft:ender_eye')
 
-    
+
     //Pocket recipes
     //Large
     event.custom({
@@ -272,7 +283,7 @@ onEvent('recipes', (event) => {
         spools_count: 2,
         first: { item: 'improvedbackpacks:tanned_leather' },
         first_count: 2,
-        second: { tag: 'forge:ingots/netherite'},
+        second: { tag: 'forge:ingots/netherite' },
         result: 'improvedbackpacks:medium_pocket'
     }).id('improvedbackpacks:medium_pocket')
     //Tiny
@@ -281,62 +292,130 @@ onEvent('recipes', (event) => {
         spools_count: 1,
         first: { item: 'improvedbackpacks:tanned_leather' },
         first_count: 1,
-        second: { tag: 'forge:ingots/gold'},
+        second: { tag: 'forge:ingots/gold' },
         result: 'improvedbackpacks:tiny_pocket'
     }).id('improvedbackpacks:tiny_pocket')
 
 
-    //Crystalite Armor recipes
-    //Helmet
+    
+    //Eternal Ingot Recipe
     event.custom({
         type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_helmet' },
-        output: 'betterendforge:crystalite_helmet',
+        input: { item: 'minecraft:netherite_ingot' },
+        output: 'momo:eternal_ingot',
         time: 150,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0},
-            { item: 'betterendforge:crystal_shards', index: 2},
-            { item: 'betterendforge:crystal_shards', index: 6},
+            { item: 'betterendforge:eternal_crystal', index: 0 },
+            { item: 'betterendforge:eternal_crystal', index: 2 },
+            { item: 'betterendforge:eternal_crystal', index: 4 },
+            { item: 'betterendforge:eternal_crystal', index: 6 },
+            { item: 'betterendforge:amber_gem', index: 1 },
+            { item: 'betterendforge:amber_gem', index: 7 },
+            { item: 'betterendforge:amber_gem', index: 3 },
+            { item: 'betterendforge:amber_gem', index: 5 },
         ]
-    }).id('betterendforge:crystalite_helmet')
-    //Chestplate
+    }).id('momo:eternal_ingot')
+
+
+    //Aquatic Catalyst Recipes
     event.custom({
         type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_chestplate' },
-        output: 'betterendforge:crystalite_chestplate',
-        time: 300,
+        input: { item: 'betterendforge:eternal_crystal' },
+        output: 'momo:aquatic_catalyst1',
+        time: 100,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0},
-            { item: 'betterendforge:crystal_shards', index: 1 },
-            { item: 'betterendforge:crystal_shards', index: 3 },
-            { item: 'betterendforge:crystal_shards', index: 5 },
-            { item: 'betterendforge:crystal_shards', index: 7 }
+            { item: 'upgrade_aquatic:elder_eye', index: 0 },
+            { item: 'betterendforge:amber_gem', index: 1 },
+            { item: 'betterendforge:amber_gem', index: 7 },
+            { item: 'minecraft:prismarine_shard', index: 2 },
+            { item: 'minecraft:prismarine_shard', index: 6 },
+            { item: 'minecraft:prismarine_crystals', index: 3 },
+            { item: 'minecraft:prismarine_crystals', index: 4 },
+            { item: 'minecraft:prismarine_crystals', index: 5 }
         ]
-    }).id('betterendforge:crystalite_chestplate')
-    //Leggings
+    }).id('momo:aquatic_catalyst1')
     event.custom({
         type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_leggings' },
-        output: 'betterendforge:crystalite_leggings',
-        time: 225,
+        input: { item: 'momo:aquatic_catalyst1' },
+        output: 'momo:aquatic_catalyst2',
+        time: 100,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0 },
+            { item: 'minecraft:prismarine_crystals', index: 0 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
+        ]
+    }).id('momo:aquatic_catalyst2')
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'momo:aquatic_catalyst2' },
+        output: 'momo:aquatic_catalyst3',
+        time: 100,
+        catalysts: [
+            { item: 'minecraft:prismarine_crystals', index: 7 },
+            { item: 'minecraft:prismarine_crystals', index: 1 },
             { item: 'betterendforge:crystal_shards', index: 2 },
             { item: 'betterendforge:crystal_shards', index: 4 },
-            { item: 'betterendforge:crystal_shards', index: 6 }
+            { item: 'betterendforge:crystal_shards', index: 6 },
         ]
-    }).id('betterendforge:crystalite_leggings')
-    //Boots
+    }).id('momo:aquatic_catalyst3')
     event.custom({
         type: 'betterendforge:infusion',
-        input: { item: 'minecraft:netherite_boots' },
-        output: 'betterendforge:crystalite_boots',
-        time: 150,
+        input: { item: 'momo:aquatic_catalyst3' },
+        output: 'momo:aquatic_catalyst4',
+        time: 100,
         catalysts: [
-            { item: 'betterendforge:amber_gem', index: 0 },
+            { item: 'minecraft:heart_of_the_sea', index: 0 },
+            { item: 'minecraft:prismarine_crystals', index: 7 },
+            { item: 'minecraft:prismarine_crystals', index: 1 },
             { item: 'betterendforge:crystal_shards', index: 2 },
-            { item: 'betterendforge:crystal_shards', index: 6 }
+            { item: 'betterendforge:crystal_shards', index: 4 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
         ]
-    }).id('betterendforge:crystalite_boots')
+    }).id('momo:aquatic_catalyst4')
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'momo:aquatic_catalyst4' },
+        output: 'momo:aquatic_catalyst5',
+        time: 100,
+        catalysts: [
+            { item: 'betterendforge:eternal_crystal', index: 0 },
+            { item: 'minecraft:prismarine_crystals', index: 7 },
+            { item: 'minecraft:prismarine_crystals', index: 1 },
+            { item: 'betterendforge:crystal_shards', index: 2 },
+            { item: 'betterendforge:crystal_shards', index: 4 },
+            { item: 'betterendforge:crystal_shards', index: 6 },
+            { item: 'botania:rune_water', index: 3 },
+            { item: 'botania:rune_water', index: 5 },
+        ]
+    }).id('momo:aquatic_catalyst5')
 
+
+    //Water Protection Infusion
+    for (let i = 1; i < 6; i++) {
+        event.custom({
+            type: 'betterendforge:infusion',
+            input: { item: 'momo:aquatic_catalyst' + i },
+            output: {
+                id: 'minecraft:enchanted_book',
+                Count: 1,
+                tag: {
+                  StoredEnchantments: [
+                    {
+                      lvl: i,
+                      id: 'origins:water_protection'
+                    }
+                  ]
+                }
+            },
+            time: 300,
+            catalysts: [
+                { item: 'betterendforge:enchanted_petal', index: 0 },
+                { item: 'minecraft:lapis_lazuli', index: 1 },
+                { item: 'minecraft:lapis_lazuli', index: 3 },
+                { item: 'minecraft:scute', index: 4 },
+                { item: 'minecraft:lapis_lazuli', index: 5 },
+                { item: 'minecraft:lapis_lazuli', index: 7 }
+            ]
+        }).id('momo:water_protection' + i)
+    }
 })

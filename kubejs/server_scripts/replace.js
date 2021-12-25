@@ -163,6 +163,11 @@ onEvent('recipes', (event) => {
             toReplace: 'minecraft:ender_eye',
             replaceWith: 'momo:lesser_ender_eye'
         },
+        {
+            filter: {},
+            toReplace: 'enigmaticlegacy:earth_heart',
+            replaceWith: 'minecraft:heart_of_the_sea'
+        },
         
     ];
 
