@@ -4,7 +4,7 @@ Note:
 
 ### CHANGED:
 - Fixed Origin height being reset upon world reload
-- "Overwhelming Light" hides Weakness effect now
+- Giant Moth origin's "Overwhelming Light" power hides Weakness effect now
 
 ---
 
