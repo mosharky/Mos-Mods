@@ -1,9 +1,8 @@
 # **[4.0.2] - 2021-12-25**
 
-Note:
-
 ### ADDED:
 - Added Heart of the Earth recipe
+- Added Orb of Origin recipe
 
 ### CHANGED:
 - Fixed Origin height being reset upon world reload

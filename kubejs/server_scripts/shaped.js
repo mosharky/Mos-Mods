@@ -265,7 +265,26 @@ onEvent('recipes', (event) => {
         type: ''
     })
     */
+   
+    //Orb of Origin recipe
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'minecraft:nether_star' },
+        output: 'origins:orb_of_origin',
+        time: 450,
+        catalysts: [
+            { item: 'alexsmobs:void_worm_eye', index: 0 },
+            { item: 'minecraft:elytra', index: 1 },
+            { item: 'minecraft:ender_eye', index: 2 },
+            { item: 'twilightforest:fiery_blood', index: 3 },
+            { item: 'upgrade_aquatic:elder_eye', index: 4 },
+            { item: 'mowziesmobs:ice_crystal', index: 5 },
+            { item: 'momo:lesser_ender_eye', index: 6 },
+            { item: 'minecraft:totem_of_undying', index: 7 },
+        ]
+    }).id('momo:orb_of_origin')
 
+    
     //Greater Eye of Ender recipe
     event.custom({
         type: 'farmersdelight:cooking',
