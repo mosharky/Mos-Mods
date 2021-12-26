@@ -242,7 +242,19 @@ onEvent('recipes', (event) => {
                 D: 'enigmaticlegacy:astral_dust'
             },
             id: 'momo:antiforbidden_potion'
-        }
+        },
+        {
+            output: 'enigmaticlegacy:earth_heart',
+            pattern: ['ABA', 'CCC', 'DED'],
+            key: {
+                A: 'minecraft:grass_block',
+                B: 'minecraft:heart_of_the_sea',
+                C: 'minecraft:emerald_block',
+                D: 'minecraft:magma_block',
+                E: 'comfortable_nether:heartof_the_nether'
+            },
+            id: 'momo:earth_heart'
+        },
     ]
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);

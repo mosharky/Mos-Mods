@@ -2,6 +2,9 @@
 
 Note:
 
+### ADDED:
+- Added Heart of the Earth recipe
+
 ### CHANGED:
 - Fixed Origin height being reset upon world reload
 - Giant Moth origin's "Overwhelming Light" power hides Weakness effect now
