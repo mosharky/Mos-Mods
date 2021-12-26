@@ -4,7 +4,9 @@ Note:
 
 ### CHANGED:
 - Fixed Origin height being reset upon world reload
+- "Overwhelming Light" hides Weakness effect now
 
+---
 
 # **[4.0.1] - 2021-12-24**
 
