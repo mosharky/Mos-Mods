@@ -190,7 +190,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: '16x minecraft:stick',
-            pattern: ['A  ', 'A  ', '   '],
+            pattern: ['A  ', 'A  '],
             key: {
                 A: '#minecraft:logs'
             },
