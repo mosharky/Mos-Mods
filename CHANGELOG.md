@@ -3,6 +3,7 @@
 Note: Changelog format changed
 
 ### MODS ADDED:
+- Better Compatibility Checker
 - Eidolon Data Recipes
 - Farmer's Delight Compats
 - Farmer's Respite
@@ -23,6 +24,7 @@ Note: Changelog format changed
 - Farmer's Tea
 - Health Overlay
   - Mantle replaces the mod
+- My Server Is Compatible
 
 ### CHANGES:
 - Added Heart of the Earth recipe
