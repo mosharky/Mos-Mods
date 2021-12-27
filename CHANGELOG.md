@@ -7,6 +7,7 @@ Note: Changelog format changed
 - Farmer's Delight Compats
 - Farmer's Respite
 - Mantle
+- Max Health Fix
 - Two Players One Horse
 
 ### MODS UPDATED:
