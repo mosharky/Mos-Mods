@@ -18,4 +18,5 @@ onEvent('jei.information', event => {
 	event.add('dragonmounts:ghost_dragon_egg', ['Obtained from Woodland Mansion chests'])
 	event.add('dragonmounts:water_dragon_egg', ['Obtained from Buried Treasure chests'])
 	event.add('upgrade_aquatic:elder_eye', ['Dropped by Elder Guardians'])
+	event.add('enigmaticlegacy:oblivion_stone', ['Obtained from Nether Fortress chest loot'])
 })

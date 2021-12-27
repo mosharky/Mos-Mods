@@ -7,7 +7,7 @@
 		"effect": "minecraft:weakness",
 		"is_ambient": true,
 		"show_particles": false,
-		"show_icon": true
+		"show_icon": false
 	},
 	"condition": {
 		"type": "origins:and",

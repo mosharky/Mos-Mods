@@ -262,6 +262,9 @@ onEvent('item.tags', event => {
                 'abnormals_delight:pike_with_beetroot',
                 'abnormals_delight:venison_with_bamboo_shoots',
                 'abnormals_delight:maple_glazed_bacon',
+                'farmersrespite:black_cod',
+                'farmersrespite:tea_curry',
+                'farmersrespite:blazing_chili'
             ]
         }
     ]

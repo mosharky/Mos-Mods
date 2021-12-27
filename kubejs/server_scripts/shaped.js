@@ -190,7 +190,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: '16x minecraft:stick',
-            pattern: ['A  ', 'A  ', '   '],
+            pattern: ['A  ', 'A  '],
             key: {
                 A: '#minecraft:logs'
             },
@@ -242,7 +242,19 @@ onEvent('recipes', (event) => {
                 D: 'enigmaticlegacy:astral_dust'
             },
             id: 'momo:antiforbidden_potion'
-        }
+        },
+        {
+            output: 'enigmaticlegacy:earth_heart',
+            pattern: ['ABA', 'CCC', 'DED'],
+            key: {
+                A: 'minecraft:grass_block',
+                B: 'minecraft:heart_of_the_sea',
+                C: 'minecraft:emerald_block',
+                D: 'minecraft:magma_block',
+                E: 'comfortable_nether:heartof_the_nether'
+            },
+            id: 'momo:earth_heart'
+        },
     ]
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
@@ -253,6 +265,25 @@ onEvent('recipes', (event) => {
         type: ''
     })
     */
+
+    //Orb of Origin recipe
+    event.custom({
+        type: 'betterendforge:infusion',
+        input: { item: 'minecraft:nether_star' },
+        output: 'origins:orb_of_origin',
+        time: 450,
+        catalysts: [
+            { item: 'alexsmobs:void_worm_eye', index: 0 },
+            { item: 'minecraft:elytra', index: 1 },
+            { item: 'minecraft:ender_eye', index: 2 },
+            { item: 'twilightforest:fiery_blood', index: 3 },
+            { item: 'upgrade_aquatic:elder_eye', index: 4 },
+            { item: 'mowziesmobs:ice_crystal', index: 5 },
+            { item: 'momo:lesser_ender_eye', index: 6 },
+            { item: 'minecraft:totem_of_undying', index: 7 },
+        ]
+    }).id('momo:orb_of_origin')
+
 
     //Greater Eye of Ender recipe
     event.custom({
@@ -297,7 +328,7 @@ onEvent('recipes', (event) => {
     }).id('improvedbackpacks:tiny_pocket')
 
 
-    
+
     //Eternal Ingot Recipe
     event.custom({
         type: 'betterendforge:infusion',
@@ -399,12 +430,12 @@ onEvent('recipes', (event) => {
                 id: 'minecraft:enchanted_book',
                 Count: 1,
                 tag: {
-                  StoredEnchantments: [
-                    {
-                      lvl: i,
-                      id: 'origins:water_protection'
-                    }
-                  ]
+                    StoredEnchantments: [
+                        {
+                            lvl: i,
+                            id: 'origins:water_protection'
+                        }
+                    ]
                 }
             },
             time: 300,
@@ -418,4 +449,25 @@ onEvent('recipes', (event) => {
             ]
         }).id('momo:water_protection' + i)
     }
+
+
+    //Eidolon Mind Shielding Plate recipe
+    event.custom({
+        type: 'eidolon:worktable',
+        core: ['III', 'III', 'LSL'],
+        extras: [
+            'B',
+            '  ',
+            'Q'
+        ],
+        key: {
+            S: {'item': 'eidolon:soul_shard'},
+            I: {'tag': 'forge:ingots/zinc'},
+            L: {'item': 'minecraft:leather'},
+            B: {'tag': 'forge:storage_blocks/lapis'},
+            Q: {'tag': 'forge:gems/quartz'}
+        },
+        result: {item: 'eidolon:mind_shielding_plate'}
+
+    })
 })

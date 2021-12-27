@@ -1,4 +1,46 @@
-# **[4.0.1] - 2021-12-25**
+# **[4.0.2] - 2021/12/27**
+
+Note: Changelog format changed
+
+### MODS ADDED:
+- Better Compatibility Checker
+- Eidolon Data Recipes
+- Farmer's Delight Compats
+- Farmer's Respite
+- Mantle
+- Max Health Fix
+- Two Players One Horse
+
+### MODS UPDATED:
+- Architectuary API
+- Carry On
+- Enigmatic Legacy
+- Lootr
+- Storage Drawers
+- Truly Treasures
+
+### MODS REMOVED:
+- Eidolon Recipes
+- Farmer's Tea
+- Health Overlay
+  - Mantle replaces the mod
+- My Server Is Compatible
+
+### CHANGES:
+- Added Heart of the Earth recipe
+- Added Orb of Origin recipe
+- Added Ender Shard recipe
+- New server-pack distribution
+- Fixed Origin height being reset upon world reload
+- Giant Moth origin's "Overwhelming Light" power hides Weakness effect now
+- Disabled Stasis enchantments being obtainable from Wandering Traders
+- Disabled all of Enigmatic Legacy's enchantments
+- Added Keystone of Oblivion information page
+- Changed how Mind-Shielding Plate recipe is loaded
+
+---
+
+# **[4.0.1] - 2021-12-24**
 
 Note: it wasn't the last update. Hoping this makes things more complete!
 

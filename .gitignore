@@ -7,6 +7,7 @@
 *.gz
 *.tbl
 *.abc
+minecraftinstance.json
 BotaniaVars.dat
 options.txt
 patchouli_data.json

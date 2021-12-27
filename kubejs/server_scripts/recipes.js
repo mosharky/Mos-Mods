@@ -3,19 +3,21 @@ global.akashictome = Item.of('akashictome:tome', '{"akashictome:is_morphing":1b,
 
 events.listen('recipes', (event) => {
 
-    event.shapeless('minecraft:chest', '#forge:chests')
-    event.shapeless('minecraft:bookshelf', '#forge:bookshelves')
+    event.shapeless('minecraft:chest', '#forge:chests').id('momo:chest_revert')
+    event.shapeless('minecraft:bookshelf', '#forge:bookshelves').id('momo:bookshelf_revert')
     event.shapeless('2x eidolon:pewter_blend', ['create:zinc_ingot', 'minecraft:iron_ingot']).id('eidolon:pewter_blend')
     event.shapeless('comforts:rope_and_nail', ['minecraft:iron_ingot', 'supplementaries:rope']).id('comforts:rope_and_nail')
-    event.shapeless('momo:lesser_ender_eye', ['minecraft:ender_pearl', 'minecraft:blaze_powder', 'minecraft:blaze_powder'])
-    event.shapeless('minecraft:coal', '8x tinycoal:tinycoal')
-    event.shapeless('minecraft:charcoal', '8x tinycoal:tinycharcoal')
-    event.shapeless('2x momo:hemolymph_pustules', 'alexsmobs:hemolymph_sac')
+    event.shapeless('momo:lesser_ender_eye', ['minecraft:ender_pearl', 'minecraft:blaze_powder', 'minecraft:blaze_powder']).id('momo:lesser_ender_eye')
+    event.shapeless('minecraft:coal', '8x tinycoal:tinycoal').id('momo:tinycoal_revert')
+    event.shapeless('minecraft:charcoal', '8x tinycoal:tinycharcoal').id('momo:tinycharcoal_revert')
+    event.shapeless('2x momo:hemolymph_pustules', 'alexsmobs:hemolymph_sac').id('momo:hemolymph_pustules')
     event.shapeless(global.akashictome, ['minecraft:book', '#forge:bookshelves']).id('akashictome:tome')
 
-    event.recipes.createMixing('moreminecarts:glass_spines', 'infernalexp:glowdust_sand').heated()
+    event.recipes.createMixing('moreminecarts:glass_spines', 'infernalexp:glowdust_sand').heated().id('momo:glass_spines')
     event.recipes.createCrushing('4x minecraft:string', '#forge:wool').id('create:crushing/wool')
     event.recipes.createMilling('4x minecraft:string', '#forge:wool').id('create:milling/wool')
+    event.recipes.createCrushing('2x betterendforge:ender_shard', 'minecraft:ender_pearl').id('momo:crushing_ender_shard')
+    event.recipes.createMilling('2x betterendforge:ender_shard', 'minecraft:ender_pearl').id('momo:milling_ender_shard')
 
     event.smithing('twilightforest:fiery_ingot', 'twilightforest:knightmetal_ingot', 'twilightforest:fiery_blood').id('twilightforest:material/fiery_iron_ingot')
     const armors = ['helmet', 'chestplate', 'leggings', 'boots']

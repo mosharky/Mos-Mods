@@ -1,78 +1,53 @@
 {
 	"type": "origins:action_on_callback",
 	"execute_chosen_when_orb": true,
-	"entity_action_chosen": {
+	"entity_action_added": {
 		"type": "origins:and",
 		"actions": [
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:height 0.26"
+				"command": "scale set pehkui:height 0.26 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:width 0.26"
+				"command": "scale set pehkui:width 0.26 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:motion 0.65"
+				"command": "scale set pehkui:motion 0.65 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:step_height 2"
+				"command": "scale set pehkui:step_height 2 @s"
 			}
 		]
 	},
-	"entity_action_respawned":{
+	"entity_action_respawn":{
 		"type": "origins:and",
 		"actions": [
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:height 0.26"
+				"command": "scale set pehkui:height 0.26 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:width 0.26"
+				"command": "scale set pehkui:width 0.26 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:motion 0.65"
+				"command": "scale set pehkui:motion 0.65 @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:step_height 2"
-			}
-		]
-	},
-	"entity_action_removed":{
-		"type": "origins:and",
-		"actions": [
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:height 1"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:width 1"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:motion 1"
-			},
-			{
-				"type": "origins:execute_command",
-				"permission_level": 4,
-				"command": "scale set pehkui:step_height 1"
+				"command": "scale set pehkui:step_height 2 @s"
 			}
 		]
 	},
@@ -82,22 +57,22 @@
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:height 1"
+				"command": "scale reset pehkui:height @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:width 1"
+				"command": "scale reset pehkui:width @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:motion 1"
+				"command": "scale reset pehkui:motion @s"
 			},
 			{
 				"type": "origins:execute_command",
 				"permission_level": 4,
-				"command": "scale set pehkui:step_height 1"
+				"command": "scale reset pehkui:step_height @s"
 			}
 		]
 	},
