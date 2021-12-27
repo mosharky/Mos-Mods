@@ -15,7 +15,7 @@
 	#List of enchantments that should not be sold by wandering traders. Any enchantments listed here will not be sold by wandering traders
 	#TIP: If you want an enchantment to be completely ignored by this mod, you can add it to both this option and the "Enchantments villagers will keep"
 	#EXAMPLE: "["minecraft:frost_walker", "momentum:momentum", "leap:leaping"]"
-	"Enchantments not sold by wandering traders" = []
+	"Enchantments not sold by wandering traders" = ["supplementaries:stasis"]
 	#List of enchantments that should have curses added to them. If an enchantment is listed here, it will always have a curse added alongside it when sold by a wandering trader
 	#EXAMPLE: "["minecraft:frost_walker", "momentum:momentum", "leap:leaping"]"
 	"Enchantments with curses added to them" = []
