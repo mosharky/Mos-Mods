@@ -1,28 +1,31 @@
-# **[4.0.2] - 2021-12-26**
+# **[4.0.2] - 2021/12/26**
 
-### ADDED:
-- 'Farmer's Delight Compats'
-- 'Farmer's Respite'
+Note: Changelog format changed
+
+### MODS ADDED:
+- Farmer's Delight Compats
+- Farmer's Respite
+
+### MODS UPDATED:
+- Carry On
+- Enigmatic Legacy
+- Lootr
+- Storage Drawers
+- Truly Treasures
+
+### MODS REMOVED:
+- Farmer's Tea
+
+### CHANGES:
 - Added Heart of the Earth recipe
 - Added Orb of Origin recipe
 - Added Ender Shard recipe
 - New server-pack distribution
-
-### UPDATED:
-- 'Carry On'
-- 'Enigmatic Legacy'
-- 'Lootr'
-- 'Storage Drawers'
-- 'Truly Treasures'
-
-### REMOVED:
-- 'Farmer's Tea'
-
-### CHANGED:
 - Fixed Origin height being reset upon world reload
 - Giant Moth origin's "Overwhelming Light" power hides Weakness effect now
 - Disabled Stasis enchantments being obtainable from Wandering Traders
 - Disabled all of Enigmatic Legacy's enchantments
+- Added Keystone of Oblivion information page
 
 ---
 
