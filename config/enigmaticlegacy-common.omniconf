@@ -37,7 +37,7 @@
     B:BonusWoolRecipesEnabled=true
 
     # Whether or not Ceaseless Enchantment should be enabled. [default: true, synchronized: yes]
-    B:CeaselessEnchantmentEnabled=true
+    B:CeaselessEnchantmentEnabled=false
 
     # Whether or not Charm of Treasure Hunter should be enabled. [default: true, synchronized: yes]
     B:CharmofTreasureHunterEnabled=false
@@ -220,10 +220,10 @@
     B:ScrollofaThousandCursesEnabled=true
 
     # Whether or not Sharpshooter Enchantment should be enabled. [default: true, synchronized: yes]
-    B:SharpshooterEnchantmentEnabled=true
+    B:SharpshooterEnchantmentEnabled=false
 
     # Whether or not Slayer Enchantment should be enabled. [default: true, synchronized: yes]
-    B:SlayerEnchantmentEnabled=true
+    B:SlayerEnchantmentEnabled=false
 
     # Whether or not Tattered Tome should be enabled. [default: true, synchronized: yes]
     B:TatteredTomeEnabled=true
@@ -241,7 +241,7 @@
     B:TomeofHungeringKnowledgeEnabled=false
 
     # Whether or not Torrent Enchantment should be enabled. [default: true, synchronized: yes]
-    B:TorrentEnchantmentEnabled=true
+    B:TorrentEnchantmentEnabled=false
 
     # Whether or not Twisted Heart should be enabled. [default: true, synchronized: yes]
     B:TwistedHeartEnabled=true
@@ -268,7 +268,7 @@
     B:WormholePotionEnabled=true
 
     # Whether or not Wrath Enchantment should be enabled. [default: true, synchronized: yes]
-    B:WrathEnchantmentEnabled=true
+    B:WrathEnchantmentEnabled=false
 }
 
 

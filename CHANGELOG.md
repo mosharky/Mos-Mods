@@ -21,6 +21,7 @@
 - Fixed Origin height being reset upon world reload
 - Giant Moth origin's "Overwhelming Light" power hides Weakness effect now
 - Disabled Stasis enchantments being obtainable from Wandering Traders
+- Disabled all of Enigmatic Legacy's enchantments
 
 ---
 
