@@ -1,4 +1,4 @@
-# **[4.0.2] - 2021/12/26**
+# **[4.0.2] - 2021/12/27**
 
 Note: Changelog format changed
 
@@ -7,6 +7,7 @@ Note: Changelog format changed
 - Farmer's Delight Compats
 - Farmer's Respite
 - Mantle
+- Two Players One Horse
 
 ### MODS UPDATED:
 - Architectuary API
