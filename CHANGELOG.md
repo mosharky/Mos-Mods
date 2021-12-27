@@ -6,6 +6,7 @@ Note: Changelog format changed
 - Eidolon Data Recipes
 - Farmer's Delight Compats
 - Farmer's Respite
+- Mantle
 
 ### MODS UPDATED:
 - Architectuary API
@@ -18,6 +19,8 @@ Note: Changelog format changed
 ### MODS REMOVED:
 - Eidolon Recipes
 - Farmer's Tea
+- Health Overlay
+  - Mantle replaces the mod
 
 ### CHANGES:
 - Added Heart of the Earth recipe
