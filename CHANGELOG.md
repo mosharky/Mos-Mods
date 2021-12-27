@@ -5,6 +5,7 @@
 - 'Farmer's Respite'
 - Added Heart of the Earth recipe
 - Added Orb of Origin recipe
+- Added Ender Shard recipe
 - New server-pack distribution
 
 ### UPDATED:
