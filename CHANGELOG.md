@@ -1,8 +1,21 @@
-# **[4.0.2] - 2021-12-25**
+# **[4.0.2] - 2021-12-26**
 
 ### ADDED:
+- 'Farmer's Delight Compats'
+- 'Farmer's Respite'
 - Added Heart of the Earth recipe
 - Added Orb of Origin recipe
+- New server-pack distribution
+
+### UPDATED:
+- 'Carry On'
+- 'Enigmatic Legacy'
+- 'Lootr'
+- 'Storage Drawers'
+- 'Truly Treasures'
+
+### REMOVED:
+- 'Farmer's Tea'
 
 ### CHANGED:
 - Fixed Origin height being reset upon world reload
