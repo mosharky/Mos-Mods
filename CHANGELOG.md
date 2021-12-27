@@ -3,10 +3,12 @@
 Note: Changelog format changed
 
 ### MODS ADDED:
+- Eidolon Data Recipes
 - Farmer's Delight Compats
 - Farmer's Respite
 
 ### MODS UPDATED:
+- Architectuary API
 - Carry On
 - Enigmatic Legacy
 - Lootr
@@ -14,6 +16,7 @@ Note: Changelog format changed
 - Truly Treasures
 
 ### MODS REMOVED:
+- Eidolon Recipes
 - Farmer's Tea
 
 ### CHANGES:
@@ -26,6 +29,7 @@ Note: Changelog format changed
 - Disabled Stasis enchantments being obtainable from Wandering Traders
 - Disabled all of Enigmatic Legacy's enchantments
 - Added Keystone of Oblivion information page
+- Changed how Mind-Shielding Plate recipe is loaded
 
 ---
 

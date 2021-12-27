@@ -265,7 +265,7 @@ onEvent('recipes', (event) => {
         type: ''
     })
     */
-   
+
     //Orb of Origin recipe
     event.custom({
         type: 'betterendforge:infusion',
@@ -284,7 +284,7 @@ onEvent('recipes', (event) => {
         ]
     }).id('momo:orb_of_origin')
 
-    
+
     //Greater Eye of Ender recipe
     event.custom({
         type: 'farmersdelight:cooking',
@@ -328,7 +328,7 @@ onEvent('recipes', (event) => {
     }).id('improvedbackpacks:tiny_pocket')
 
 
-    
+
     //Eternal Ingot Recipe
     event.custom({
         type: 'betterendforge:infusion',
@@ -430,12 +430,12 @@ onEvent('recipes', (event) => {
                 id: 'minecraft:enchanted_book',
                 Count: 1,
                 tag: {
-                  StoredEnchantments: [
-                    {
-                      lvl: i,
-                      id: 'origins:water_protection'
-                    }
-                  ]
+                    StoredEnchantments: [
+                        {
+                            lvl: i,
+                            id: 'origins:water_protection'
+                        }
+                    ]
                 }
             },
             time: 300,
@@ -449,4 +449,25 @@ onEvent('recipes', (event) => {
             ]
         }).id('momo:water_protection' + i)
     }
+
+
+    //Eidolon Mind Shielding Plate recipe
+    event.custom({
+        type: 'eidolon:worktable',
+        core: ['III', 'III', 'LSL'],
+        extras: [
+            'B',
+            '  ',
+            'Q'
+        ],
+        key: {
+            S: {'item': 'eidolon:soul_shard'},
+            I: {'tag': 'forge:ingots/zinc'},
+            L: {'item': 'minecraft:leather'},
+            B: {'tag': 'forge:storage_blocks/lapis'},
+            Q: {'tag': 'forge:gems/quartz'}
+        },
+        result: {item: 'eidolon:mind_shielding_plate'}
+
+    })
 })
