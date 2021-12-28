@@ -14,6 +14,7 @@ Note: Changelog format changed
 ### MODS UPDATED:
 - Architectuary API
 - Carry On
+- Curios API
 - Enigmatic Legacy
 - Lootr
 - Storage Drawers
@@ -30,7 +31,7 @@ Note: Changelog format changed
 - Added Heart of the Earth recipe
 - Added Orb of Origin recipe
 - Added Ender Shard recipe
-- New server-pack distribution
+- New server-pack distribution method
 - Fixed Origin height being reset upon world reload
 - Giant Moth origin's "Overwhelming Light" power hides Weakness effect now
 - Disabled Stasis enchantments being obtainable from Wandering Traders
