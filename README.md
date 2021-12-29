@@ -1,31 +1,32 @@
 # Mo's Mods
 Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 
-# Modlist (v4.0.1)
+# Modlist (v4.0.2)
 <ul>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cavebiomeapi">CaveBiomeAPI [Forge] (by blackgear27)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer">Just Enough Resources (JER) (by way2muchnoise)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings">Shutup Experimental Settings! (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ravage-and-cabbage">Ravage & Cabbage (by superlord_9362)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/eidolon-data-recipes">Eidolon Data Recipes (by Quarris)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/inventory-sorter">Inventory Sorter (by cpw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat">Simple Voice Chat (by henkelmax)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/create">Create (by simibubi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/polymorph">Polymorph (Forge) (by TheIllusiveC4)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/demagnetize">Demagnetize (by comp500)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/simple-storage-network">Simple Storage Network (by Lothrazar)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-respite">Farmer's Respite (by lumpazl)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">Cosmetic Armor Reworked (by LainMI)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/stylish-effects">Stylish Effects [Forge] (by Fuzs_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-observers">More Observers (by stephenb6174)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/structure-gel-api">Structure Gel API (by ModdingLegacy)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/darker-depths">Darker Depths (by naterbobber)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/health-overlay">Health Overlay (Forge) (by Terrails)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/roadrunner">RoadRunner (by MaxNeedsSnacks)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/morpheus">Morpheus (by Quetzi)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/botania">Botania (by Vazkii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/bayou-blues">Bayou Blues (Forge) (by team_aurora_modding)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/abundance">Abundance (by team_aurora_modding)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/connectivity">Connectivity (by someaddon)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄ (by Snownee_)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/snow-real-magic">Snow! Real Magic! ⛄ (Forge) (by Snownee_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/fancymenu-forge">FancyMenu [Forge] (by Keksuccino)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/spark">spark (by Iucko)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/visual-workbench">Visual Workbench [Forge] (by Fuzs_)</a></li>
@@ -66,7 +67,6 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/eidolon">Eidolon (by elucent_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazy-dfu-forge">Lazy DataFixerUpper(LazyDFU) [FORGE] (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/clef">Clef (by ohaiiChun)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/my-server-is-compatible">My Server Is Compatible (by Focamacho)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-plus">Create Plus (by Robocraft999)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/savage-and-ravage">Savage & Ravage (by TeamAbnormals)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ai-improvements">AI Improvements (by QueenOfMissiles)</a></li>
@@ -76,9 +76,9 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-api">YUNG's API (Forge) (by YUNGNICKYOUNG)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/allurement">Allurement (by TeamAbnormals)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/environmental">Environmental (by TeamAbnormals)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-tea">Farmer's Tea (by burritoeatinghamster)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/autumnity">Autumnity (by TeamAbnormals)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/spawner-fix">Spawner Bug Fix (by MacTso)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/two-players-one-horse">Two Players One Horse (by Beethoven92)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/rhino">Rhino (by LatvianModder)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/lllanes-soulbound">Soulbound! (by lllanes)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/carry-on">Carry On (by Tschipp)</a></li>
@@ -106,6 +106,7 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/quark-oddities">Quark Oddities (by Vazkii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/babel">Babel (by thenatekirby)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/architectury-forge">Architectury API (Forge) (by shedaniel)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mantle">Mantle (by mDiyo)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/better-burning">Better Burning (by DarkhaxDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/betterend-re-forked">BetterEnd Reforked (by someoneelsewastaken)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/valhelsia-core">Valhelsia Core (by ValhelsiaTeam)</a></li>
@@ -145,7 +146,6 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers">Guard Villagers (by almightytallestred)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest">The Twilight Forest (by Benimatic)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/jei">Just Enough Items (JEI) (by mezz)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/eidolon-recipes">Eidolon Recipes (by mastermokkel)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config-forge">Cloth Config API (Forge) (by shedaniel)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/no-lakes-in-forge">No Lakes in Forge (by shwible_gaming)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/texture-packs/created-storage-network">Created Simple Storage Network (by makzzin)</a></li>
@@ -153,6 +153,7 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/entityculling">Entity Culling Fabric/Forge (by tr9zw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar">Overloaded Armor Bar (by tfarecnim)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/caelus">Caelus API (Forge) (by TheIllusiveC4)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/max-health-fix">Max Health Fix (by DarkhaxDev)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/default-options">Default Options (by BlayTheNinth)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/patchouli">Patchouli (by Vazkii)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/portable-stonecutter">Portable Stonecutter (by weirdbrackets)</a></li>
@@ -166,11 +167,13 @@ Official repository and issue-tracker for the Mo's Mods minecraft modpack.
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/drippy-loading-screen">Drippy Loading Screen [Forge] (by Keksuccino)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ambient-environment">Ambient Environment (by Jaredlll08)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/serverconfig-updater">ServerConfig Updater (by Darkere)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight-compats">Farmer's Delight Compats (by burritoeatinghamster)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-professions-jep">Just Enough Professions (JEP) (by Mrbysco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/alexs-mobs">Alex's Mobs (by alex_khaan)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/create-confectionery">Create Confectionery (by Furti_Two)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries">Supplementaries (by MehVahdJukaar)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/abnormals-delight">Abnormals Delight (by TeamAbnormals)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker">Better Compatibility Checker (by Gaz_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/valhelsia-structures">Valhelsia Structures (by ValhelsiaTeam)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/decorative-blocks">Decorative Blocks (by stohun)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/windowlogging">Windowlogging (by mc_Grimmauld)</a></li>
